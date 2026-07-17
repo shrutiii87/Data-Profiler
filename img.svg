@@ -1,21 +1,23 @@
-<svg width="1400" height="520"
-viewBox="0 0 1400 520"
+<svg width="1500" height="500"
+viewBox="0 0 1500 500"
 xmlns="http://www.w3.org/2000/svg">
 
 <defs>
 
 <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
 <stop offset="0%" stop-color="#020617"/>
-<stop offset="50%" stop-color="#111827"/>
-<stop offset="100%" stop-color="#1E1B4B"/>
+<stop offset="100%" stop-color="#172554"/>
 </linearGradient>
 
-
-<linearGradient id="core">
-<stop offset="0%" stop-color="#06B6D4"/>
-<stop offset="100%" stop-color="#8B5CF6"/>
+<linearGradient id="title" x1="0" x2="1">
+<stop offset="0%" stop-color="#22D3EE"/>
+<stop offset="100%" stop-color="#C084FC"/>
 </linearGradient>
 
+<linearGradient id="card">
+<stop offset="0%" stop-color="#ffffff22"/>
+<stop offset="100%" stop-color="#ffffff08"/>
+</linearGradient>
 
 <filter id="glow">
 <feGaussianBlur stdDeviation="8"/>
@@ -24,322 +26,315 @@ xmlns="http://www.w3.org/2000/svg">
 </defs>
 
 
-
 <!-- Background -->
 
-<rect width="1400"
-height="520"
+<rect width="1500"
+height="500"
 rx="35"
 fill="url(#bg)"/>
 
 
+<!-- Decorative glow -->
 
-<!-- Title -->
+<circle cx="150"
+cy="100"
+r="90"
+fill="#2563EB"
+opacity="0.25"
+filter="url(#glow)"/>
 
-<text x="700"
-y="55"
-font-size="55"
+<circle cx="1350"
+cy="350"
+r="100"
+fill="#7C3AED"
+opacity="0.25"
+filter="url(#glow)"/>
+
+
+
+<!-- TITLE -->
+
+<text x="750"
+y="70"
+text-anchor="middle"
 font-family="Arial"
-font-weight="bold"
-fill="url(#core)"
-text-anchor="middle">
-
+font-weight="700"
+font-size="58"
+fill="url(#title)">
 DATA PROFILER
-
 </text>
 
 
-<text x="700"
-y="95"
-font-size="22"
+<text x="750"
+y="115"
+text-anchor="middle"
 font-family="Arial"
-fill="#CBD5E1"
-text-anchor="middle">
-
-Data Preprocessing • Feature Engineering • Exploratory Analysis
-
+font-size="27"
+fill="#E2E8F0">
+Data Preprocessing &amp; Feature Engineering
 </text>
 
 
 
 
-<!-- CONNECTION LINES -->
 
-<g stroke="#334155"
-stroke-width="2">
+<!-- ================= LEFT CARD ================= -->
+
+<rect x="80"
+y="175"
+width="330"
+height="230"
+rx="25"
+fill="url(#card)"
+stroke="#38BDF8"
+stroke-width="2"/>
 
 
-<!-- Inputs -->
+<text x="245"
+y="220"
+text-anchor="middle"
+font-family="Arial"
+font-size="21"
+fill="#38BDF8">
 
-<line x1="220" y1="170" x2="600" y2="250"/>
-<line x1="220" y1="250" x2="600" y2="250"/>
-<line x1="220" y1="330" x2="600" y2="250"/>
+DATA INGESTION
+
+</text>
 
 
-<!-- Outputs -->
+<g font-family="Arial"
+font-size="17"
+fill="#FFFFFF">
 
-<line x1="800" y1="250" x2="1180" y2="170"/>
-<line x1="800" y1="250" x2="1180" y2="250"/>
-<line x1="800" y1="250" x2="1180" y2="330"/>
+<text x="120" y="265">
+📄 CSV Loading
+</text>
 
+<text x="120" y="305">
+📋 JSON Loading
+</text>
+
+<text x="120" y="345">
+🗄 SQLite Database
+</text>
+
+<text x="120" y="385">
+🌐 API Connection
+</text>
 
 </g>
 
+
+
+
+
+
+
+<!-- ================= CENTER CARD ================= -->
+
+<rect x="475"
+y="175"
+width="550"
+height="230"
+rx="25"
+fill="url(#card)"
+stroke="#C084FC"
+stroke-width="2"/>
+
+
+<text x="750"
+y="220"
+text-anchor="middle"
+font-family="Arial"
+font-size="21"
+fill="#C084FC">
+
+DATA PROCESSING ENGINE
+
+</text>
+
+
+<!-- Main connection -->
+
+<line x1="570"
+y1="315"
+x2="930"
+y2="315"
+stroke="#64748B"
+stroke-width="4"/>
+
+
+
+<!-- Nodes -->
+
+<g font-family="Arial"
+font-size="14"
+text-anchor="middle"
+fill="white">
+
+
+<circle cx="570"
+cy="315"
+r="40"
+fill="#2563EB"/>
+
+<text x="570"
+y="320">
+Clean
+</text>
+
+
+
+<circle cx="690"
+cy="315"
+r="40"
+fill="#10B981"/>
+
+<text x="690"
+y="320">
+Profile
+</text>
+
+
+
+<circle cx="810"
+cy="315"
+r="40"
+fill="#F59E0B"/>
+
+<text x="810"
+y="320">
+EDA
+</text>
+
+
+
+<circle cx="930"
+cy="315"
+r="40"
+fill="#EC4899"/>
+
+<text x="930"
+y="320">
+Features
+</text>
+
+
+</g>
 
 
 
 <!-- Animated Data Flow -->
 
-<circle r="8" fill="#22C55E">
+<circle r="7"
+fill="#22C55E">
 
 <animateMotion
-dur="5s"
+dur="4s"
 repeatCount="indefinite"
-path="M220 170 L600 250 L800 250 L1180 170"/>
-
-</circle>
-
-
-
-<circle r="8" fill="#FACC15">
-
-<animateMotion
-dur="6s"
-repeatCount="indefinite"
-path="M220 250 L600 250 L800 250 L1180 250"/>
+path="M570 315 L690 315 L810 315 L930 315"/>
 
 </circle>
 
 
 
 
-<!-- LEFT INPUT MODULES -->
 
 
-<g font-family="Arial"
-text-anchor="middle">
 
+<!-- ================= RIGHT CARD ================= -->
 
-<rect x="100" y="130"
-width="220"
-height="70"
-rx="18"
-fill="#2563EB"/>
 
-<text x="210"
-y="173"
-fill="white"
-font-size="22">
+<rect x="1090"
+y="175"
+width="330"
+height="230"
+rx="25"
+fill="url(#card)"
+stroke="#22C55E"
+stroke-width="2"/>
 
-📄 CSV
 
-</text>
-
-
-
-<rect x="100" y="215"
-width="220"
-height="70"
-rx="18"
-fill="#059669"/>
-
-<text x="210"
-y="258"
-fill="white"
-font-size="22">
-
-🗂 JSON
-
-</text>
-
-
-
-<rect x="100" y="300"
-width="220"
-height="70"
-rx="18"
-fill="#7C3AED"/>
-
-<text x="210"
-y="343"
-fill="white"
-font-size="22">
-
-🗄 SQLite
-
-</text>
-
-
-<rect x="100" y="385"
-width="220"
-height="70"
-rx="18"
-fill="#EA580C"/>
-
-<text x="210"
-y="428"
-fill="white"
-font-size="22">
-
-🌐 API
-
-</text>
-
-
-</g>
-
-
-
-
-<!-- CENTER CORE -->
-
-
-<circle cx="700"
-cy="250"
-r="105"
-fill="#06B6D4"
-opacity=".15"
-filter="url(#glow)"/>
-
-
-<circle cx="700"
-cy="250"
-r="85"
-fill="url(#core)">
-
-
-<animate attributeName="r"
-values="85;92;85"
-dur="3s"
-repeatCount="indefinite"/>
-
-</circle>
-
-
-
-<text x="700"
-y="240"
-fill="white"
-font-size="24"
-font-weight="bold"
-text-anchor="middle">
-
-DATA
-
-</text>
-
-
-<text x="700"
-y="275"
-fill="white"
-font-size="24"
-font-weight="bold"
-text-anchor="middle">
-
-ENGINE
-
-</text>
-
-
-
-
-
-<!-- RIGHT MODULES -->
-
-
-<g font-family="Arial"
-text-anchor="middle">
-
-
-<rect x="1080"
-y="130"
-width="220"
-height="70"
-rx="18"
-fill="#DC2626"/>
-
-<text x="1190"
-y="173"
-fill="white"
-font-size="20">
-
-🧹 Cleaning
-
-</text>
-
-
-
-<rect x="1080"
-y="215"
-width="220"
-height="70"
-rx="18"
-fill="#0891B2"/>
-
-<text x="1190"
-y="258"
-fill="white"
-font-size="18">
-
-📊 EDA Analysis
-
-</text>
-
-
-
-<rect x="1080"
-y="300"
-width="220"
-height="70"
-rx="18"
-fill="#9333EA"/>
-
-<text x="1190"
-y="343"
-fill="white"
-font-size="18">
-
-🧬 Features
-
-</text>
-
-
-
-<rect x="1080"
-y="385"
-width="220"
-height="70"
-rx="18"
-fill="#16A34A"/>
-
-<text x="1190"
-y="428"
-fill="white"
-font-size="18">
-
-📋 YData Report
-
-</text>
-
-
-</g>
-
-
-
-
-
-<!-- Bottom Analytics -->
-
-<text x="700"
-y="490"
-fill="#94A3B8"
-font-size="18"
+<text x="1255"
+y="220"
+text-anchor="middle"
 font-family="Arial"
-text-anchor="middle">
+font-size="21"
+fill="#22C55E">
 
-Univariate  |  Bivariate  |  Multivariate  |  Duplicate Removal  |  Feature Engineering
+ANALYTICS
 
 </text>
+
+
+
+<g font-family="Arial"
+font-size="17"
+fill="#FFFFFF">
+
+
+<text x="1135"
+y="265">
+
+📊 Univariate Analysis
+
+</text>
+
+
+<text x="1135"
+y="305">
+
+🔗 Bivariate Analysis
+
+</text>
+
+
+<text x="1135"
+y="345">
+
+🧬 Multivariate Analysis
+
+</text>
+
+
+<text x="1135"
+y="385">
+
+💡 Insights Generation
+
+</text>
+
+
+</g>
+
+
+
+
+
+
+
+<!-- FOOTER -->
+
+<rect x="250"
+y="435"
+width="1000"
+height="35"
+rx="18"
+fill="#020617"
+stroke="#334155"/>
+
+
+<text x="750"
+y="458"
+text-anchor="middle"
+font-family="Arial"
+font-size="15"
+fill="#CBD5E1">
+
+Missing Values • Duplicate Removal • Drop Columns • Feature Engineering • Data Quality
+
+</text>
+
 
 
 </svg>
