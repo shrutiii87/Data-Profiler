@@ -1,4 +1,4 @@
-<img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/0e18cc40-e0a7-44b7-8e6f-4dff355b1aae" />
+<img width="540" height="393" alt="age distribution" src="https://github.com/user-attachments/assets/7e385897-79a3-4260-ac29-c02c7e79d07a" /><img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/0e18cc40-e0a7-44b7-8e6f-4dff355b1aae" />
 
 # 📊 Data Preprocessing & Feature Engineering Project
 
@@ -168,6 +168,8 @@ print("After cleaning:", combined_df.shape)
 ### 8️⃣ Perform Univariate Analysis:
 - Distribution plots of age,income, and purchases.
 
+<img width="540" height="393" alt="age distribution" src="https://github.com/user-attachments/assets/42cdd1fd-a81b-4376-b560-1e904eee3494" />
+
 ```python
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -184,6 +186,9 @@ plt.show()
 ##### 📊 Insight: Age is fairly evenly distributed between 18 and 70 years, with no dominant age group. 
 ##### ✅ Conclusion: The dataset includes customers from a wide range of ages. 
 
+<img width="545" height="393" alt="annual income distribution" src="https://github.com/user-attachments/assets/88412274-559c-47d2-8e33-4b8c5c5b0f8d" />
+
+
 ```python
 # Distribution Plot of Annual Income
 plt.figure(figsize=(6,4))
@@ -196,6 +201,8 @@ plt.show()
 
 ##### 📈 Annual income is spread across the full income range without a strong peak.
 ##### ✅ Customers have diverse income levels. 💵
+
+<img width="540" height="393" alt="total purchases distribution" src="https://github.com/user-attachments/assets/f01fd6d0-a318-4103-9f3c-70fee7e17e75" />
 
 
 ```python
@@ -217,6 +224,9 @@ plt.show()
 - Relationship between Gender & Purchases.
 - Relationship between Income & Churn.
 
+<img width="563" height="455" alt="gender vs purchases" src="https://github.com/user-attachments/assets/229acbf2-21f1-4c03-97fb-2576e6f96e61" />
+
+
 ```python
 sns.boxplot(x="Gender", y="Total_Purchases", data=combined_df , color="#F05D6C")
 plt.title("Gender vs Purchases")
@@ -227,6 +237,9 @@ plt.show()
 ##### ✅ Conclusion: There is no clear difference in total purchases between male and female customers.
 
 ---
+
+<img width="566" height="455" alt="income vs purchases by status" src="https://github.com/user-attachments/assets/2a6de1cd-74c1-4548-906e-651efc3a2d3e" />
+
 
 ```python
 sns.scatterplot(x="Annual_Income", y="Total_Purchases", hue="Subscription_Status", data=combined_df)
@@ -243,6 +256,9 @@ plt.show()
 - Correlation heatmap of all numerical variables.
 - Pair plots to identify feature interactions.
 
+<img width="752" height="655" alt="correlation matrix" src="https://github.com/user-attachments/assets/dee9f867-de62-49a8-876a-24d7c2a66be6" />
+
+
 ```python
 plt.figure(figsize=(8,6))
 sns.heatmap(combined_df.corr(numeric_only=True), annot=True, cmap="magma")
@@ -255,6 +271,9 @@ plt.show()
 
 
 ---
+
+<img width="741" height="741" alt="pairplot" src="https://github.com/user-attachments/assets/5909066e-4fc6-4eb1-b1cd-8cda121b8e98" />
+
 
 ```python
 sns.pairplot(combined_df[["Age", "Annual_Income", "Total_Purchases"]])
