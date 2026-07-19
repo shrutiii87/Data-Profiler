@@ -1,0 +1,288 @@
+<svg width="1400" height="420" viewBox="0 0 1400 420"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+
+<stop offset="0%" stop-color="#071426">
+<animate attributeName="stop-color"
+values="#071426;#102C6A;#071426"
+dur="10s"
+repeatCount="indefinite"/>
+</stop>
+
+<stop offset="100%" stop-color="#2345A8">
+<animate attributeName="stop-color"
+values="#2345A8;#4169E1;#2345A8"
+dur="10s"
+repeatCount="indefinite"/>
+</stop>
+
+</linearGradient>
+
+<linearGradient id="glass"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="white" stop-opacity=".18"/>
+<stop offset="100%" stop-color="white" stop-opacity=".05"/>
+
+</linearGradient>
+
+<filter id="shadow">
+
+<feDropShadow
+dx="0"
+dy="10"
+stdDeviation="18"
+flood-color="#4DA3FF"
+flood-opacity=".45"/>
+
+</filter>
+
+<filter id="glow">
+
+<feGaussianBlur stdDeviation="6"/>
+
+</filter>
+
+<style>
+
+.title{
+
+font:700 54px 'Segoe UI';
+
+fill:white;
+
+letter-spacing:.5px;
+
+animation:fade 2s forwards;
+
+opacity:0;
+
+}
+
+.subtitle{
+
+font:400 22px 'Segoe UI';
+
+fill:#D8E8FF;
+
+animation:fade 3s forwards;
+
+opacity:0;
+
+}
+
+.line{
+
+stroke:#62B5FF;
+
+stroke-width:4;
+
+stroke-linecap:round;
+
+stroke-dasharray:12;
+
+animation:dash 1.4s linear infinite;
+
+}
+
+@keyframes dash{
+
+to{
+
+stroke-dashoffset:-24;
+
+}
+
+}
+
+@keyframes fade{
+
+to{
+
+opacity:1;
+
+}
+
+}
+
+</style>
+
+</defs>
+
+<rect width="1400" height="420" fill="url(#bg)"/>
+
+<!-- Background circles -->
+
+<circle cx="180" cy="90" r="80"
+fill="#3B82F6"
+opacity=".06">
+
+<animate attributeName="cy"
+values="90;75;90"
+dur="5s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<circle cx="1220" cy="320" r="110"
+fill="#60A5FA"
+opacity=".05">
+
+<animate attributeName="cy"
+values="320;300;320"
+dur="6s"
+repeatCount="indefinite"/>
+
+</circle>
+
+<!-- Floating particles -->
+
+<g fill="#7CC4FF">
+
+<circle cx="160" cy="330" r="3">
+<animate attributeName="cy"
+values="330;250;330"
+dur="7s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="370" cy="120" r="4">
+<animate attributeName="cy"
+values="120;80;120"
+dur="6s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1160" cy="140" r="3">
+<animate attributeName="cy"
+values="140;90;140"
+dur="5s"
+repeatCount="indefinite"/>
+</circle>
+
+<circle cx="1280" cy="250" r="4">
+<animate attributeName="cy"
+values="250;210;250"
+dur="8s"
+repeatCount="indefinite"/>
+</circle>
+
+</g>
+
+<!-- Main Glass Card -->
+
+<rect
+x="140"
+y="75"
+width="1120"
+height="270"
+rx="32"
+fill="url(#glass)"
+stroke="#67AFFF"
+stroke-opacity=".45"
+stroke-width="2"
+filter="url(#shadow)"/>
+
+<!-- Decorative top line -->
+
+<line
+x1="240"
+y1="105"
+x2="1160"
+y2="105"
+class="line"/>
+
+<!-- Left accent -->
+
+<rect
+x="185"
+y="145"
+width="10"
+height="130"
+rx="5"
+fill="#5EB5FF">
+
+<animate attributeName="height"
+values="80;130;80"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Right accent -->
+
+<rect
+x="1205"
+y="145"
+width="10"
+height="130"
+rx="5"
+fill="#5EB5FF">
+
+<animate attributeName="height"
+values="130;80;130"
+dur="4s"
+repeatCount="indefinite"/>
+
+</rect>
+
+<!-- Title -->
+
+<text
+x="700"
+y="185"
+text-anchor="middle"
+class="title">
+
+Data Preprocessing
+
+</text>
+
+<text
+x="700"
+y="248"
+text-anchor="middle"
+class="title"
+font-size="48">
+
+&amp; Feature Engineering
+
+</text>
+
+<!-- Animated underline -->
+
+<line
+x1="450"
+y1="275"
+x2="950"
+y2="275"
+stroke="#67AFFF"
+stroke-width="5"
+stroke-linecap="round">
+
+<animate attributeName="x2"
+values="450;950"
+dur="2s"
+fill="freeze"/>
+
+</line>
+
+<!-- Subtitle -->
+
+<text
+x="700"
+y="315"
+text-anchor="middle"
+class="subtitle">
+
+Data Acquisition • Cleaning • EDA • Profiling • Feature Engineering
+
+</text>
+
+</svg>
