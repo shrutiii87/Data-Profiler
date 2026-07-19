@@ -70,6 +70,14 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 
 ---
 
+### 📥 Jupyter notebook
+
+<img width="800" height="420" alt="ezgif-6f16a27d2d9f39e8" src="https://github.com/user-attachments/assets/4b503ecb-6a66-453a-afac-106e02a7a7d1" />
+
+---
+
+
+
 #### 🛠️ imported libraries
 
 ```python
