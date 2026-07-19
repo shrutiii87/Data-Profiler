@@ -1,5 +1,3 @@
-<img width="540" height="393" alt="age distribution" src="https://github.com/user-attachments/assets/7e385897-79a3-4260-ac29-c02c7e79d07a" /><img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/0e18cc40-e0a7-44b7-8e6f-4dff355b1aae" />
-
 # 📊 Data Preprocessing & Feature Engineering Project
 
 ## 🎯 Objective
