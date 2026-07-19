@@ -24,14 +24,18 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 
 ## 🗂️ Project Files
 
-
-| File                                   | Description                                                     |
+| File / Folder                         | Description                                                     |
 | -------------------------------------- | --------------------------------------------------------------- |
-| 📓 `calculative_foundation.ipynb`      | Complete Linear Algebra analysis and Python implementation      |
-| 📊 `student_performance_dataset.xlsx`  | Student performance dataset                                     |
-| 📄 `Calculative_Foundation_theory.pdf` | Theory, mathematical derivations, formulas, and interpretations |
-| 🖼️ `Diagrams/`                        | Linear Algebra diagrams and visualizations                      |
-| 📘 `README.md`                         | Project documentation                                           |
+| 📁 `files_used/`                       | Contains all source files and reference materials used in the project |
+| 📁 `outputs/`                          | Stores generated reports, visualizations, and profiling results |
+| 📓 `data_profiler.ipynb`               | Main Jupyter Notebook for data preprocessing and profiling workflow |
+| 📊 `retail_customer_transactions.csv`  | Raw dataset containing customer transaction records             |
+| 📄 `customer_profiles.json`            | JSON dataset with customer profile information                  |
+| 🗄️ `retail_customers.db`               | SQLite database containing structured customer data             |
+| 📄 `Part_A_Fundamentals.pdf`           | Theoretical notes and mathematical derivations used in analysis |
+| 🌐 `retail_profiling_report.html`      | Generated HTML report from ydata_profiling summarizing dataset insights |
+| 📘 `README.md`                         | Project documentation and workflow guide                        |
+
 
 ---
 
