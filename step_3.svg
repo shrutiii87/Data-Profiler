@@ -1,0 +1,246 @@
+<svg width="1200" height="470" viewBox="0 0 1200 470"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#16213E"/>
+<stop offset="100%" stop-color="#233B88"/>
+</linearGradient>
+
+<filter id="shadow">
+<feDropShadow dx="0" dy="10" stdDeviation="12"
+flood-color="#60A5FA"
+flood-opacity=".35"/>
+</filter>
+
+<style>
+
+.title{
+font:700 40px 'Segoe UI';
+fill:#fff;
+}
+
+.card{
+fill:#ffffff12;
+stroke:#5DA8FF;
+stroke-width:2;
+rx:22;
+filter:url(#shadow);
+}
+
+.card:hover{
+fill:#ffffff18;
+}
+
+.head{
+font:700 22px 'Segoe UI';
+fill:#fff;
+}
+
+.item{
+font:16px 'Segoe UI';
+fill:#D6E8FF;
+}
+
+.arrow{
+stroke:#66B3FF;
+stroke-width:5;
+stroke-linecap:round;
+stroke-dasharray:10;
+animation:flow 1.2s linear infinite;
+}
+
+@keyframes flow{
+to{
+stroke-dashoffset:-20;
+}
+}
+
+@keyframes float{
+50%{
+transform:translateY(-6px);
+}
+}
+
+.floating{
+animation:float 3.5s ease-in-out infinite;
+}
+
+</style>
+
+</defs>
+
+<rect width="1200" height="470" fill="url(#bg)"/>
+
+<text x="600"
+y="60"
+text-anchor="middle"
+class="title">
+
+Exploratory Data Analysis (EDA)
+
+</text>
+
+<!-- UNIVARIATE -->
+
+<g class="floating">
+
+<rect class="card"
+x="40"
+y="110"
+width="240"
+height="270"/>
+
+<text x="160"
+y="145"
+text-anchor="middle"
+font-size="40">📊</text>
+
+<text x="160"
+y="180"
+text-anchor="middle"
+class="head">
+
+Univariate
+
+</text>
+
+<text x="70" y="220" class="item">• Age Distribution</text>
+<text x="70" y="250" class="item">• Income Distribution</text>
+<text x="70" y="280" class="item">• Purchase Distribution</text>
+<text x="70" y="325" class="item">Histogram</text>
+<text x="70" y="350" class="item">Single Variable Analysis</text>
+
+</g>
+
+<!-- ARROW -->
+
+<line class="arrow"
+x1="280"
+y1="245"
+x2="340"
+y2="245"/>
+
+<polygon points="340,245 326,238 326,252"
+fill="#66B3FF"/>
+
+<!-- BIVARIATE -->
+
+<g class="floating">
+
+<rect class="card"
+x="340"
+y="110"
+width="240"
+height="270"/>
+
+<text x="460"
+y="145"
+text-anchor="middle"
+font-size="40">🔗</text>
+
+<text x="460"
+y="180"
+text-anchor="middle"
+class="head">
+
+Bivariate
+
+</text>
+
+<text x="370" y="220" class="item">• Gender vs Purchases</text>
+<text x="370" y="250" class="item">• Income vs Churn</text>
+<text x="370" y="295" class="item">Scatter Plot</text>
+<text x="370" y="325" class="item">Box Plot</text>
+<text x="370" y="350" class="item">Relationship Analysis</text>
+
+</g>
+
+<!-- ARROW -->
+
+<line class="arrow"
+x1="580"
+y1="245"
+x2="640"
+y2="245"/>
+
+<polygon points="640,245 626,238 626,252"
+fill="#66B3FF"/>
+
+<!-- MULTIVARIATE -->
+
+<g class="floating">
+
+<rect class="card"
+x="640"
+y="110"
+width="240"
+height="270"/>
+
+<text x="760"
+y="145"
+text-anchor="middle"
+font-size="40">🧩</text>
+
+<text x="760"
+y="180"
+text-anchor="middle"
+class="head">
+
+Multivariate
+
+</text>
+
+<text x="670" y="220" class="item">• Correlation Heatmap</text>
+<text x="670" y="250" class="item">• Pair Plot</text>
+<text x="670" y="295" class="item">Feature Interaction</text>
+<text x="670" y="325" class="item">Correlation Matrix</text>
+<text x="670" y="350" class="item">Multiple Variables</text>
+
+</g>
+
+<!-- ARROW -->
+
+<line class="arrow"
+x1="880"
+y1="245"
+x2="940"
+y2="245"/>
+
+<polygon points="940,245 926,238 926,252"
+fill="#66B3FF"/>
+
+<!-- RESULT -->
+
+<g class="floating">
+
+<rect class="card"
+x="940"
+y="110"
+width="220"
+height="270"/>
+
+<text x="1050"
+y="145"
+text-anchor="middle"
+font-size="40">📈</text>
+
+<text x="1050"
+y="180"
+text-anchor="middle"
+class="head">
+
+Insights
+
+</text>
+
+<text x="970" y="220" class="item">✓ Patterns</text>
+<text x="970" y="250" class="item">✓ Trends</text>
+<text x="970" y="280" class="item">✓ Relationships</text>
+<text x="970" y="310" class="item">✓ Correlations</text>
+<text x="970" y="340" class="item">✓ Better Decisions</text>
+
+</g>
+
+</svg>
