@@ -1,6 +1,6 @@
 <img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
 
-## 🎯 Objective
+## 🎯 Objective 
 Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
 The aim is to **understand, clean, transform, and analyze** the dataset before it can be used for machine learning.  
 This project emphasizes **data profiling, handling multiple formats, and performing EDA**.
@@ -295,8 +295,6 @@ plt.show()
 
 
 ## 🧮 Part E : Data Profiling
-
-
 
 ### 1️⃣1️⃣ Generate a Pandas Profiling Report that summarizes:
 - Missing Values.
