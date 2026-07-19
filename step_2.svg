@@ -1,205 +1,149 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Data Understanding & Cleaning</title>
+<svg width="1100" height="420" viewBox="0 0 1100 420"
+xmlns="http://www.w3.org/2000/svg">
+
+<defs>
+
+<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+<stop offset="0%" stop-color="#0F172A"/>
+<stop offset="100%" stop-color="#1E3A8A"/>
+</linearGradient>
+
+<filter id="shadow">
+<feDropShadow dx="0" dy="8" stdDeviation="12"
+flood-color="#3B82F6"
+flood-opacity=".35"/>
+</filter>
+
+</defs>
 
 <style>
 
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:Segoe UI,sans-serif;
-}
-
-body{
-
-background:#0f172a;
-display:flex;
-justify-content:center;
-align-items:center;
-height:100vh;
-
-}
-
-.container{
-
-width:1050px;
-padding:40px;
-
-}
-
-h1{
-
-color:white;
-text-align:center;
-margin-bottom:45px;
-font-size:42px;
-letter-spacing:1px;
-
-}
-
-.wrapper{
-
-display:flex;
-justify-content:space-between;
-align-items:center;
-
+.title{
+font:700 34px 'Segoe UI';
+fill:white;
 }
 
 .card{
-
-width:420px;
-padding:30px;
-
-border-radius:25px;
-
-background:rgba(255,255,255,.08);
-
-backdrop-filter:blur(20px);
-
-border:1px solid rgba(255,255,255,.15);
-
-box-shadow:0 15px 40px rgba(0,0,0,.35);
-
-animation:float 4s ease-in-out infinite;
-
-transition:.4s;
-
+fill:#ffffff10;
+stroke:#60A5FA;
+stroke-width:2;
+rx:18;
+filter:url(#shadow);
 }
 
-.card:hover{
-
-transform:translateY(-10px);
-
+.heading{
+font:700 22px 'Segoe UI';
+fill:white;
 }
 
-.icon{
-
-font-size:60px;
-
+.item{
+font:16px 'Segoe UI';
+fill:#dbeafe;
 }
 
-h2{
-
-color:white;
-
-margin-top:15px;
-
-margin-bottom:18px;
-
-font-size:30px;
-
-}
-
-ul{
-
-list-style:none;
-
-}
-
-li{
-
-color:#dbeafe;
-
-font-size:20px;
-
-margin:14px 0;
-
+.tick{
+fill:#22C55E;
+font:700 16px 'Segoe UI';
 }
 
 .arrow{
-
-font-size:80px;
-
-color:#60a5fa;
-
-animation:move 1.5s infinite;
-
+stroke:#60A5FA;
+stroke-width:4;
+stroke-linecap:round;
+stroke-dasharray:10;
+animation:flow 1.2s linear infinite;
 }
 
-@keyframes move{
-
-50%{
-
-transform:translateX(15px);
-
+@keyframes flow{
+to{
+stroke-dashoffset:-20;
 }
-
-}
-
-@keyframes float{
-
-50%{
-
-transform:translateY(-8px);
-
-}
-
 }
 
 </style>
 
-</head>
+<rect width="1100" height="420" fill="url(#bg)"/>
 
-<body>
+<text x="550"
+y="55"
+text-anchor="middle"
+class="title">
 
-<div class="container">
+Data Understanding &amp; Cleaning
 
-<h1>Data Understanding & Cleaning</h1>
+</text>
 
-<div class="wrapper">
+<!-- LEFT CARD -->
 
-<div class="card">
+<rect x="70"
+y="105"
+width="410"
+height="250"
+class="card"/>
 
-<div class="icon">🔍</div>
+<text x="100"
+y="145"
+class="heading">
 
-<h2>Initial Exploration</h2>
+Initial Exploration
 
-<ul>
+</text>
 
-<li>✓ head()</li>
+<text x="105" y="185" class="tick">✓</text>
+<text x="135" y="185" class="item">Explore using head()</text>
 
-<li>✓ info()</li>
+<text x="105" y="220" class="tick">✓</text>
+<text x="135" y="220" class="item">Check structure with info()</text>
 
-<li>✓ describe()</li>
+<text x="105" y="255" class="tick">✓</text>
+<text x="135" y="255" class="item">Generate summary using describe()</text>
 
-<li>✓ Find Missing Values</li>
+<text x="105" y="290" class="tick">✓</text>
+<text x="135" y="290" class="item">Identify missing values</text>
 
-<li>✓ Detect Duplicates</li>
+<text x="105" y="325" class="tick">✓</text>
+<text x="135" y="325" class="item">Detect duplicate records</text>
 
-</ul>
+<!-- RIGHT CARD -->
 
-</div>
+<rect x="620"
+y="105"
+width="410"
+height="250"
+class="card"/>
 
-<div class="arrow">➜</div>
+<text x="650"
+y="145"
+class="heading">
 
-<div class="card">
+Data Cleaning
 
-<div class="icon">🧹</div>
+</text>
 
-<h2>Data Cleaning</h2>
+<text x="655" y="185" class="tick">✓</text>
+<text x="685" y="185" class="item">Handle missing values</text>
 
-<ul>
+<text x="655" y="220" class="tick">✓</text>
+<text x="685" y="220" class="item">Correct inconsistent data types</text>
 
-<li>✓ Handle Missing Values</li>
+<text x="655" y="255" class="tick">✓</text>
+<text x="685" y="255" class="item">Remove duplicate records</text>
 
-<li>✓ Correct Data Types</li>
+<text x="655" y="290" class="tick">✓</text>
+<text x="685" y="290" class="item">Drop irrelevant columns</text>
 
-<li>✓ Remove Duplicates</li>
+<text x="655" y="325" class="tick">✓</text>
+<text x="685" y="325" class="item">Prepare clean dataset</text>
 
-<li>✓ Drop Irrelevant Columns</li>
+<!-- CENTER CONNECTOR -->
 
-<li>✓ Dataset Ready ✔</li>
+<line x1="480"
+y1="230"
+x2="620"
+y2="230"
+class="arrow"/>
 
-</ul>
+<polygon points="620,230 606,222 606,238"
+fill="#60A5FA"/>
 
-</div>
-
-</div>
-
-</div>
-
-</body>
-</html>
+</svg>
