@@ -1,4 +1,4 @@
-# 📊 Data Preprocessing & Feature Engineering Project
+<img width="1200" height="400" alt="623677841-f545534d-e149-4f5b-9226-40be85c138d8" src="https://github.com/user-attachments/assets/87596d58-1aff-41ce-a50c-5dcc5d41f0d1" /><img width="1200" height="420" alt="623677768-69a78643-2f5e-48f7-a62b-ac7341af758f" src="https://github.com/user-attachments/assets/0e1a9154-31f6-4cb7-9df5-1989fca74aa6" /><img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
 
 ## 🎯 Objective
 Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
@@ -61,6 +61,12 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 [![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1__WPrCETYab-M1IWBLWkbHsIcmElHnY4/view?usp=sharing)
 
 📹 Click the badge above to watch the complete project demonstration.
+
+---
+
+### ♻️ Workflow :-
+
+<img width="900" height="260" alt="623677736-04f1f10a-ea88-46e0-a13c-0cb251f93c85" src="https://github.com/user-attachments/assets/b789d565-a6e4-42e7-bbec-a3f0e804fd91" />
 
 ---
 
@@ -130,6 +136,8 @@ combined_df.info()
 
 ## 🧹 Part C : Data Understanding & Cleaning 
 
+<img width="1100" height="420" alt="623677752-1f9d2e0b-9c93-4eb7-ae51-f6c417731cfd" src="https://github.com/user-attachments/assets/e8a7f564-9d26-4e13-87f9-8b5c8004ceec" />
+
 ### 6️⃣ Perform initial exploration :
 - 📝 Use .head() , .info() , .describe() to explore
 - 🔍 Identify missing values and duplicates 
@@ -162,6 +170,8 @@ print("After cleaning:", combined_df.shape)
 ---
 
 ## 🧮 Part D : Exploratory Data Analysis (EDA)
+
+<img width="1200" height="420" alt="623677768-69a78643-2f5e-48f7-a62b-ac7341af758f" src="https://github.com/user-attachments/assets/5f94e522-4891-499b-882c-5aadfe908515" />
 
 ### 8️⃣ Perform Univariate Analysis:
 - Distribution plots of age,income, and purchases.
@@ -285,11 +295,15 @@ plt.show()
 
 
 ## 🧮 Part E : Data Profiling
+
+
+
 ### 1️⃣1️⃣ Generate a Pandas Profiling Report that summarizes:
 - Missing Values.
 - Descriptive stat.
 - Correlations.
 - Warnings on potential data quality issues.
+
 
 ```python
 from ydata_profiling import ProfileReport
