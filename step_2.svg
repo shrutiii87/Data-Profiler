@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Data Understanding & Cleaning</title>
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Segoe UI,sans-serif;
+}
+
+body{
+
+background:#0f172a;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+
+}
+
+.container{
+
+width:1050px;
+padding:40px;
+
+}
+
+h1{
+
+color:white;
+text-align:center;
+margin-bottom:45px;
+font-size:42px;
+letter-spacing:1px;
+
+}
+
+.wrapper{
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+
+}
+
+.card{
+
+width:420px;
+padding:30px;
+
+border-radius:25px;
+
+background:rgba(255,255,255,.08);
+
+backdrop-filter:blur(20px);
+
+border:1px solid rgba(255,255,255,.15);
+
+box-shadow:0 15px 40px rgba(0,0,0,.35);
+
+animation:float 4s ease-in-out infinite;
+
+transition:.4s;
+
+}
+
+.card:hover{
+
+transform:translateY(-10px);
+
+}
+
+.icon{
+
+font-size:60px;
+
+}
+
+h2{
+
+color:white;
+
+margin-top:15px;
+
+margin-bottom:18px;
+
+font-size:30px;
+
+}
+
+ul{
+
+list-style:none;
+
+}
+
+li{
+
+color:#dbeafe;
+
+font-size:20px;
+
+margin:14px 0;
+
+}
+
+.arrow{
+
+font-size:80px;
+
+color:#60a5fa;
+
+animation:move 1.5s infinite;
+
+}
+
+@keyframes move{
+
+50%{
+
+transform:translateX(15px);
+
+}
+
+}
+
+@keyframes float{
+
+50%{
+
+transform:translateY(-8px);
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>Data Understanding & Cleaning</h1>
+
+<div class="wrapper">
+
+<div class="card">
+
+<div class="icon">🔍</div>
+
+<h2>Initial Exploration</h2>
+
+<ul>
+
+<li>✓ head()</li>
+
+<li>✓ info()</li>
+
+<li>✓ describe()</li>
+
+<li>✓ Find Missing Values</li>
+
+<li>✓ Detect Duplicates</li>
+
+</ul>
+
+</div>
+
+<div class="arrow">➜</div>
+
+<div class="card">
+
+<div class="icon">🧹</div>
+
+<h2>Data Cleaning</h2>
+
+<ul>
+
+<li>✓ Handle Missing Values</li>
+
+<li>✓ Correct Data Types</li>
+
+<li>✓ Remove Duplicates</li>
+
+<li>✓ Drop Irrelevant Columns</li>
+
+<li>✓ Dataset Ready ✔</li>
+
+</ul>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+</html>
