@@ -58,7 +58,7 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 
 # 🎬 Project Demo
 
-[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1__WPrCETYab-M1IWBLWkbHsIcmElHnY4/view?usp=sharing)
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1jTXqboQcfCOnTi6k00lj9LvjF4gk7cA1/view?usp=sharing)
 
 📹 Click the badge above to watch the complete project demonstration.
 
