@@ -63,8 +63,7 @@ applied concepts of **data analysis, tensors, data cleaning, and exploratory dat
 
 ---
 
-<img width="1672" height="941" alt="bff4cfdc-7aac-4f6f-aa77-aeeebd0e9903" src="https://github.com/user-attachments/assets/91b376f4-2147-42ae-83a1-39b1c9f3077e" />
-
+<img width="1672" height="941" alt="9dcc5c18-9568-47f4-b6bb-28bec1c7ffc4" src="https://github.com/user-attachments/assets/ca534064-fbea-4871-8905-25caa4aa3c47" />
 
 ---
 
