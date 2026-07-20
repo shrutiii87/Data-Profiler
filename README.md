@@ -343,8 +343,6 @@ print("Report saved.")
 
 ---
 
----
-
 ## 📈 Results & Insights
 - ✅ Cleaned dataset with consistent data types and no duplicates  
 - ✅ Exploratory analysis showing **no strong correlations** between age, income, and purchases  
