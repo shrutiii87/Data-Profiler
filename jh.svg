@@ -1,0 +1,290 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1920"
+     height="1080"
+     viewBox="0 0 1920 1080">
+
+<style>
+    svg{
+        font-family:Segoe UI,Arial,sans-serif;
+        background:#edf7ff;
+    }
+
+    .title{
+        font-size:52px;
+        font-weight:700;
+        fill:#174a7c;
+        opacity:0;
+        animation:titleFade 1s forwards;
+    }
+
+    .subtitle{
+        font-size:22px;
+        fill:#5a7088;
+        opacity:0;
+        animation:titleFade 1s .4s forwards;
+    }
+
+    .bubble{
+        opacity:0;
+        transform-box:fill-box;
+        transform-origin:center;
+    }
+
+    .left{
+        animation:leftPop .8s cubic-bezier(.2,1.4,.4,1) forwards,
+                  fadeOut .8s linear forwards;
+    }
+
+    .right{
+        animation:rightPop .8s cubic-bezier(.2,1.4,.4,1) forwards,
+                  fadeOut .8s linear forwards;
+    }
+
+    .d1{
+        animation-delay:1.2s,5s;
+    }
+
+    .d2{
+        animation-delay:6s,10s;
+    }
+
+    .d3{
+        animation-delay:11s,15s;
+    }
+
+    .d4{
+        animation-delay:16s,22s;
+    }
+
+    .text{
+        font-size:28px;
+        fill:#243447;
+        font-weight:500;
+    }
+
+    .sender{
+        font-size:18px;
+        fill:white;
+        font-weight:bold;
+    }
+
+    @keyframes titleFade{
+        from{
+            opacity:0;
+            transform:translateY(-20px);
+        }
+        to{
+            opacity:1;
+            transform:translateY(0);
+        }
+    }
+
+    @keyframes leftPop{
+        from{
+            opacity:0;
+            transform:translateX(-120px) scale(.6);
+        }
+        70%{
+            opacity:1;
+            transform:translateX(0) scale(1.05);
+        }
+        to{
+            opacity:1;
+            transform:translateX(0) scale(1);
+        }
+    }
+
+    @keyframes rightPop{
+        from{
+            opacity:0;
+            transform:translateX(120px) scale(.6);
+        }
+        70%{
+            opacity:1;
+            transform:translateX(0) scale(1.05);
+        }
+        to{
+            opacity:1;
+            transform:translateX(0) scale(1);
+        }
+    }
+
+    @keyframes fadeOut{
+        to{
+            opacity:0;
+        }
+    }
+
+    .shadow{
+        filter:url(#shadow);
+    }
+
+</style>
+
+<defs>
+
+<linearGradient id="bg" x1="0" x2="1">
+    <stop offset="0%" stop-color="#edf8ff"/>
+    <stop offset="100%" stop-color="#dcefff"/>
+</linearGradient>
+
+<filter id="shadow">
+    <feDropShadow dx="0"
+                  dy="8"
+                  stdDeviation="10"
+                  flood-opacity=".18"/>
+</filter>
+
+</defs>
+
+<rect width="100%" height="100%" fill="url(#bg)"/>
+
+<!-- Decorative circles -->
+
+<circle cx="180" cy="140" r="90" fill="#d9efff"/>
+<circle cx="1700" cy="170" r="120" fill="#d9efff"/>
+<circle cx="1700" cy="950" r="90" fill="#d9efff"/>
+
+<!-- Title -->
+
+<text x="960"
+      y="90"
+      text-anchor="middle"
+      class="title">
+Data Preprocessing &amp; Feature Engineering
+</text>
+
+<text x="960"
+      y="130"
+      text-anchor="middle"
+      class="subtitle">
+Presentation Dialogue
+</text>
+
+<!-- ===================================================== -->
+<!-- Dialogue 1 -->
+<!-- ===================================================== -->
+
+<g class="bubble left d1 shadow">
+
+<rect x="120"
+      y="220"
+      width="760"
+      height="150"
+      rx="35"
+      fill="#4F9DFF"/>
+
+<text x="165" y="265" class="sender">
+Speaker 1
+</text>
+
+<text x="165" y="325" class="text" fill="white">
+Hi everyone! What's our project about?
+</text>
+
+</g>
+
+<!-- ===================================================== -->
+<!-- Dialogue 2 -->
+<!-- ===================================================== -->
+
+<g class="bubble right d2 shadow">
+
+<rect x="980"
+      y="410"
+      width="820"
+      height="210"
+      rx="35"
+      fill="#ffffff"/>
+
+<text x="1030" y="455"
+      font-size="18"
+      font-weight="bold"
+      fill="#4F9DFF">
+Speaker 2
+</text>
+
+<text x="1030" y="510" class="text">
+It's about Data Preprocessing and
+</text>
+
+<text x="1030" y="555" class="text">
+Feature Engineering using
+</text>
+
+<text x="1030" y="600" class="text">
+real-world customer data.
+</text>
+
+</g>
+
+<!-- ===================================================== -->
+<!-- Dialogue 3 -->
+<!-- ===================================================== -->
+
+<g class="bubble left d3 shadow">
+
+<rect x="120"
+      y="670"
+      width="620"
+      height="140"
+      rx="35"
+      fill="#4F9DFF"/>
+
+<text x="165"
+      y="715"
+      class="sender">
+Speaker 3
+</text>
+
+<text x="165"
+      y="775"
+      class="text"
+      fill="white">
+What was our goal?
+</text>
+
+</g>
+
+<!-- ===================================================== -->
+<!-- Dialogue 4 -->
+<!-- ===================================================== -->
+
+<g class="bubble right d4 shadow">
+
+<rect x="760"
+      y="820"
+      width="1040"
+      height="210"
+      rx="35"
+      fill="#ffffff"/>
+
+<text x="810"
+      y="865"
+      font-size="18"
+      font-weight="bold"
+      fill="#4F9DFF">
+Speaker 4
+</text>
+
+<text x="810"
+      y="915"
+      class="text">
+To clean, analyze, and transform data from
+</text>
+
+<text x="810"
+      y="955"
+      class="text">
+CSV, JSON, SQL, and APIs, then prepare it
+</text>
+
+<text x="810"
+      y="995"
+      class="text">
+for a Machine Learning model to predict customer churn.
+</text>
+
+</g>
+
+</svg>
