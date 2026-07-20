@@ -1,5 +1,31 @@
 <img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
 
+<table>
+<tr>
+<td width="35%" align="center">
+
+<img src="lanyard.svg" width="300">
+
+</td>
+
+<td width="65%">
+
+# 📂 Project Files
+
+| 📄 File | 📌 Description |
+|---------|----------------|
+| 📓 data_profiler.ipynb | Main Jupyter Notebook |
+| 📊 retail_customer_transactions.csv | Customer Dataset |
+| 📄 customer_profiles.json | JSON Records |
+| 🗄️ retail_customers.db | SQLite3 Database |
+| 🌐 retail_profiling_report.html | Profiling Report |
+| 📘 Part_A_Fundamentals.pdf | Theory Notes |
+| 📑 README.md | Project Documentation |
+
+</td>
+</tr>
+</table>
+
 ## 🎯 Objective 
 Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
 The aim is to **understand, clean, transform, and analyze** the dataset before it can be used for machine learning.  
