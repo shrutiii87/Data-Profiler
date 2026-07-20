@@ -1,3 +1,5 @@
+
+
 <img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
 
 ## 🎯 Objective 
@@ -70,13 +72,17 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 
 ---
 
-### 📥 Jupyter notebook
+### 📥 Jupyter notebook :- 
 
 <img width="800" height="420" alt="ezgif-6f16a27d2d9f39e8" src="https://github.com/user-attachments/assets/4b503ecb-6a66-453a-afac-106e02a7a7d1" />
 
 ---
 
+### 📥 Part A Fundamentals :- 
 
+<img width="800" height="420" alt="ezgif-6c6866a290ccb5b6" src="https://github.com/user-attachments/assets/a6137ccb-c612-4ec3-9740-f1e99809f189" />
+
+---
 
 #### 🛠️ imported libraries
 
@@ -95,6 +101,10 @@ import seaborn as sns
 ---
 
 ## 📊 Part A : Fundamentals 
+
+<img width="960" height="540" alt="Screenshot 2026-07-20 102600" src="https://github.com/user-attachments/assets/4afd1471-b6f1-4e55-8a3e-965976130964" />
+
+---
 
 ## 📶 Part B : Data Acquisition 
 
