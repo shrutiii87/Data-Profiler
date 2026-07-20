@@ -8,15 +8,14 @@ This project emphasizes **data profiling, handling multiple formats, and perform
 ---
 
 ## 📄 Problem Statement
-You have been hired as a **Junior Data Analyst** by a consumer insights company.  
 The dataset contains **customer purchase behavior** collected from multiple sources:
 - CSV
 - JSON
 - SQL Database
 - API  
 
-Your goal is to **frame a machine learning problem** (predict customer churn) and perform **data preprocessing and profiling** to make the dataset ML-ready.  
-You will apply concepts of **data analysis, tensors, data cleaning, and exploratory data analysis (EDA)** to extract insights.
+goal is to **frame a machine learning problem** (predict customer churn) and perform **data preprocessing and profiling** to make the dataset ML-ready.  
+applied concepts of **data analysis, tensors, data cleaning, and exploratory data analysis (EDA)** to extract insights.
 
 ---
 
@@ -61,6 +60,11 @@ You will apply concepts of **data analysis, tensors, data cleaning, and explorat
 [![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Demo-Google%20Drive-blue?style=for-the-badge&logo=google-drive)](https://drive.google.com/file/d/1jTXqboQcfCOnTi6k00lj9LvjF4gk7cA1/view?usp=sharing)
 
 📹 Click the badge above to watch the complete project demonstration.
+
+---
+
+<img width="1672" height="941" alt="bff4cfdc-7aac-4f6f-aa77-aeeebd0e9903" src="https://github.com/user-attachments/assets/91b376f4-2147-42ae-83a1-39b1c9f3077e" />
+
 
 ---
 
