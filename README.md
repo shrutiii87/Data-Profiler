@@ -1,5 +1,24 @@
 <img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
 
+## 🎯 Objective 
+Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
+The aim is to **understand, clean, transform, and analyze** the dataset before it can be used for machine learning.  
+This project emphasizes **data profiling, handling multiple formats, and performing EDA**.
+
+---
+
+## 📄 Problem Statement
+The dataset contains **customer purchase behavior** collected from multiple sources:
+- CSV
+- JSON
+- SQL Database
+- API  
+
+goal is to **frame a machine learning problem** (predict customer churn) and perform **data preprocessing and profiling** to make the dataset ML-ready.  
+applied concepts of **data analysis, tensors, data cleaning, and exploratory data analysis (EDA)** to extract insights.
+
+---
+
 <table>
 <tr>
 <td width="35%" align="center">
@@ -25,40 +44,6 @@
 </td>
 </tr>
 </table>
-
-## 🎯 Objective 
-Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
-The aim is to **understand, clean, transform, and analyze** the dataset before it can be used for machine learning.  
-This project emphasizes **data profiling, handling multiple formats, and performing EDA**.
-
----
-
-## 📄 Problem Statement
-The dataset contains **customer purchase behavior** collected from multiple sources:
-- CSV
-- JSON
-- SQL Database
-- API  
-
-goal is to **frame a machine learning problem** (predict customer churn) and perform **data preprocessing and profiling** to make the dataset ML-ready.  
-applied concepts of **data analysis, tensors, data cleaning, and exploratory data analysis (EDA)** to extract insights.
-
----
-
-## 🗂️ Project Files
-
-| File / Folder                         | Description                                                     |
-| -------------------------------------- | --------------------------------------------------------------- |
-| 📁 `files_used/`                       | Contains all source files and reference materials used in the project |
-| 📁 `outputs/`                          | Stores generated reports, visualizations, and profiling results |
-| 📓 `data_profiler.ipynb`               | Main Jupyter Notebook for data preprocessing and profiling workflow |
-| 📊 `retail_customer_transactions.csv`  | Raw dataset containing customer transaction records             |
-| 📄 `customer_profiles.json`            | JSON dataset with customer profile information                  |
-| 🗄️ `retail_customers.db`               | SQLite database containing structured customer data             |
-| 📄 `Part_A_Fundamentals.pdf`           | Theoretical notes and mathematical derivations used in analysis |
-| 🌐 `retail_profiling_report.html`      | Generated HTML report from ydata_profiling summarizing dataset insights |
-| 📘 `README.md`                         | Project documentation and workflow guide                        |
-
 
 ---
 
