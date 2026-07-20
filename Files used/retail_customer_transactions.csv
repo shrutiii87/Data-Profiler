@@ -1,0 +1,1501 @@
+Customer_ID,Age,Gender,City,Annual_Income,Purchase_Category,Total_Purchases,Avg_Purchase_Value,Payment_Type,Satisfaction_Score,Subscription_Status
+1,58,Male,Ahmedabad,117196,Home Decor,16,119.37,UPI,1.4,Active
+2,65,Male,Surat,75302,Electronics,2,55.91,Debit Card,3.0,Active
+3,30,Female,Bengaluru,78878,Home Decor,52,435.96,Debit Card,3.8,Active
+4,39,Female,Delhi,48221,Beauty,7,55.45,Credit Card,2.4,Active
+5,34,Male,Kolkata,90284,Clothing,60,195.48,Net Banking,2.2,Active
+6,58,Female,Surat,45203,Clothing,3,334.02,Online Wallet,4.9,Inactive
+7,24,Female,Pune,79429,Beauty,11,191.39,Debit Card,3.7,Active
+8,62,Male,Surat,103227,Groceries,35,367.27,Debit Card,2.8,Active
+9,35,Male,Chennai,27331,Footwear,53,25.73,Online Wallet,2.6,Active
+10,54,Female,Bengaluru,105909,Sports,26,443.49,UPI,2.8,Active
+11,34,Male,Bengaluru,117647,Home Decor,48,296.45,Net Banking,2.6,Active
+12,32,Male,Jaipur,84686,Clothing,49,33.09,Credit Card,1.6,Active
+13,28,Female,Surat,28326,Books,25,301.99,Cash,3.1,Inactive
+14,18,Male,Jaipur,118419,Home Decor,50,324.07,Credit Card,2.2,Active
+15,28,Female,Ahmedabad,114646,Home Decor,33,383.36,Net Banking,4.7,Active
+16,58,Female,Jaipur,99818,Footwear,10,193.22,Debit Card,3.2,Inactive
+17,51,Male,Surat,62487,Sports,2,64.82,Online Wallet,4.5,Inactive
+18,37,Male,Ahmedabad,51571,Clothing,6,368.63,Credit Card,4.9,Inactive
+19,26,Male,Kolkata,92063,Groceries,17,268.56,Net Banking,2.7,Active
+20,31,Male,Pune,72296,Beauty,29,450.81,Cash,1.5,Active
+21,32,Male,Chennai,22757,Footwear,38,117.91,Credit Card,3.8,Active
+22,22,Male,Chennai,29287,Footwear,18,337.8,Debit Card,3.2,Inactive
+23,54,Female,Bengaluru,81993,Books,13,56.22,UPI,2.7,Active
+24,45,Female,Kolkata,115561,Electronics,44,330.19,UPI,1.4,Active
+25,43,Female,Mumbai,52591,Footwear,13,272.78,Debit Card,2.7,Active
+26,35,Female,Bengaluru,29880,Sports,52,432.06,Net Banking,1.4,Inactive
+27,52,Male,Mumbai,118771,Footwear,11,209.14,Cash,1.9,Active
+28,43,Male,Delhi,69672,Electronics,25,139.95,Cash,2.1,Active
+29,62,Female,Delhi,44890,Home Decor,14,484.67,Net Banking,3.9,Active
+30,38,Male,Ahmedabad,96569,Sports,33,460.5,Net Banking,1.6,Active
+31,50,Male,Delhi,28981,Clothing,44,432.29,Cash,1.5,Inactive
+32,33,Male,Surat,30745,Books,43,296.0,Net Banking,2.3,Active
+33,60,Female,Bengaluru,54814,Books,9,339.13,Online Wallet,2.8,Inactive
+34,22,Male,Kolkata,101416,Clothing,5,273.44,Net Banking,2.1,Inactive
+35,22,Male,Chennai,57353,Groceries,29,418.54,UPI,2.2,Active
+36,69,Male,Jaipur,59240,Clothing,57,75.8,Credit Card,4.6,Active
+37,65,Male,Pune,56930,Footwear,46,178.01,UPI,3.5,Active
+38,34,Female,Pune,26658,Clothing,41,217.55,Online Wallet,1.2,Active
+39,26,Female,Delhi,117154,Sports,36,355.78,Net Banking,1.0,Active
+40,22,Male,Jaipur,24722,Beauty,38,280.74,Cash,1.5,Active
+41,68,Male,Chennai,47535,Footwear,43,60.37,Net Banking,4.5,Active
+42,44,Male,Bengaluru,41299,Groceries,57,212.02,Debit Card,3.9,Active
+43,44,Male,Pune,40866,Clothing,25,437.36,Cash,1.9,Inactive
+44,47,Female,Pune,49831,Footwear,2,333.42,Cash,2.3,Inactive
+45,67,Female,Chennai,104080,Books,44,490.76,Net Banking,2.3,Active
+46,19,Male,Pune,43405,Home Decor,3,63.12,Cash,2.4,Inactive
+47,45,Male,Hyderabad,95574,Footwear,17,31.75,Cash,1.0,Active
+48,69,Male,Chennai,76531,Clothing,43,461.18,Net Banking,2.3,Active
+49,25,Female,Jaipur,60538,Books,21,207.18,Online Wallet,3.2,Active
+50,30,Female,Hyderabad,108777,Groceries,40,288.86,Cash,3.2,Active
+51,18,Female,Pune,47549,Books,51,294.19,UPI,2.3,Active
+52,46,Female,Bengaluru,87000,Sports,51,451.58,UPI,1.7,Active
+53,23,Female,Jaipur,107012,Beauty,6,411.03,Debit Card,3.7,Active
+54,30,Male,Ahmedabad,26057,Footwear,31,309.52,Credit Card,2.8,Inactive
+55,54,Male,Hyderabad,84799,Books,16,82.31,UPI,1.0,Active
+56,66,Male,Hyderabad,48683,Groceries,52,479.4,Net Banking,2.9,Active
+57,53,Male,Mumbai,79829,Groceries,52,237.68,Net Banking,5.0,Active
+58,56,Female,Kolkata,100301,Books,54,454.36,Cash,4.6,Active
+59,65,Female,Kolkata,53972,Footwear,54,322.45,Net Banking,2.9,Active
+60,33,Female,Kolkata,30155,Home Decor,16,143.14,Online Wallet,4.6,Active
+61,27,Male,Hyderabad,110957,Groceries,46,114.84,Cash,2.6,Active
+62,52,Female,Hyderabad,28161,Footwear,54,215.87,Net Banking,4.8,Active
+63,66,Female,Kolkata,20772,Beauty,20,379.2,Cash,3.2,Inactive
+64,69,Male,Kolkata,48760,Home Decor,28,247.96,Cash,2.3,Active
+65,61,Female,Delhi,81261,Groceries,40,271.72,Cash,3.4,Active
+66,60,Male,Mumbai,104246,Books,9,434.76,Debit Card,1.2,Active
+67,31,Female,Chennai,64236,Books,18,378.48,Cash,2.0,Active
+68,23,Female,Ahmedabad,118176,Electronics,23,119.87,Credit Card,4.1,Active
+69,59,Male,Ahmedabad,52411,Footwear,54,19.99,Debit Card,2.0,Active
+70,48,Male,Surat,48569,Sports,45,135.56,Online Wallet,1.7,Active
+71,56,Male,Delhi,60768,Clothing,38,22.58,Online Wallet,3.3,Active
+72,42,Female,Bengaluru,29961,Footwear,7,351.62,Online Wallet,4.4,Inactive
+73,25,Male,Chennai,89827,Books,43,191.58,Net Banking,3.6,Active
+74,18,Female,Kolkata,33833,Books,24,321.44,Cash,3.8,Active
+75,64,Female,Surat,90539,Sports,30,223.43,UPI,3.4,Active
+76,38,Male,Mumbai,56559,Sports,16,377.73,Net Banking,3.4,Active
+77,42,Female,Ahmedabad,84789,Beauty,12,248.9,Online Wallet,4.2,Active
+78,39,Female,Surat,111905,Home Decor,36,14.97,Debit Card,1.3,Active
+79,64,Female,Kolkata,92768,Footwear,45,243.29,UPI,3.0,Active
+80,68,Male,Mumbai,58566,Footwear,26,348.98,Online Wallet,3.7,Active
+81,41,Female,Jaipur,89588,Beauty,28,498.35,Net Banking,2.3,Active
+82,62,Female,Pune,60189,Home Decor,15,69.12,Debit Card,2.3,Active
+83,65,Male,Bengaluru,48361,Sports,18,365.05,Net Banking,3.4,Active
+84,24,Male,Pune,49816,Beauty,12,158.11,UPI,3.1,Active
+85,35,Male,Ahmedabad,92529,Home Decor,45,472.6,UPI,4.5,Active
+86,49,Male,Ahmedabad,95243,Home Decor,31,244.57,Online Wallet,1.7,Active
+87,21,Female,Kolkata,34953,Clothing,26,250.96,Net Banking,3.5,Active
+88,27,Female,Mumbai,52530,Clothing,36,384.58,Net Banking,3.4,Active
+89,57,Male,Jaipur,69856,Sports,59,226.93,Net Banking,5.0,Active
+90,37,Male,Surat,117004,Clothing,49,111.82,Debit Card,2.1,Active
+91,23,Male,Bengaluru,42782,Clothing,11,11.31,Cash,3.8,Active
+92,20,Male,Pune,112662,Home Decor,45,431.21,Credit Card,3.7,Active
+93,34,Male,Hyderabad,35043,Footwear,42,83.0,Online Wallet,4.3,Active
+94,28,Female,Surat,118167,Home Decor,29,70.93,UPI,2.2,Active
+95,43,Female,Jaipur,90776,Sports,29,49.42,Credit Card,4.6,Active
+96,65,Female,Surat,52816,Electronics,6,122.17,UPI,4.3,Inactive
+97,19,Female,Surat,25273,Groceries,31,264.29,Cash,4.7,Active
+98,55,Female,Kolkata,31959,Sports,23,210.09,Online Wallet,3.7,Inactive
+99,39,Female,Kolkata,57777,Books,53,382.64,Credit Card,2.8,Active
+100,38,Female,Chennai,35194,Books,56,262.15,Credit Card,3.6,Inactive
+101,44,Male,Bengaluru,87952,Beauty,40,380.66,UPI,2.8,Active
+102,21,Male,Pune,91987,Groceries,60,151.13,UPI,2.9,Active
+103,19,Male,Delhi,60730,Electronics,36,209.92,Debit Card,5.0,Active
+104,25,Female,Mumbai,104896,Groceries,32,467.0,Online Wallet,3.0,Active
+105,35,Female,Kolkata,81894,Footwear,30,280.12,Cash,1.8,Active
+106,56,Male,Mumbai,56208,Books,22,467.78,Net Banking,2.1,Active
+107,18,Female,Pune,96931,Sports,56,82.81,Net Banking,2.9,Active
+108,39,Female,Kolkata,62176,Footwear,45,127.01,Cash,1.9,Active
+109,67,Female,Ahmedabad,61704,Sports,46,457.58,Cash,2.5,Active
+110,60,Male,Kolkata,24852,Groceries,33,483.02,Online Wallet,4.5,Inactive
+111,46,Male,Jaipur,79890,Electronics,47,80.64,UPI,4.9,Active
+112,22,Female,Pune,64375,Books,42,49.35,Online Wallet,4.4,Active
+113,52,Female,Chennai,102155,Sports,56,275.1,Net Banking,1.3,Active
+114,58,Female,Bengaluru,117880,Clothing,28,489.39,UPI,3.8,Active
+115,24,Female,Delhi,110964,Home Decor,58,24.18,Online Wallet,4.2,Active
+116,36,Female,Chennai,76450,Groceries,16,270.27,Net Banking,3.7,Active
+117,29,Male,Delhi,30350,Books,40,344.74,Cash,4.7,Active
+118,47,Female,Kolkata,53466,Electronics,58,404.27,Online Wallet,3.7,Active
+119,28,Male,Kolkata,65293,Home Decor,41,481.39,UPI,2.0,Active
+120,37,Male,Hyderabad,83335,Clothing,16,196.87,Online Wallet,3.3,Active
+121,62,Female,Ahmedabad,106275,Books,18,13.97,UPI,4.1,Active
+122,21,Female,Pune,50162,Beauty,15,321.94,Net Banking,2.0,Active
+123,66,Male,Mumbai,102242,Electronics,20,396.42,Credit Card,3.3,Active
+124,64,Male,Mumbai,58680,Beauty,48,213.6,Debit Card,1.5,Active
+125,52,Female,Jaipur,85771,Home Decor,54,90.63,Cash,4.9,Active
+126,36,Female,Mumbai,81385,Clothing,10,379.53,Debit Card,4.4,Inactive
+127,43,Female,Mumbai,71717,Electronics,17,272.92,Cash,2.5,Active
+128,65,Female,Surat,69941,Beauty,7,340.67,Cash,1.1,Inactive
+129,53,Female,Surat,49015,Clothing,41,413.69,UPI,2.2,Active
+130,44,Male,Delhi,25943,Electronics,20,498.0,Credit Card,1.4,Inactive
+131,26,Female,Kolkata,68629,Books,38,373.71,Debit Card,4.5,Active
+132,59,Male,Kolkata,100694,Books,18,26.03,Online Wallet,1.9,Active
+133,46,Male,Chennai,33022,Beauty,35,451.83,UPI,2.4,Active
+134,30,Male,Kolkata,32015,Footwear,42,323.35,Credit Card,1.2,Active
+135,26,Male,Mumbai,92641,Footwear,38,115.82,Debit Card,2.3,Active
+136,27,Male,Pune,38964,Groceries,35,132.82,Debit Card,1.4,Inactive
+137,26,Male,Chennai,51186,Beauty,2,95.38,Credit Card,1.5,Active
+138,25,Male,Kolkata,78756,Beauty,33,300.9,Cash,3.0,Active
+139,57,Male,Jaipur,59535,Sports,42,482.37,Credit Card,5.0,Active
+140,43,Female,Mumbai,84260,Sports,5,450.64,Online Wallet,3.4,Active
+141,35,Female,Hyderabad,98301,Home Decor,30,257.72,Cash,1.4,Active
+142,62,Male,Jaipur,114481,Footwear,28,231.26,Debit Card,2.7,Active
+143,70,Female,Hyderabad,74524,Clothing,21,219.11,UPI,2.0,Active
+144,27,Female,Mumbai,31957,Clothing,6,221.62,UPI,4.0,Inactive
+145,53,Male,Surat,93608,Beauty,43,69.89,Online Wallet,4.5,Active
+146,66,Female,Ahmedabad,57700,Home Decor,23,60.76,Net Banking,1.9,Active
+147,60,Female,Bengaluru,34184,Beauty,55,282.57,Credit Card,4.1,Inactive
+148,69,Female,Jaipur,101490,Electronics,39,465.25,UPI,2.1,Active
+149,29,Female,Pune,64541,Beauty,1,98.89,Debit Card,3.3,Active
+150,27,Male,Mumbai,117794,Footwear,25,215.72,Online Wallet,1.6,Active
+151,37,Female,Surat,98148,Clothing,57,35.78,Debit Card,4.0,Active
+152,21,Male,Pune,78079,Books,32,307.47,Cash,2.1,Active
+153,66,Male,Chennai,76349,Clothing,19,342.33,Net Banking,2.9,Active
+154,60,Female,Ahmedabad,48903,Books,39,36.84,Debit Card,2.2,Active
+155,31,Male,Pune,57938,Beauty,8,13.79,UPI,2.7,Active
+156,52,Male,Jaipur,93233,Beauty,5,204.56,UPI,1.2,Active
+157,22,Female,Surat,76267,Books,46,323.67,Online Wallet,1.5,Active
+158,19,Female,Delhi,101018,Sports,54,347.91,Online Wallet,1.4,Active
+159,24,Male,Hyderabad,97184,Books,34,48.54,Online Wallet,4.0,Active
+160,32,Female,Delhi,30011,Clothing,34,259.88,Online Wallet,2.4,Inactive
+161,59,Male,Bengaluru,33474,Groceries,17,106.66,Net Banking,1.6,Inactive
+162,22,Male,Kolkata,80811,Sports,44,462.84,Net Banking,3.6,Active
+163,57,Female,Chennai,39786,Sports,5,239.77,UPI,2.2,Active
+164,21,Female,Jaipur,29724,Home Decor,30,231.44,Credit Card,2.5,Active
+165,59,Male,Surat,97867,Books,30,294.36,UPI,4.6,Active
+166,46,Male,Chennai,99299,Sports,33,83.92,Credit Card,2.8,Active
+167,69,Female,Mumbai,86132,Groceries,3,131.39,Cash,5.0,Inactive
+168,57,Male,Chennai,68870,Home Decor,25,210.3,Online Wallet,3.7,Active
+169,21,Female,Mumbai,63213,Clothing,36,342.41,Online Wallet,2.0,Active
+170,60,Male,Chennai,30682,Groceries,59,181.41,UPI,3.8,Active
+171,56,Male,Pune,93259,Books,42,397.91,Debit Card,3.7,Active
+172,65,Male,Hyderabad,86648,Beauty,2,187.67,Debit Card,4.8,Active
+173,67,Female,Bengaluru,49693,Groceries,10,47.81,Credit Card,3.0,Inactive
+174,65,Male,Chennai,101006,Groceries,39,194.59,Debit Card,1.7,Active
+175,62,Male,Kolkata,25726,Books,24,341.42,Debit Card,4.9,Inactive
+176,66,Female,Bengaluru,89993,Footwear,20,483.14,Cash,4.6,Active
+177,30,Female,Surat,77749,Sports,50,148.07,Cash,3.0,Active
+178,44,Male,Bengaluru,99254,Groceries,56,132.5,UPI,2.9,Active
+179,41,Male,Jaipur,36341,Home Decor,6,383.93,Online Wallet,2.8,Inactive
+180,45,Male,Bengaluru,79130,Beauty,60,23.07,Credit Card,2.6,Active
+181,41,Male,Hyderabad,30696,Beauty,15,23.81,Credit Card,4.4,Inactive
+182,68,Male,Delhi,25020,Home Decor,59,416.58,UPI,4.3,Inactive
+183,48,Female,Surat,20688,Clothing,2,135.4,Debit Card,3.2,Inactive
+184,51,Female,Mumbai,57762,Footwear,20,69.71,Debit Card,2.7,Active
+185,68,Female,Mumbai,34530,Sports,39,272.67,UPI,3.1,Active
+186,27,Female,Hyderabad,20205,Beauty,16,289.63,Debit Card,3.7,Active
+187,41,Male,Jaipur,91313,Electronics,25,437.93,Credit Card,3.5,Active
+188,41,Female,Ahmedabad,66805,Clothing,23,128.15,UPI,3.5,Active
+189,67,Female,Delhi,25811,Beauty,35,175.89,UPI,1.7,Inactive
+190,47,Female,Delhi,37675,Clothing,46,390.33,Cash,1.1,Active
+191,68,Male,Ahmedabad,61365,Home Decor,33,205.13,Net Banking,2.9,Active
+192,20,Male,Pune,66789,Electronics,56,331.31,Online Wallet,1.5,Active
+193,41,Female,Hyderabad,117426,Sports,58,478.67,Online Wallet,4.9,Active
+194,49,Female,Chennai,88062,Home Decor,52,50.48,Cash,1.3,Active
+195,56,Male,Jaipur,58504,Beauty,7,49.23,UPI,2.2,Active
+196,63,Female,Delhi,110408,Sports,23,229.09,UPI,4.5,Active
+197,40,Female,Pune,103816,Electronics,5,338.88,Cash,2.5,Inactive
+198,61,Male,Ahmedabad,38714,Sports,3,71.85,Debit Card,4.1,Active
+199,42,Male,Surat,40111,Sports,24,192.29,Credit Card,3.3,Inactive
+200,43,Female,Pune,52717,Clothing,2,370.48,Cash,3.1,Inactive
+201,25,Female,Pune,112279,Sports,14,498.22,Online Wallet,3.8,Active
+202,49,Male,Mumbai,37790,Clothing,29,94.6,UPI,2.8,Active
+203,61,Female,Chennai,113000,Clothing,36,275.66,Online Wallet,4.4,Active
+204,63,Male,Chennai,86683,Footwear,8,492.71,Debit Card,1.9,Active
+205,41,Female,Kolkata,92305,Groceries,40,443.28,Credit Card,2.2,Active
+206,63,Female,Jaipur,73843,Books,53,291.7,Debit Card,4.9,Active
+207,59,Male,Kolkata,81057,Beauty,9,440.2,Net Banking,3.6,Active
+208,26,Female,Jaipur,27263,Clothing,34,84.98,Debit Card,1.6,Inactive
+209,32,Female,Jaipur,57230,Clothing,17,106.19,Net Banking,2.1,Active
+210,58,Female,Surat,89924,Clothing,33,324.08,Net Banking,4.8,Active
+211,27,Male,Surat,114454,Beauty,54,462.73,Credit Card,4.3,Active
+212,19,Male,Ahmedabad,104076,Home Decor,42,113.3,Net Banking,2.7,Active
+213,58,Male,Kolkata,102203,Home Decor,42,478.76,Cash,2.0,Active
+214,69,Female,Pune,79446,Clothing,45,39.36,Cash,2.7,Active
+215,47,Male,Chennai,99516,Groceries,21,432.13,Online Wallet,3.9,Active
+216,40,Female,Delhi,119701,Beauty,33,285.21,Online Wallet,2.0,Active
+217,25,Female,Kolkata,52495,Groceries,7,34.8,Cash,4.5,Active
+218,28,Female,Surat,114519,Beauty,13,383.93,Cash,5.0,Active
+219,47,Female,Pune,85191,Electronics,6,473.16,Net Banking,2.8,Active
+220,55,Female,Ahmedabad,26624,Home Decor,32,302.78,UPI,3.7,Active
+221,18,Male,Hyderabad,37555,Home Decor,47,189.23,Cash,2.5,Active
+222,54,Male,Chennai,92512,Home Decor,5,199.31,Cash,4.1,Active
+223,57,Male,Delhi,32672,Books,24,399.5,Online Wallet,3.2,Active
+224,27,Male,Surat,86731,Books,33,29.72,Credit Card,1.5,Active
+225,39,Female,Jaipur,79898,Groceries,39,447.63,Debit Card,2.3,Active
+226,57,Female,Delhi,71505,Home Decor,38,174.82,Net Banking,3.1,Active
+227,63,Female,Kolkata,22180,Beauty,22,340.17,Cash,3.3,Inactive
+228,64,Male,Surat,82205,Home Decor,42,393.62,Net Banking,3.3,Active
+229,64,Male,Surat,82973,Groceries,34,318.22,Net Banking,4.1,Active
+230,42,Male,Bengaluru,24138,Clothing,13,19.28,Online Wallet,2.7,Active
+231,31,Female,Jaipur,100147,Sports,56,425.7,UPI,1.2,Active
+232,26,Male,Jaipur,62604,Sports,34,194.64,Debit Card,2.8,Active
+233,52,Female,Jaipur,66437,Home Decor,40,247.25,Debit Card,2.1,Active
+234,37,Male,Pune,57880,Footwear,45,355.44,Online Wallet,2.9,Active
+235,53,Female,Pune,35974,Books,58,490.28,Online Wallet,4.8,Inactive
+236,36,Male,Pune,113603,Clothing,23,462.76,UPI,2.0,Active
+237,48,Male,Bengaluru,90592,Home Decor,60,285.39,Online Wallet,1.5,Active
+238,57,Male,Bengaluru,26653,Footwear,41,124.09,Credit Card,2.7,Inactive
+239,24,Male,Ahmedabad,92135,Groceries,27,329.92,Cash,2.9,Active
+240,30,Female,Chennai,57409,Electronics,59,386.68,UPI,3.3,Active
+241,52,Male,Delhi,74773,Groceries,60,460.62,Cash,4.2,Active
+242,29,Female,Ahmedabad,21214,Home Decor,37,305.36,Online Wallet,2.1,Inactive
+243,52,Female,Delhi,86088,Sports,18,104.48,Credit Card,2.3,Active
+244,64,Female,Pune,114188,Groceries,1,370.94,Online Wallet,3.3,Inactive
+245,29,Female,Hyderabad,87538,Beauty,6,206.41,Credit Card,1.7,Active
+246,38,Male,Ahmedabad,54181,Books,16,228.9,Online Wallet,4.8,Active
+247,37,Male,Pune,105679,Beauty,45,125.79,UPI,1.5,Active
+248,37,Male,Hyderabad,109925,Home Decor,45,67.53,Online Wallet,2.5,Active
+249,32,Male,Delhi,82676,Groceries,30,376.39,Net Banking,2.5,Active
+250,62,Female,Jaipur,107044,Footwear,49,131.26,Net Banking,4.5,Active
+251,23,Female,Jaipur,112244,Beauty,5,459.45,Credit Card,1.2,Inactive
+252,50,Male,Surat,90341,Groceries,11,170.78,Net Banking,2.8,Active
+253,61,Male,Surat,84071,Clothing,58,260.08,Credit Card,2.8,Active
+254,50,Female,Kolkata,93912,Electronics,36,236.57,Online Wallet,3.9,Active
+255,43,Female,Ahmedabad,117754,Footwear,38,45.78,Cash,2.4,Active
+256,22,Male,Mumbai,81875,Electronics,19,210.34,Debit Card,4.1,Active
+257,64,Female,Chennai,70132,Sports,56,459.39,Cash,2.5,Active
+258,61,Male,Chennai,35549,Groceries,35,202.6,Debit Card,3.9,Active
+259,18,Male,Pune,80686,Books,35,195.85,Debit Card,2.0,Active
+260,40,Male,Pune,44704,Clothing,3,406.64,Cash,3.5,Inactive
+261,19,Male,Bengaluru,28819,Clothing,39,26.45,Net Banking,3.7,Inactive
+262,33,Male,Hyderabad,77535,Footwear,35,116.46,Credit Card,1.6,Active
+263,36,Male,Surat,61799,Beauty,16,157.86,Debit Card,4.9,Active
+264,51,Male,Hyderabad,59387,Home Decor,4,282.79,Net Banking,4.5,Inactive
+265,58,Female,Jaipur,84962,Electronics,23,471.38,UPI,2.5,Active
+266,51,Female,Hyderabad,73511,Groceries,20,194.47,Net Banking,2.9,Active
+267,32,Female,Delhi,80689,Electronics,36,212.21,Cash,3.2,Active
+268,26,Female,Bengaluru,53422,Footwear,22,326.89,Cash,4.4,Active
+269,23,Male,Ahmedabad,55187,Books,44,306.44,Credit Card,4.5,Active
+270,30,Male,Kolkata,47379,Beauty,20,478.94,Credit Card,1.8,Active
+271,30,Male,Kolkata,51797,Footwear,26,458.41,Net Banking,2.3,Active
+272,36,Female,Kolkata,89946,Beauty,20,138.17,Net Banking,4.5,Active
+273,47,Male,Kolkata,119828,Beauty,59,109.53,Online Wallet,2.7,Active
+274,54,Male,Delhi,22125,Home Decor,36,468.03,Net Banking,3.9,Active
+275,30,Female,Bengaluru,69786,Footwear,32,279.81,UPI,2.4,Active
+276,66,Female,Kolkata,80401,Groceries,47,399.54,Debit Card,1.6,Active
+277,52,Female,Delhi,91058,Electronics,34,26.57,Credit Card,4.8,Active
+278,60,Male,Ahmedabad,74053,Groceries,54,319.04,Credit Card,3.8,Active
+279,18,Male,Jaipur,79770,Beauty,4,312.74,UPI,4.7,Inactive
+280,60,Female,Ahmedabad,20866,Books,1,18.2,UPI,2.1,Inactive
+281,19,Female,Delhi,34026,Clothing,34,82.96,Debit Card,3.5,Active
+282,40,Female,Hyderabad,30357,Beauty,26,234.91,Debit Card,5.0,Active
+283,61,Male,Ahmedabad,32255,Books,25,194.81,Cash,1.2,Active
+284,28,Male,Kolkata,76873,Beauty,37,488.89,Credit Card,4.6,Active
+285,20,Male,Bengaluru,110739,Sports,18,32.82,Credit Card,3.7,Active
+286,35,Male,Delhi,61220,Electronics,14,297.65,UPI,4.3,Active
+287,22,Female,Delhi,93919,Footwear,37,418.98,Cash,3.7,Active
+288,52,Female,Hyderabad,119039,Groceries,51,494.35,UPI,1.3,Active
+289,65,Female,Ahmedabad,32803,Books,15,420.95,Online Wallet,3.4,Inactive
+290,56,Female,Chennai,23883,Home Decor,51,496.37,Cash,1.9,Inactive
+291,42,Female,Delhi,109088,Books,6,388.36,Online Wallet,4.2,Inactive
+292,23,Female,Delhi,69807,Groceries,48,200.91,Online Wallet,1.4,Active
+293,18,Female,Kolkata,67175,Home Decor,7,74.93,Debit Card,2.7,Inactive
+294,50,Female,Mumbai,23442,Clothing,23,281.57,Net Banking,3.4,Active
+295,42,Male,Pune,74238,Books,50,51.5,Net Banking,4.6,Active
+296,33,Male,Hyderabad,42216,Groceries,18,157.55,Cash,1.6,Active
+297,35,Female,Pune,83469,Clothing,24,133.33,Debit Card,3.9,Active
+298,49,Male,Kolkata,34021,Groceries,20,13.32,Cash,2.3,Inactive
+299,69,Female,Kolkata,63874,Books,53,413.53,UPI,4.9,Active
+300,26,Female,Chennai,99064,Footwear,31,163.95,Cash,4.9,Active
+301,36,Female,Surat,51775,Beauty,25,147.35,Cash,2.5,Active
+302,54,Male,Surat,91516,Groceries,44,386.13,Credit Card,4.8,Active
+303,47,Male,Kolkata,58185,Clothing,53,425.42,Cash,3.7,Active
+304,26,Female,Bengaluru,53119,Groceries,46,217.33,Cash,1.3,Active
+305,56,Female,Surat,72534,Books,35,28.01,Online Wallet,3.8,Active
+306,69,Male,Mumbai,52536,Beauty,11,327.03,Credit Card,3.3,Active
+307,59,Female,Chennai,76420,Clothing,1,58.32,Debit Card,3.0,Inactive
+308,55,Male,Kolkata,69036,Books,30,388.45,Net Banking,3.8,Active
+309,27,Female,Ahmedabad,83277,Clothing,19,213.83,Credit Card,1.5,Active
+310,64,Male,Chennai,60880,Beauty,30,394.29,Net Banking,2.9,Active
+311,48,Male,Kolkata,114633,Sports,21,42.92,Credit Card,4.2,Active
+312,25,Male,Chennai,104930,Clothing,44,402.02,UPI,2.0,Active
+313,29,Male,Chennai,93380,Books,30,123.61,Cash,3.5,Active
+314,29,Female,Hyderabad,23826,Footwear,29,300.18,Cash,1.0,Active
+315,35,Male,Surat,33336,Groceries,24,169.73,Cash,1.5,Inactive
+316,49,Female,Surat,70939,Books,38,65.97,Online Wallet,4.4,Active
+317,57,Male,Pune,100541,Clothing,44,75.63,Credit Card,2.0,Active
+318,25,Male,Chennai,110890,Groceries,33,200.35,Net Banking,1.6,Active
+319,42,Female,Delhi,83788,Groceries,36,91.76,Online Wallet,1.6,Active
+320,38,Female,Surat,27026,Beauty,1,247.46,Debit Card,4.3,Inactive
+321,50,Female,Hyderabad,109744,Sports,27,357.97,Cash,3.0,Active
+322,23,Male,Bengaluru,58284,Electronics,18,120.17,Online Wallet,1.7,Active
+323,47,Female,Jaipur,86952,Clothing,37,65.96,Net Banking,4.3,Active
+324,41,Male,Kolkata,91611,Footwear,28,60.18,UPI,4.0,Active
+325,37,Male,Kolkata,54447,Beauty,56,410.2,Cash,4.5,Active
+326,25,Male,Bengaluru,116680,Beauty,56,358.27,UPI,2.7,Active
+327,57,Male,Bengaluru,47124,Electronics,37,181.9,Online Wallet,3.4,Active
+328,28,Female,Pune,57923,Home Decor,55,262.06,UPI,4.3,Active
+329,26,Female,Ahmedabad,56349,Groceries,45,434.38,Debit Card,1.6,Active
+330,38,Male,Hyderabad,84154,Groceries,37,319.88,UPI,2.7,Active
+331,46,Male,Mumbai,72802,Home Decor,45,468.8,Online Wallet,2.8,Active
+332,49,Female,Surat,20324,Clothing,47,486.35,UPI,3.7,Active
+333,22,Female,Bengaluru,76314,Footwear,32,141.58,Online Wallet,2.4,Active
+334,54,Male,Surat,83614,Beauty,58,344.45,Credit Card,1.2,Active
+335,58,Female,Ahmedabad,36284,Groceries,29,233.69,Cash,1.8,Inactive
+336,26,Female,Delhi,55916,Clothing,42,186.61,Credit Card,2.5,Active
+337,59,Male,Ahmedabad,71949,Home Decor,47,352.73,Debit Card,2.7,Active
+338,23,Male,Ahmedabad,47973,Sports,5,75.02,Debit Card,3.1,Active
+339,18,Female,Mumbai,75353,Groceries,31,44.71,Cash,1.4,Active
+340,69,Male,Mumbai,61071,Beauty,57,156.64,Cash,4.1,Active
+341,66,Male,Delhi,28966,Electronics,40,328.51,Cash,2.4,Active
+342,65,Male,Hyderabad,100750,Sports,56,116.45,Credit Card,1.6,Active
+343,25,Female,Chennai,76280,Beauty,51,78.52,Online Wallet,3.6,Active
+344,33,Female,Ahmedabad,106298,Home Decor,14,263.7,Net Banking,1.8,Active
+345,43,Female,Ahmedabad,51370,Sports,25,65.24,Cash,3.6,Active
+346,22,Male,Chennai,61480,Groceries,25,431.8,Net Banking,2.7,Active
+347,52,Male,Kolkata,29567,Electronics,38,43.09,Online Wallet,1.9,Inactive
+348,68,Female,Jaipur,57550,Books,28,353.89,Credit Card,3.6,Active
+349,52,Male,Pune,30957,Home Decor,6,260.54,Debit Card,4.9,Active
+350,38,Female,Surat,103138,Clothing,20,352.35,UPI,4.8,Active
+351,33,Male,Bengaluru,31300,Books,8,232.15,Net Banking,1.2,Inactive
+352,60,Male,Mumbai,21660,Groceries,45,15.56,Cash,4.8,Inactive
+353,68,Female,Delhi,68741,Groceries,48,392.75,Online Wallet,3.9,Active
+354,25,Male,Chennai,76272,Home Decor,34,41.3,UPI,4.9,Active
+355,58,Male,Kolkata,79663,Beauty,4,254.81,Net Banking,1.7,Active
+356,67,Male,Surat,108358,Clothing,15,372.98,Credit Card,1.2,Active
+357,18,Male,Ahmedabad,81835,Beauty,25,460.91,Debit Card,4.7,Active
+358,20,Female,Bengaluru,62179,Footwear,27,458.77,Online Wallet,2.1,Active
+359,22,Female,Mumbai,85803,Electronics,12,119.36,Net Banking,4.9,Active
+360,43,Male,Kolkata,57002,Home Decor,21,52.33,Cash,1.0,Active
+361,30,Female,Surat,59834,Footwear,30,190.45,Cash,5.0,Active
+362,67,Male,Jaipur,119677,Footwear,10,13.13,Cash,1.1,Inactive
+363,58,Male,Chennai,20191,Books,55,371.66,Online Wallet,1.4,Inactive
+364,33,Female,Kolkata,27850,Groceries,46,147.11,Credit Card,4.7,Inactive
+365,51,Female,Chennai,80091,Clothing,38,56.83,Debit Card,3.5,Active
+366,43,Male,Surat,94425,Electronics,28,334.6,Debit Card,1.9,Active
+367,34,Female,Hyderabad,111845,Beauty,21,231.85,Debit Card,1.3,Active
+368,30,Male,Surat,34283,Groceries,7,90.54,Cash,2.3,Active
+369,40,Male,Kolkata,60410,Sports,17,427.72,Credit Card,1.6,Active
+370,61,Female,Surat,25286,Footwear,54,429.72,Debit Card,1.4,Active
+371,40,Female,Jaipur,26416,Home Decor,17,411.84,Debit Card,1.1,Active
+372,46,Male,Mumbai,80560,Clothing,52,398.97,Credit Card,1.0,Active
+373,67,Male,Delhi,45969,Books,24,346.28,UPI,1.3,Active
+374,55,Female,Mumbai,22857,Clothing,13,452.22,Cash,4.2,Active
+375,69,Female,Mumbai,25596,Sports,4,92.31,Net Banking,2.7,Inactive
+376,49,Male,Hyderabad,109550,Books,12,183.43,Debit Card,2.1,Active
+377,46,Male,Ahmedabad,100492,Footwear,42,154.6,Cash,4.5,Active
+378,48,Male,Mumbai,56670,Books,9,215.43,UPI,4.5,Inactive
+379,58,Male,Hyderabad,113502,Beauty,31,276.81,Cash,2.4,Active
+380,54,Female,Hyderabad,55446,Groceries,2,166.25,Debit Card,1.1,Inactive
+381,35,Male,Kolkata,89393,Beauty,50,296.15,Debit Card,4.9,Active
+382,24,Male,Bengaluru,54934,Electronics,49,498.23,Debit Card,3.3,Active
+383,69,Female,Chennai,42768,Groceries,16,300.33,UPI,3.8,Inactive
+384,19,Female,Surat,93873,Groceries,37,474.7,Cash,3.2,Active
+385,29,Female,Ahmedabad,31830,Electronics,15,304.81,Credit Card,3.1,Active
+386,57,Male,Delhi,64663,Groceries,59,403.19,Online Wallet,1.2,Active
+387,27,Male,Mumbai,88982,Beauty,5,193.06,UPI,2.6,Active
+388,37,Female,Delhi,40644,Books,51,323.24,Cash,3.6,Active
+389,53,Female,Bengaluru,107232,Groceries,25,160.34,UPI,2.2,Active
+390,29,Male,Surat,71327,Electronics,12,305.17,Net Banking,1.9,Active
+391,54,Male,Kolkata,38434,Beauty,48,48.13,Online Wallet,4.9,Active
+392,23,Female,Kolkata,21493,Home Decor,14,132.28,Credit Card,2.4,Inactive
+393,64,Male,Ahmedabad,70585,Sports,47,215.63,Debit Card,4.5,Active
+394,49,Female,Chennai,91568,Books,7,416.12,Net Banking,3.6,Inactive
+395,28,Female,Mumbai,24379,Home Decor,2,166.17,Credit Card,1.3,Active
+396,42,Male,Mumbai,91702,Clothing,22,301.07,Net Banking,4.6,Active
+397,63,Male,Hyderabad,105673,Groceries,39,445.98,Debit Card,1.2,Active
+398,39,Male,Bengaluru,73645,Home Decor,43,147.95,Debit Card,1.4,Active
+399,43,Female,Delhi,27144,Beauty,1,219.53,Online Wallet,4.3,Inactive
+400,48,Male,Mumbai,23373,Footwear,11,322.71,Credit Card,2.9,Active
+401,68,Female,Kolkata,84106,Home Decor,6,324.51,Cash,1.7,Inactive
+402,41,Male,Kolkata,25848,Home Decor,29,237.88,Debit Card,4.3,Inactive
+403,27,Male,Mumbai,107574,Beauty,52,275.31,Net Banking,1.9,Active
+404,21,Female,Jaipur,74870,Sports,37,442.01,Cash,2.2,Active
+405,43,Male,Jaipur,94870,Groceries,8,475.13,Cash,1.7,Inactive
+406,31,Male,Delhi,25593,Books,6,494.26,Cash,1.8,Inactive
+407,27,Female,Chennai,115302,Clothing,6,200.17,Cash,3.2,Inactive
+408,51,Female,Ahmedabad,111804,Books,8,213.08,Debit Card,3.3,Inactive
+409,24,Male,Surat,33237,Home Decor,56,272.46,Online Wallet,4.5,Active
+410,59,Female,Surat,99817,Sports,3,94.38,Cash,1.6,Inactive
+411,62,Female,Ahmedabad,71877,Beauty,45,126.41,UPI,2.9,Active
+412,35,Female,Ahmedabad,64284,Home Decor,20,147.37,Cash,4.4,Active
+413,61,Male,Bengaluru,37614,Home Decor,48,227.12,Online Wallet,2.1,Active
+414,59,Male,Bengaluru,77896,Footwear,59,413.75,UPI,2.9,Active
+415,51,Female,Ahmedabad,87537,Groceries,5,162.45,Net Banking,2.6,Inactive
+416,51,Male,Delhi,45265,Footwear,54,38.24,Credit Card,2.8,Active
+417,41,Male,Pune,68280,Sports,33,204.5,Credit Card,3.7,Active
+418,33,Female,Kolkata,97862,Sports,12,480.65,Cash,3.3,Active
+419,40,Female,Delhi,53903,Clothing,19,23.45,Credit Card,1.7,Active
+420,54,Male,Bengaluru,104853,Footwear,44,111.3,UPI,2.6,Active
+421,19,Male,Kolkata,37342,Groceries,39,402.42,Debit Card,2.0,Inactive
+422,37,Female,Hyderabad,69345,Beauty,30,133.48,Cash,2.2,Active
+423,51,Female,Surat,33410,Electronics,33,499.72,Online Wallet,3.2,Inactive
+424,36,Female,Mumbai,83142,Clothing,22,494.3,UPI,2.3,Active
+425,35,Female,Pune,44688,Groceries,34,385.08,Credit Card,4.2,Inactive
+426,56,Female,Chennai,109228,Groceries,47,22.47,Cash,5.0,Active
+427,34,Female,Hyderabad,70891,Electronics,38,356.95,Net Banking,4.3,Active
+428,39,Male,Jaipur,103665,Sports,59,470.93,Online Wallet,3.0,Active
+429,28,Male,Pune,32793,Sports,9,373.05,UPI,4.2,Inactive
+430,29,Female,Mumbai,49131,Beauty,15,374.66,Online Wallet,2.7,Active
+431,39,Female,Pune,96751,Home Decor,30,427.09,Cash,1.2,Active
+432,58,Male,Kolkata,45499,Clothing,56,343.54,Net Banking,2.2,Active
+433,21,Male,Delhi,46253,Beauty,27,493.72,Cash,1.6,Active
+434,63,Male,Mumbai,83908,Beauty,41,493.45,Online Wallet,3.5,Active
+435,18,Female,Pune,47444,Groceries,37,384.6,Cash,4.1,Active
+436,67,Male,Delhi,100541,Books,41,220.41,Cash,4.9,Active
+437,42,Male,Ahmedabad,89963,Footwear,47,192.82,Credit Card,4.6,Active
+438,66,Male,Ahmedabad,108702,Electronics,41,369.47,Debit Card,3.8,Active
+439,40,Female,Delhi,33462,Books,33,298.45,Debit Card,1.3,Active
+440,36,Female,Jaipur,98167,Beauty,28,445.11,Debit Card,2.4,Active
+441,49,Female,Bengaluru,41611,Books,2,121.92,UPI,4.9,Active
+442,19,Male,Mumbai,68049,Electronics,25,439.51,Online Wallet,4.1,Active
+443,57,Male,Surat,26286,Clothing,42,419.7,Credit Card,3.8,Active
+444,42,Male,Jaipur,53126,Sports,45,85.03,UPI,3.7,Active
+445,18,Female,Hyderabad,106725,Clothing,43,264.95,Net Banking,3.4,Active
+446,26,Female,Mumbai,87054,Clothing,19,65.87,Credit Card,3.0,Active
+447,56,Male,Pune,88569,Footwear,23,354.68,Online Wallet,1.6,Active
+448,53,Female,Bengaluru,110204,Sports,22,124.91,Credit Card,3.7,Active
+449,25,Female,Delhi,31807,Clothing,47,364.55,Online Wallet,3.6,Active
+450,36,Female,Kolkata,26564,Clothing,53,95.6,Credit Card,4.4,Active
+451,61,Female,Hyderabad,116801,Clothing,7,427.11,Credit Card,1.0,Active
+452,59,Male,Chennai,66861,Sports,40,141.47,UPI,1.4,Active
+453,70,Female,Delhi,34920,Books,26,481.53,Online Wallet,4.3,Inactive
+454,48,Female,Delhi,34818,Groceries,45,365.94,Debit Card,1.4,Inactive
+455,48,Female,Delhi,100127,Books,50,185.71,Credit Card,4.5,Active
+456,64,Male,Kolkata,83979,Clothing,57,211.53,Credit Card,1.3,Active
+457,59,Female,Ahmedabad,112349,Footwear,43,437.84,Net Banking,3.1,Active
+458,62,Male,Hyderabad,106732,Footwear,31,179.42,UPI,3.6,Active
+459,27,Male,Ahmedabad,104331,Groceries,33,425.93,Cash,4.5,Active
+460,22,Female,Chennai,51574,Beauty,18,34.67,Debit Card,3.2,Active
+461,42,Female,Bengaluru,30332,Sports,29,402.62,Cash,1.4,Active
+462,38,Male,Kolkata,117679,Electronics,7,207.69,Credit Card,3.2,Active
+463,23,Female,Jaipur,93706,Footwear,42,339.02,Online Wallet,2.5,Active
+464,21,Male,Kolkata,63512,Sports,46,332.01,UPI,2.8,Active
+465,24,Male,Ahmedabad,64742,Beauty,54,320.49,Online Wallet,3.2,Active
+466,41,Male,Ahmedabad,41516,Sports,9,412.7,UPI,3.9,Active
+467,57,Male,Bengaluru,35826,Books,14,233.95,Debit Card,3.9,Active
+468,44,Male,Surat,36150,Sports,30,332.64,Net Banking,1.5,Active
+469,51,Male,Jaipur,76729,Sports,60,259.08,Debit Card,3.8,Active
+470,29,Male,Mumbai,70778,Beauty,33,441.88,Cash,4.9,Active
+471,62,Male,Pune,72149,Beauty,19,231.89,Debit Card,1.6,Active
+472,56,Female,Jaipur,61144,Footwear,13,112.76,UPI,2.2,Active
+473,40,Male,Delhi,86046,Beauty,46,66.55,Online Wallet,3.2,Active
+474,55,Female,Jaipur,57477,Books,52,16.26,Credit Card,1.1,Active
+475,27,Male,Ahmedabad,46201,Home Decor,49,394.91,Online Wallet,3.7,Active
+476,27,Male,Pune,46738,Electronics,23,408.87,Credit Card,3.5,Active
+477,61,Male,Jaipur,70972,Footwear,33,394.31,UPI,2.2,Active
+478,60,Male,Hyderabad,70797,Books,51,488.15,Online Wallet,4.9,Active
+479,21,Male,Pune,46619,Sports,54,120.52,UPI,3.8,Active
+480,59,Female,Surat,91645,Footwear,50,365.21,Debit Card,2.2,Active
+481,29,Male,Delhi,42779,Clothing,25,29.91,Online Wallet,3.2,Active
+482,55,Female,Ahmedabad,63327,Sports,46,469.37,Credit Card,1.6,Active
+483,38,Male,Surat,106755,Home Decor,32,397.06,Net Banking,2.4,Active
+484,68,Female,Jaipur,48830,Groceries,34,43.41,Net Banking,1.6,Active
+485,52,Female,Mumbai,65796,Footwear,57,114.54,Online Wallet,2.3,Active
+486,36,Male,Surat,89533,Sports,36,413.61,UPI,1.0,Active
+487,60,Female,Kolkata,51502,Footwear,3,344.45,Online Wallet,2.5,Inactive
+488,25,Female,Pune,90809,Home Decor,2,456.55,Online Wallet,3.1,Inactive
+489,49,Male,Pune,105397,Footwear,21,261.81,Credit Card,1.7,Active
+490,67,Male,Mumbai,47627,Footwear,56,345.85,Credit Card,1.8,Active
+491,62,Female,Mumbai,117896,Groceries,2,235.02,Online Wallet,1.2,Active
+492,29,Female,Jaipur,29232,Footwear,59,136.74,Cash,2.8,Active
+493,38,Male,Hyderabad,108250,Clothing,35,12.89,UPI,3.5,Active
+494,66,Male,Mumbai,66884,Clothing,19,395.58,Online Wallet,3.4,Active
+495,36,Female,Hyderabad,71788,Electronics,31,86.6,Debit Card,1.5,Active
+496,43,Female,Delhi,59066,Beauty,1,281.23,Net Banking,1.6,Active
+497,54,Female,Jaipur,91765,Clothing,20,112.93,UPI,4.6,Active
+498,40,Male,Hyderabad,104663,Groceries,11,100.16,Net Banking,4.3,Active
+499,30,Male,Delhi,107946,Electronics,55,378.01,Net Banking,2.8,Active
+500,53,Male,Pune,108039,Clothing,17,58.12,UPI,3.3,Active
+501,39,Female,Delhi,107988,Footwear,7,149.72,Credit Card,4.6,Active
+502,46,Female,Surat,106431,Home Decor,45,296.24,Net Banking,3.3,Active
+503,69,Female,Hyderabad,42103,Electronics,21,130.63,Debit Card,3.8,Inactive
+504,35,Female,Delhi,109073,Beauty,57,245.18,Cash,2.4,Active
+505,37,Female,Jaipur,34264,Groceries,42,307.25,Online Wallet,4.4,Active
+506,52,Male,Pune,116147,Clothing,47,46.95,Credit Card,4.4,Active
+507,58,Male,Surat,95877,Books,50,299.12,Credit Card,3.2,Active
+508,52,Female,Delhi,67948,Books,15,446.8,Net Banking,3.9,Active
+509,36,Male,Kolkata,85683,Clothing,26,188.29,Credit Card,3.7,Active
+510,69,Male,Jaipur,38398,Sports,11,97.78,Net Banking,3.6,Inactive
+511,65,Female,Chennai,25297,Footwear,49,248.94,Credit Card,2.1,Active
+512,60,Male,Jaipur,67349,Books,31,459.77,Credit Card,1.2,Active
+513,59,Female,Mumbai,112240,Home Decor,54,373.54,Net Banking,3.2,Active
+514,29,Female,Hyderabad,67880,Clothing,34,133.28,Debit Card,3.1,Active
+515,40,Female,Kolkata,83191,Electronics,33,442.2,Cash,1.7,Active
+516,22,Female,Bengaluru,39692,Groceries,11,187.49,UPI,4.3,Inactive
+517,44,Female,Mumbai,83113,Sports,31,113.24,Debit Card,3.6,Active
+518,44,Male,Bengaluru,25655,Groceries,37,300.25,Debit Card,3.5,Active
+519,54,Male,Ahmedabad,41802,Home Decor,60,98.22,Cash,3.4,Inactive
+520,19,Female,Mumbai,48389,Sports,39,496.46,Cash,1.7,Active
+521,44,Male,Surat,43839,Home Decor,11,364.85,Online Wallet,4.7,Inactive
+522,22,Male,Hyderabad,70523,Groceries,7,18.12,Net Banking,4.4,Inactive
+523,44,Male,Surat,32622,Groceries,31,451.79,Net Banking,1.2,Inactive
+524,50,Male,Mumbai,83208,Groceries,58,305.7,Credit Card,4.6,Active
+525,67,Female,Jaipur,75139,Beauty,56,31.28,Net Banking,2.7,Active
+526,69,Female,Hyderabad,65943,Clothing,28,75.6,Cash,4.1,Active
+527,23,Female,Surat,91267,Books,17,102.62,UPI,4.0,Active
+528,18,Male,Jaipur,20942,Books,42,110.66,Online Wallet,2.6,Active
+529,45,Female,Pune,90268,Books,37,189.17,Online Wallet,5.0,Active
+530,43,Male,Hyderabad,92365,Sports,12,191.4,Net Banking,2.9,Active
+531,37,Female,Hyderabad,116440,Groceries,55,433.28,Credit Card,4.0,Active
+532,46,Male,Mumbai,48109,Books,51,175.83,Net Banking,3.5,Active
+533,61,Male,Delhi,71000,Electronics,52,54.63,Debit Card,2.9,Active
+534,56,Female,Mumbai,28399,Home Decor,15,191.71,Net Banking,1.2,Active
+535,43,Female,Surat,27531,Groceries,41,252.24,Credit Card,1.8,Inactive
+536,69,Female,Bengaluru,24405,Footwear,40,93.05,Credit Card,2.4,Inactive
+537,28,Male,Pune,72354,Beauty,43,203.62,Net Banking,1.8,Active
+538,18,Male,Mumbai,92036,Home Decor,47,416.58,Net Banking,2.4,Active
+539,70,Female,Bengaluru,99477,Footwear,30,465.56,Net Banking,1.0,Active
+540,29,Female,Jaipur,33954,Clothing,33,154.18,Credit Card,4.2,Inactive
+541,52,Female,Kolkata,69424,Sports,50,129.2,Online Wallet,4.8,Active
+542,47,Female,Surat,23584,Sports,8,136.33,Cash,3.5,Inactive
+543,61,Male,Chennai,74057,Beauty,34,272.47,UPI,4.3,Active
+544,33,Female,Mumbai,72288,Beauty,5,281.73,Debit Card,2.9,Active
+545,54,Female,Delhi,117800,Footwear,32,371.19,Debit Card,3.9,Active
+546,34,Male,Bengaluru,46577,Footwear,54,313.11,Debit Card,4.1,Active
+547,25,Male,Kolkata,100455,Electronics,49,429.97,Credit Card,4.4,Active
+548,41,Female,Kolkata,95303,Home Decor,32,99.61,Net Banking,2.1,Active
+549,32,Male,Ahmedabad,88909,Books,31,470.43,Credit Card,3.0,Active
+550,43,Male,Kolkata,35776,Sports,21,347.71,Credit Card,3.7,Active
+551,24,Female,Chennai,100318,Home Decor,12,278.8,Debit Card,2.1,Active
+552,57,Female,Chennai,44105,Sports,28,113.16,UPI,4.0,Active
+553,43,Female,Kolkata,43578,Groceries,37,346.15,Credit Card,3.9,Inactive
+554,53,Female,Hyderabad,45698,Groceries,52,479.98,Debit Card,2.9,Active
+555,18,Male,Hyderabad,85483,Groceries,58,426.2,Net Banking,3.1,Active
+556,38,Female,Pune,52895,Electronics,26,58.5,Debit Card,1.2,Active
+557,70,Female,Kolkata,102557,Clothing,29,374.85,Online Wallet,2.4,Active
+558,53,Female,Chennai,22599,Books,8,182.03,UPI,4.9,Active
+559,54,Male,Pune,66544,Beauty,44,260.12,UPI,2.8,Active
+560,23,Female,Surat,57555,Sports,41,478.73,Debit Card,3.6,Active
+561,39,Female,Surat,94925,Books,55,454.47,Credit Card,1.6,Active
+562,32,Female,Chennai,105591,Home Decor,46,141.06,UPI,2.6,Active
+563,46,Female,Surat,88280,Sports,27,91.99,Credit Card,1.5,Active
+564,33,Female,Mumbai,47600,Groceries,26,60.47,Credit Card,4.7,Active
+565,48,Male,Ahmedabad,72037,Clothing,7,138.6,Debit Card,1.3,Inactive
+566,42,Female,Bengaluru,52426,Home Decor,29,316.98,Debit Card,3.1,Active
+567,28,Male,Ahmedabad,106972,Beauty,56,458.48,Cash,2.9,Active
+568,52,Female,Jaipur,78306,Groceries,45,274.25,Net Banking,3.4,Active
+569,58,Female,Jaipur,103858,Home Decor,59,180.11,Net Banking,1.9,Active
+570,23,Female,Pune,67943,Books,17,86.3,Credit Card,1.0,Active
+571,70,Male,Chennai,57586,Sports,35,14.08,Cash,4.8,Active
+572,48,Female,Ahmedabad,76418,Home Decor,39,123.3,Credit Card,3.2,Active
+573,30,Female,Jaipur,77292,Books,16,90.0,UPI,3.6,Active
+574,42,Male,Pune,30382,Books,41,127.39,Net Banking,4.2,Inactive
+575,36,Female,Hyderabad,44641,Clothing,12,76.95,Credit Card,3.5,Inactive
+576,35,Female,Bengaluru,62027,Electronics,10,34.32,Net Banking,1.1,Inactive
+577,36,Female,Delhi,113742,Sports,47,14.02,Credit Card,1.6,Active
+578,49,Male,Chennai,75082,Home Decor,51,401.74,Online Wallet,2.9,Active
+579,68,Male,Chennai,30515,Groceries,4,140.59,Cash,1.3,Active
+580,30,Female,Hyderabad,21653,Clothing,50,360.19,Cash,4.1,Active
+581,65,Male,Bengaluru,80402,Clothing,34,336.34,Debit Card,2.9,Active
+582,61,Female,Chennai,40789,Electronics,48,469.34,Net Banking,1.5,Active
+583,37,Male,Chennai,26827,Footwear,8,125.62,Cash,2.3,Active
+584,35,Male,Hyderabad,51862,Electronics,3,294.73,UPI,2.9,Inactive
+585,41,Male,Bengaluru,40669,Sports,6,346.11,Online Wallet,4.7,Inactive
+586,58,Male,Ahmedabad,66598,Groceries,45,272.81,Credit Card,1.5,Active
+587,32,Female,Jaipur,104495,Beauty,52,446.98,UPI,1.8,Active
+588,62,Female,Chennai,114948,Groceries,17,450.34,Cash,3.8,Active
+589,53,Female,Jaipur,111362,Sports,13,287.68,Net Banking,2.4,Active
+590,64,Female,Pune,98470,Groceries,5,270.26,Cash,2.2,Active
+591,41,Female,Ahmedabad,103627,Books,47,100.91,Credit Card,3.5,Active
+592,41,Male,Chennai,114503,Clothing,43,483.91,Cash,1.8,Active
+593,61,Female,Jaipur,40202,Home Decor,21,210.8,Online Wallet,1.4,Inactive
+594,22,Male,Delhi,43414,Electronics,13,62.46,Debit Card,1.4,Inactive
+595,42,Female,Jaipur,101785,Home Decor,4,189.51,Net Banking,3.9,Active
+596,31,Female,Mumbai,81349,Electronics,24,283.43,Cash,4.3,Active
+597,68,Male,Surat,54840,Electronics,47,44.49,Online Wallet,1.3,Active
+598,31,Male,Mumbai,115049,Footwear,35,198.81,Debit Card,3.1,Active
+599,33,Male,Jaipur,118198,Books,48,61.7,UPI,3.3,Active
+600,61,Female,Hyderabad,33644,Groceries,51,98.39,Cash,3.0,Inactive
+601,52,Female,Chennai,61307,Beauty,55,192.14,UPI,2.7,Active
+602,64,Female,Surat,51551,Footwear,25,385.2,UPI,2.0,Active
+603,46,Female,Hyderabad,20025,Electronics,19,301.92,Net Banking,1.5,Inactive
+604,18,Female,Bengaluru,48157,Beauty,2,388.05,UPI,4.3,Inactive
+605,50,Male,Mumbai,24946,Sports,23,86.49,Online Wallet,2.5,Inactive
+606,32,Female,Pune,32046,Books,37,459.76,UPI,1.3,Active
+607,48,Male,Kolkata,110386,Clothing,39,324.7,Credit Card,3.9,Active
+608,54,Female,Mumbai,27329,Beauty,23,441.1,Cash,2.7,Inactive
+609,67,Male,Surat,21498,Books,4,159.34,Credit Card,2.3,Inactive
+610,38,Male,Delhi,26621,Books,29,378.89,Net Banking,3.0,Active
+611,36,Female,Delhi,37326,Beauty,6,243.17,UPI,1.2,Active
+612,23,Female,Jaipur,76949,Groceries,49,76.09,Net Banking,1.8,Active
+613,43,Male,Jaipur,100739,Footwear,16,45.11,Cash,2.3,Active
+614,54,Male,Mumbai,108047,Books,28,188.98,Debit Card,2.3,Active
+615,56,Male,Pune,42184,Beauty,40,412.58,Cash,3.5,Active
+616,70,Male,Bengaluru,109831,Beauty,10,381.29,Credit Card,1.4,Active
+617,57,Male,Pune,21800,Beauty,45,404.1,Online Wallet,2.8,Active
+618,31,Male,Bengaluru,91620,Home Decor,36,246.68,UPI,5.0,Active
+619,62,Male,Hyderabad,96415,Electronics,17,93.46,Online Wallet,1.8,Active
+620,62,Female,Ahmedabad,80943,Electronics,5,200.44,Online Wallet,3.7,Inactive
+621,41,Male,Ahmedabad,58337,Books,15,490.1,Net Banking,4.9,Active
+622,24,Female,Kolkata,98263,Clothing,12,107.45,Cash,3.2,Active
+623,63,Male,Ahmedabad,52426,Home Decor,22,250.07,UPI,1.6,Active
+624,40,Female,Chennai,101950,Home Decor,16,498.04,Net Banking,2.1,Active
+625,21,Female,Hyderabad,23862,Home Decor,15,84.34,Cash,3.6,Active
+626,42,Male,Hyderabad,51504,Groceries,28,485.56,Net Banking,2.3,Active
+627,52,Male,Bengaluru,105520,Groceries,38,275.26,Debit Card,4.5,Active
+628,37,Male,Hyderabad,39025,Groceries,21,43.23,Net Banking,4.8,Active
+629,38,Male,Ahmedabad,61771,Books,27,158.64,UPI,4.7,Active
+630,58,Female,Delhi,44632,Clothing,9,100.53,Net Banking,3.5,Inactive
+631,57,Male,Surat,50432,Footwear,44,22.78,Credit Card,3.8,Active
+632,48,Male,Jaipur,99260,Sports,46,328.29,Debit Card,4.4,Active
+633,49,Female,Delhi,41467,Footwear,15,25.79,Credit Card,4.7,Inactive
+634,32,Male,Bengaluru,28668,Groceries,60,477.8,Cash,4.5,Active
+635,38,Female,Bengaluru,76040,Books,50,30.49,UPI,4.3,Active
+636,64,Female,Hyderabad,100151,Electronics,34,63.56,Cash,4.3,Active
+637,20,Male,Jaipur,90499,Books,48,29.23,Cash,3.1,Active
+638,58,Male,Bengaluru,58165,Sports,26,443.35,Online Wallet,2.8,Active
+639,45,Female,Surat,27149,Groceries,30,416.65,Cash,1.4,Inactive
+640,29,Male,Hyderabad,74206,Beauty,29,22.21,Cash,3.4,Active
+641,63,Male,Kolkata,31820,Home Decor,21,348.94,UPI,4.2,Inactive
+642,25,Male,Mumbai,112566,Sports,41,187.84,Net Banking,3.8,Active
+643,64,Male,Hyderabad,92134,Books,3,386.45,Online Wallet,3.3,Inactive
+644,27,Male,Delhi,43444,Electronics,27,160.95,UPI,4.1,Active
+645,58,Male,Mumbai,37245,Footwear,1,315.05,Online Wallet,1.0,Active
+646,49,Male,Surat,84679,Footwear,14,298.54,Cash,2.8,Active
+647,46,Male,Surat,98656,Electronics,16,442.26,Online Wallet,3.5,Active
+648,53,Male,Ahmedabad,44227,Groceries,4,330.11,Credit Card,1.6,Active
+649,54,Female,Chennai,31495,Electronics,7,214.31,Debit Card,1.6,Active
+650,60,Male,Kolkata,118216,Beauty,60,27.56,Online Wallet,2.3,Active
+651,42,Male,Hyderabad,92151,Clothing,19,240.7,Credit Card,3.8,Active
+652,35,Female,Jaipur,74232,Footwear,45,112.43,Credit Card,1.4,Active
+653,64,Male,Kolkata,114905,Home Decor,28,308.33,Online Wallet,2.0,Active
+654,54,Female,Delhi,100516,Sports,34,367.3,Cash,3.0,Active
+655,29,Male,Pune,45369,Electronics,8,21.75,UPI,4.2,Inactive
+656,31,Female,Hyderabad,25962,Beauty,23,284.6,UPI,1.8,Inactive
+657,62,Female,Pune,28891,Home Decor,20,258.28,Online Wallet,4.1,Active
+658,39,Female,Hyderabad,114948,Electronics,54,96.06,Online Wallet,4.3,Active
+659,61,Female,Kolkata,24660,Groceries,31,86.14,Cash,4.6,Inactive
+660,39,Female,Hyderabad,117332,Electronics,54,265.33,Net Banking,3.9,Active
+661,38,Male,Bengaluru,95680,Beauty,52,458.93,Online Wallet,1.3,Active
+662,27,Female,Ahmedabad,64453,Books,41,271.79,Debit Card,3.3,Active
+663,42,Male,Surat,35315,Home Decor,46,430.33,UPI,1.1,Active
+664,49,Male,Chennai,79232,Home Decor,14,267.3,Debit Card,1.4,Active
+665,68,Male,Bengaluru,32137,Sports,33,22.22,Cash,4.6,Active
+666,39,Female,Jaipur,60679,Beauty,10,387.05,Credit Card,4.3,Inactive
+667,61,Male,Bengaluru,114970,Electronics,30,199.92,Net Banking,1.5,Active
+668,37,Male,Surat,31413,Beauty,30,445.7,Credit Card,3.1,Inactive
+669,37,Male,Surat,119417,Home Decor,41,447.15,Online Wallet,1.8,Active
+670,36,Female,Jaipur,61831,Sports,43,67.65,Debit Card,1.6,Active
+671,25,Male,Surat,93351,Clothing,14,275.84,Net Banking,2.3,Active
+672,27,Female,Surat,52089,Groceries,5,162.58,Online Wallet,3.2,Active
+673,19,Female,Ahmedabad,33884,Books,4,52.2,Cash,1.7,Inactive
+674,55,Female,Surat,66612,Home Decor,22,410.55,UPI,4.0,Active
+675,69,Male,Kolkata,94421,Groceries,6,408.3,UPI,2.9,Active
+676,61,Female,Kolkata,50368,Footwear,10,431.94,Net Banking,2.0,Active
+677,29,Female,Chennai,79412,Sports,2,42.03,Credit Card,2.4,Active
+678,28,Female,Chennai,99225,Groceries,33,60.44,UPI,4.2,Active
+679,38,Male,Pune,89828,Sports,26,299.36,Debit Card,3.5,Active
+680,53,Male,Kolkata,70307,Clothing,22,112.04,UPI,3.4,Active
+681,68,Female,Surat,64852,Footwear,12,334.68,Credit Card,4.0,Active
+682,63,Female,Mumbai,97616,Sports,21,281.99,Cash,1.7,Active
+683,43,Male,Surat,34253,Books,21,252.2,UPI,1.2,Active
+684,26,Male,Delhi,106623,Groceries,29,270.32,Cash,3.5,Active
+685,46,Male,Bengaluru,109327,Beauty,20,289.44,UPI,2.2,Active
+686,45,Female,Mumbai,96379,Electronics,40,493.35,Cash,4.4,Active
+687,36,Male,Chennai,91943,Electronics,1,354.64,Online Wallet,1.4,Active
+688,19,Male,Hyderabad,112041,Books,41,165.88,Cash,2.6,Active
+689,45,Male,Delhi,82242,Groceries,13,282.16,Online Wallet,4.4,Active
+690,27,Female,Delhi,37600,Electronics,5,327.71,Debit Card,3.9,Active
+691,45,Male,Mumbai,37985,Books,56,233.45,UPI,3.4,Active
+692,29,Female,Jaipur,75590,Sports,25,184.1,Debit Card,2.7,Active
+693,18,Female,Bengaluru,113340,Home Decor,27,464.02,Net Banking,2.5,Active
+694,20,Female,Chennai,34832,Sports,45,49.23,UPI,3.9,Inactive
+695,66,Female,Kolkata,87757,Clothing,34,446.06,Credit Card,2.0,Active
+696,58,Male,Jaipur,95973,Home Decor,40,35.86,Online Wallet,3.1,Active
+697,18,Female,Kolkata,87195,Sports,37,369.57,Cash,2.4,Active
+698,69,Female,Pune,41955,Electronics,45,462.2,UPI,2.2,Inactive
+699,34,Male,Kolkata,95778,Groceries,37,35.29,Online Wallet,4.2,Active
+700,57,Male,Pune,83538,Clothing,9,257.74,Online Wallet,2.0,Inactive
+701,35,Female,Ahmedabad,117180,Clothing,39,95.56,Net Banking,4.0,Active
+702,60,Female,Chennai,42989,Home Decor,51,353.38,Cash,1.7,Inactive
+703,20,Female,Mumbai,39014,Groceries,54,253.01,Cash,4.1,Active
+704,46,Male,Bengaluru,95727,Beauty,4,324.71,Credit Card,1.2,Active
+705,48,Female,Kolkata,117799,Footwear,25,344.92,Cash,2.9,Active
+706,27,Female,Ahmedabad,57852,Sports,25,342.46,Net Banking,3.7,Active
+707,20,Male,Jaipur,103548,Beauty,55,221.58,UPI,4.4,Active
+708,39,Female,Pune,32881,Home Decor,42,296.25,Cash,4.1,Inactive
+709,64,Male,Jaipur,64224,Groceries,21,278.33,UPI,1.0,Active
+710,22,Male,Hyderabad,32805,Clothing,44,228.51,Debit Card,3.9,Active
+711,20,Male,Surat,32050,Electronics,39,331.74,Debit Card,4.8,Inactive
+712,63,Male,Mumbai,99257,Groceries,25,331.63,UPI,3.3,Active
+713,29,Male,Delhi,53205,Home Decor,30,333.63,Credit Card,3.6,Active
+714,35,Female,Chennai,53729,Groceries,50,46.26,Credit Card,2.5,Active
+715,39,Male,Pune,54690,Groceries,29,44.01,Debit Card,3.4,Active
+716,29,Female,Mumbai,38857,Books,14,310.84,Credit Card,4.7,Inactive
+717,24,Male,Mumbai,29229,Home Decor,50,228.48,Cash,1.6,Inactive
+718,20,Female,Pune,39871,Beauty,58,201.75,Credit Card,3.1,Inactive
+719,49,Female,Hyderabad,72941,Clothing,35,120.66,Cash,4.8,Active
+720,70,Female,Mumbai,94349,Beauty,22,344.1,Cash,1.2,Active
+721,59,Male,Chennai,90074,Beauty,6,422.18,Online Wallet,3.6,Active
+722,20,Female,Bengaluru,59173,Books,58,62.32,UPI,2.4,Active
+723,23,Female,Bengaluru,38342,Electronics,13,22.43,Net Banking,2.0,Active
+724,68,Female,Kolkata,89984,Sports,2,28.15,Credit Card,2.4,Inactive
+725,43,Male,Bengaluru,105701,Sports,44,436.4,Net Banking,1.6,Active
+726,55,Male,Mumbai,24833,Groceries,32,330.38,Cash,4.6,Inactive
+727,33,Male,Ahmedabad,42577,Electronics,58,160.6,Credit Card,2.8,Active
+728,55,Male,Mumbai,34965,Sports,39,401.6,Debit Card,1.3,Active
+729,39,Female,Chennai,35833,Groceries,21,419.85,Debit Card,4.1,Inactive
+730,39,Male,Mumbai,55899,Groceries,49,213.43,UPI,2.5,Active
+731,28,Female,Bengaluru,96282,Electronics,9,58.98,UPI,3.4,Inactive
+732,19,Female,Mumbai,20832,Electronics,12,463.81,UPI,3.6,Inactive
+733,44,Female,Delhi,47021,Groceries,41,142.77,Cash,2.6,Active
+734,29,Male,Surat,43593,Sports,40,475.65,UPI,4.3,Active
+735,44,Male,Jaipur,50885,Footwear,8,493.44,Credit Card,3.5,Inactive
+736,52,Male,Kolkata,102111,Footwear,18,36.0,Credit Card,4.2,Active
+737,61,Female,Kolkata,43111,Groceries,43,462.11,Credit Card,3.6,Active
+738,45,Female,Chennai,100847,Sports,3,61.17,Credit Card,4.7,Active
+739,68,Male,Kolkata,87489,Clothing,5,448.59,UPI,2.8,Inactive
+740,44,Male,Chennai,50154,Clothing,21,121.61,Debit Card,4.0,Active
+741,30,Female,Bengaluru,29637,Sports,38,247.36,Cash,1.6,Inactive
+742,47,Male,Hyderabad,68953,Groceries,30,362.71,UPI,2.4,Active
+743,35,Male,Chennai,36673,Electronics,45,288.65,Online Wallet,1.5,Inactive
+744,47,Female,Delhi,119659,Beauty,15,444.34,Net Banking,1.6,Active
+745,68,Male,Surat,92450,Footwear,6,211.73,Net Banking,3.0,Inactive
+746,55,Female,Kolkata,56591,Electronics,47,219.77,Debit Card,2.0,Active
+747,45,Male,Surat,39525,Electronics,27,490.29,Credit Card,5.0,Inactive
+748,50,Male,Hyderabad,89615,Books,31,406.76,UPI,4.3,Active
+749,46,Female,Bengaluru,30890,Electronics,45,368.58,Debit Card,1.5,Active
+750,59,Male,Ahmedabad,82886,Home Decor,11,354.62,Net Banking,4.0,Active
+751,19,Female,Kolkata,38169,Books,12,397.03,Online Wallet,3.5,Inactive
+752,18,Male,Hyderabad,110538,Beauty,34,26.03,Cash,4.0,Active
+753,62,Male,Mumbai,101324,Beauty,48,466.8,Net Banking,4.8,Active
+754,61,Female,Ahmedabad,34544,Books,24,238.02,Credit Card,2.5,Active
+755,53,Male,Jaipur,112974,Footwear,9,490.81,Debit Card,3.2,Inactive
+756,65,Male,Bengaluru,62003,Beauty,58,141.01,UPI,2.7,Active
+757,21,Male,Chennai,65249,Sports,32,255.71,Credit Card,2.9,Active
+758,52,Female,Kolkata,101389,Beauty,52,339.92,UPI,4.2,Active
+759,22,Male,Kolkata,31443,Clothing,26,449.99,Online Wallet,4.8,Active
+760,28,Female,Mumbai,111367,Groceries,32,83.74,Debit Card,3.1,Active
+761,58,Male,Pune,74596,Groceries,31,179.88,Cash,4.0,Active
+762,19,Female,Bengaluru,28250,Electronics,56,402.97,Net Banking,3.6,Active
+763,39,Female,Kolkata,97772,Sports,30,159.0,Debit Card,4.6,Active
+764,37,Male,Pune,49724,Sports,24,485.65,Credit Card,1.6,Active
+765,36,Female,Delhi,101085,Groceries,46,272.31,Debit Card,4.9,Active
+766,63,Male,Delhi,51182,Clothing,3,496.95,Net Banking,1.5,Active
+767,29,Male,Jaipur,112685,Electronics,43,165.3,Online Wallet,1.6,Active
+768,46,Male,Jaipur,59526,Clothing,59,22.21,Cash,4.1,Active
+769,47,Female,Delhi,20562,Beauty,42,355.67,Cash,4.6,Inactive
+770,66,Male,Surat,115491,Sports,22,347.68,UPI,2.9,Active
+771,20,Male,Jaipur,35319,Home Decor,2,206.8,Debit Card,2.8,Active
+772,21,Male,Surat,89000,Footwear,51,468.48,Online Wallet,1.8,Active
+773,23,Female,Mumbai,87081,Books,13,250.33,Net Banking,3.4,Active
+774,21,Female,Hyderabad,39391,Books,24,199.2,Credit Card,2.1,Active
+775,46,Male,Bengaluru,115401,Sports,48,496.37,Cash,2.2,Active
+776,69,Female,Hyderabad,38293,Clothing,10,111.81,Cash,5.0,Inactive
+777,39,Male,Surat,119105,Books,6,13.24,UPI,4.7,Active
+778,53,Female,Surat,118991,Groceries,13,101.14,Cash,2.2,Active
+779,49,Male,Pune,96704,Home Decor,32,284.05,Cash,1.9,Active
+780,68,Male,Delhi,54429,Home Decor,41,418.78,Cash,1.5,Active
+781,60,Female,Hyderabad,43510,Sports,59,347.04,Debit Card,1.1,Inactive
+782,49,Male,Surat,117722,Beauty,38,245.44,Cash,4.5,Active
+783,58,Female,Mumbai,68916,Electronics,55,137.17,Net Banking,1.2,Active
+784,38,Female,Delhi,66843,Groceries,4,143.61,Cash,3.5,Inactive
+785,21,Female,Pune,89417,Clothing,33,104.97,UPI,1.7,Active
+786,24,Male,Jaipur,62284,Beauty,53,424.05,Online Wallet,2.1,Active
+787,62,Female,Mumbai,90047,Beauty,53,80.42,Debit Card,3.1,Active
+788,41,Female,Hyderabad,64605,Groceries,7,116.76,Net Banking,1.9,Active
+789,53,Male,Hyderabad,80357,Clothing,8,411.23,Credit Card,2.9,Active
+790,41,Male,Kolkata,98335,Beauty,12,357.85,Credit Card,4.0,Active
+791,25,Male,Delhi,110995,Groceries,45,121.02,Debit Card,1.8,Active
+792,23,Female,Mumbai,30188,Electronics,50,247.28,Cash,1.2,Active
+793,68,Male,Kolkata,35587,Home Decor,3,42.46,UPI,1.0,Active
+794,25,Male,Surat,46217,Groceries,43,182.25,Credit Card,1.6,Active
+795,65,Female,Surat,65591,Beauty,11,429.02,UPI,3.5,Active
+796,50,Male,Mumbai,95777,Electronics,34,116.33,Debit Card,4.9,Active
+797,28,Male,Mumbai,48051,Sports,24,352.09,Debit Card,2.8,Active
+798,24,Male,Chennai,69756,Books,14,261.98,Cash,1.5,Active
+799,38,Male,Kolkata,34459,Groceries,32,383.51,UPI,2.2,Inactive
+800,23,Female,Kolkata,35167,Books,19,233.9,UPI,2.2,Inactive
+801,46,Male,Jaipur,73383,Home Decor,55,219.7,Credit Card,4.6,Active
+802,69,Female,Chennai,43500,Electronics,44,250.91,Credit Card,2.6,Inactive
+803,61,Male,Mumbai,38791,Books,26,350.57,Credit Card,4.0,Inactive
+804,28,Male,Chennai,46094,Beauty,13,301.53,Cash,1.5,Active
+805,45,Female,Pune,113519,Home Decor,49,396.85,UPI,4.8,Active
+806,40,Female,Surat,73011,Sports,33,146.66,Cash,1.4,Active
+807,34,Female,Kolkata,50254,Groceries,2,58.81,Credit Card,4.3,Active
+808,19,Male,Hyderabad,99244,Beauty,10,158.35,Net Banking,1.4,Active
+809,66,Female,Kolkata,46467,Home Decor,43,253.97,Net Banking,2.0,Active
+810,39,Male,Ahmedabad,76414,Clothing,25,230.56,Cash,2.8,Active
+811,20,Male,Delhi,92963,Home Decor,57,355.97,Cash,2.7,Active
+812,37,Female,Kolkata,34336,Sports,43,281.35,Net Banking,3.3,Active
+813,28,Male,Hyderabad,54523,Sports,38,485.73,Net Banking,3.7,Active
+814,67,Female,Chennai,28050,Electronics,38,32.11,Online Wallet,2.4,Inactive
+815,19,Female,Hyderabad,32759,Books,23,496.05,Cash,2.4,Inactive
+816,33,Male,Pune,97664,Clothing,59,347.12,Online Wallet,1.5,Active
+817,28,Male,Jaipur,62744,Electronics,30,332.31,Cash,3.3,Active
+818,44,Female,Ahmedabad,111220,Sports,38,20.9,Online Wallet,2.5,Active
+819,42,Female,Surat,32809,Sports,7,348.52,Debit Card,2.3,Inactive
+820,66,Female,Delhi,100586,Home Decor,24,485.02,Debit Card,3.0,Active
+821,68,Male,Jaipur,48059,Home Decor,17,33.29,Net Banking,2.6,Active
+822,32,Male,Surat,32416,Beauty,18,42.96,Net Banking,2.9,Active
+823,68,Male,Pune,86144,Home Decor,28,335.09,Online Wallet,1.8,Active
+824,43,Female,Surat,87550,Sports,43,384.09,Debit Card,4.5,Active
+825,58,Male,Surat,85431,Footwear,43,481.44,UPI,4.8,Active
+826,35,Female,Surat,115238,Electronics,34,108.32,Cash,1.6,Active
+827,27,Female,Hyderabad,73773,Beauty,56,416.81,Credit Card,3.5,Active
+828,44,Female,Pune,104678,Groceries,17,346.56,Debit Card,2.6,Active
+829,25,Male,Bengaluru,23631,Footwear,52,415.34,Cash,2.9,Inactive
+830,45,Male,Bengaluru,40887,Home Decor,9,24.28,Online Wallet,3.6,Active
+831,20,Female,Ahmedabad,27251,Clothing,21,304.78,Credit Card,4.6,Active
+832,41,Male,Hyderabad,114926,Groceries,16,64.85,UPI,3.0,Active
+833,25,Female,Kolkata,31829,Footwear,39,69.92,Online Wallet,2.3,Inactive
+834,42,Male,Hyderabad,48574,Groceries,7,95.83,Online Wallet,2.8,Active
+835,55,Male,Kolkata,89922,Beauty,45,474.87,Online Wallet,3.2,Active
+836,48,Male,Pune,38993,Beauty,31,360.68,Online Wallet,1.1,Inactive
+837,56,Male,Ahmedabad,110529,Footwear,17,280.84,Online Wallet,3.6,Active
+838,62,Female,Mumbai,90111,Footwear,55,226.78,Credit Card,4.6,Active
+839,43,Female,Pune,31829,Footwear,20,113.09,Debit Card,4.7,Inactive
+840,69,Female,Ahmedabad,55918,Clothing,53,391.93,Cash,2.9,Active
+841,44,Female,Hyderabad,33159,Groceries,45,137.88,Credit Card,2.4,Inactive
+842,70,Female,Kolkata,111122,Electronics,49,35.53,UPI,1.7,Active
+843,46,Male,Ahmedabad,72515,Footwear,41,159.72,Net Banking,1.3,Active
+844,28,Male,Jaipur,113528,Groceries,55,301.07,Cash,4.2,Active
+845,38,Female,Kolkata,116360,Groceries,17,95.0,Net Banking,4.3,Active
+846,69,Female,Bengaluru,31062,Books,24,99.13,Cash,4.8,Inactive
+847,32,Male,Ahmedabad,93207,Footwear,59,53.6,Cash,1.8,Active
+848,62,Male,Ahmedabad,72564,Books,39,137.48,Credit Card,4.8,Active
+849,28,Male,Ahmedabad,114186,Books,50,460.79,Cash,4.3,Active
+850,49,Male,Bengaluru,113528,Footwear,13,473.57,Online Wallet,2.2,Active
+851,49,Female,Delhi,76532,Footwear,39,115.63,Online Wallet,3.9,Active
+852,30,Female,Delhi,73546,Groceries,2,152.19,Online Wallet,1.9,Active
+853,33,Female,Surat,109688,Sports,6,15.06,Debit Card,4.5,Inactive
+854,43,Male,Hyderabad,112858,Books,48,302.63,Credit Card,1.4,Active
+855,21,Male,Chennai,50781,Sports,59,183.61,Net Banking,4.8,Active
+856,69,Male,Ahmedabad,53247,Books,20,488.99,UPI,2.5,Active
+857,53,Male,Surat,43510,Home Decor,11,256.84,Online Wallet,4.5,Active
+858,38,Female,Delhi,54131,Clothing,21,31.64,Debit Card,3.0,Active
+859,35,Female,Hyderabad,57083,Home Decor,40,416.5,Online Wallet,3.1,Active
+860,45,Male,Chennai,116582,Sports,49,475.52,Net Banking,4.4,Active
+861,60,Female,Ahmedabad,44762,Groceries,4,122.63,Credit Card,2.9,Active
+862,47,Female,Mumbai,84868,Electronics,29,184.69,UPI,3.2,Active
+863,47,Female,Mumbai,114340,Groceries,8,181.31,Debit Card,4.5,Active
+864,28,Female,Surat,106918,Footwear,38,499.02,Credit Card,3.1,Active
+865,54,Male,Hyderabad,30070,Footwear,50,254.07,Credit Card,4.5,Active
+866,61,Male,Hyderabad,68963,Clothing,54,168.53,Credit Card,1.3,Active
+867,63,Female,Kolkata,102359,Home Decor,39,332.42,Online Wallet,4.9,Active
+868,59,Female,Chennai,115885,Groceries,14,433.01,UPI,2.1,Active
+869,69,Male,Mumbai,91716,Books,6,205.44,Debit Card,2.0,Inactive
+870,43,Male,Ahmedabad,47292,Groceries,25,391.95,Online Wallet,3.6,Active
+871,59,Male,Mumbai,59131,Sports,52,221.86,Online Wallet,4.6,Active
+872,56,Male,Chennai,107231,Clothing,54,190.05,Debit Card,3.0,Active
+873,42,Female,Pune,93801,Books,6,380.68,Online Wallet,3.5,Active
+874,45,Male,Ahmedabad,87284,Beauty,30,341.46,UPI,3.7,Active
+875,27,Female,Jaipur,102517,Clothing,19,239.43,Credit Card,4.6,Active
+876,48,Female,Delhi,36749,Home Decor,54,131.84,Cash,2.2,Active
+877,22,Male,Jaipur,34107,Books,27,56.3,UPI,3.9,Inactive
+878,40,Female,Surat,30717,Electronics,8,372.85,Cash,1.7,Active
+879,43,Male,Mumbai,74558,Home Decor,21,297.73,Cash,4.0,Active
+880,46,Female,Chennai,44535,Footwear,12,48.33,Net Banking,2.0,Inactive
+881,45,Male,Ahmedabad,71764,Clothing,1,94.15,Cash,2.8,Active
+882,60,Female,Pune,101067,Beauty,45,340.16,UPI,3.7,Active
+883,69,Female,Mumbai,36395,Groceries,1,103.49,Credit Card,3.8,Active
+884,19,Male,Kolkata,105016,Groceries,42,128.47,UPI,4.4,Active
+885,52,Male,Mumbai,59441,Sports,10,242.25,Credit Card,1.5,Inactive
+886,65,Female,Kolkata,81799,Electronics,56,230.26,Debit Card,1.8,Active
+887,54,Female,Ahmedabad,63758,Electronics,7,318.9,UPI,2.7,Active
+888,49,Female,Ahmedabad,83897,Books,32,261.54,UPI,3.4,Active
+889,61,Female,Bengaluru,113623,Electronics,34,19.32,Net Banking,2.3,Active
+890,22,Female,Hyderabad,82041,Clothing,32,315.12,UPI,2.4,Active
+891,62,Female,Ahmedabad,41146,Home Decor,47,104.18,Online Wallet,2.8,Inactive
+892,55,Female,Surat,113742,Sports,9,442.75,UPI,3.8,Inactive
+893,61,Female,Kolkata,41237,Footwear,19,348.44,Credit Card,3.7,Active
+894,30,Male,Surat,84511,Clothing,51,213.83,Cash,2.2,Active
+895,31,Male,Ahmedabad,67026,Home Decor,23,341.69,Debit Card,4.3,Active
+896,50,Male,Mumbai,64267,Books,8,312.61,Credit Card,3.2,Active
+897,39,Female,Ahmedabad,93010,Home Decor,58,84.08,UPI,4.5,Active
+898,56,Male,Ahmedabad,77386,Sports,54,380.32,Credit Card,4.1,Active
+899,57,Male,Jaipur,25501,Clothing,11,318.66,Debit Card,4.6,Active
+900,36,Female,Jaipur,85325,Clothing,10,327.08,Online Wallet,4.3,Active
+901,30,Female,Hyderabad,20863,Footwear,54,406.48,Online Wallet,2.1,Active
+902,35,Female,Hyderabad,67270,Footwear,10,379.07,Net Banking,2.7,Active
+903,69,Female,Hyderabad,73648,Sports,55,262.92,UPI,2.4,Active
+904,19,Female,Delhi,21303,Clothing,6,175.77,Cash,4.9,Active
+905,21,Female,Ahmedabad,106530,Groceries,58,291.53,UPI,4.9,Active
+906,69,Female,Hyderabad,72691,Home Decor,47,373.92,Online Wallet,1.0,Active
+907,35,Male,Hyderabad,78482,Footwear,57,276.77,Net Banking,3.6,Active
+908,62,Female,Hyderabad,45859,Home Decor,6,28.12,Online Wallet,2.6,Inactive
+909,26,Female,Bengaluru,32166,Home Decor,34,176.95,UPI,1.6,Active
+910,68,Female,Bengaluru,59838,Books,33,64.12,Credit Card,4.4,Active
+911,34,Female,Mumbai,26256,Clothing,29,156.0,UPI,1.0,Active
+912,33,Male,Chennai,59216,Home Decor,43,394.55,UPI,3.3,Active
+913,26,Female,Jaipur,116667,Footwear,7,170.65,Net Banking,1.8,Inactive
+914,47,Male,Delhi,113276,Books,54,211.91,Credit Card,1.2,Active
+915,26,Female,Bengaluru,78479,Clothing,24,341.64,Cash,3.4,Active
+916,51,Female,Pune,96585,Sports,41,217.48,Cash,3.8,Active
+917,49,Female,Delhi,38919,Groceries,32,358.46,Debit Card,4.9,Inactive
+918,51,Male,Bengaluru,79694,Sports,3,375.78,Net Banking,2.5,Inactive
+919,56,Female,Mumbai,35842,Beauty,37,151.9,Net Banking,1.6,Active
+920,41,Female,Pune,83691,Electronics,51,80.01,Net Banking,2.7,Active
+921,37,Female,Bengaluru,43996,Sports,1,69.94,Online Wallet,1.3,Active
+922,48,Female,Surat,79293,Beauty,51,194.88,UPI,4.3,Active
+923,26,Male,Jaipur,103422,Sports,49,230.47,Cash,1.6,Active
+924,64,Female,Mumbai,101889,Books,25,124.08,Cash,2.4,Active
+925,20,Female,Pune,104661,Clothing,56,91.15,Credit Card,3.3,Active
+926,68,Female,Jaipur,104562,Clothing,42,284.08,Debit Card,4.8,Active
+927,52,Male,Surat,88387,Footwear,49,243.16,Credit Card,1.5,Active
+928,52,Male,Ahmedabad,56039,Footwear,16,416.55,Net Banking,2.8,Active
+929,69,Female,Hyderabad,97187,Electronics,32,432.37,Credit Card,2.4,Active
+930,29,Female,Ahmedabad,89193,Beauty,25,136.02,Credit Card,4.9,Active
+931,52,Male,Pune,38878,Groceries,17,386.47,Debit Card,2.2,Active
+932,28,Male,Surat,62636,Groceries,2,359.52,Online Wallet,2.6,Active
+933,44,Female,Pune,69219,Clothing,4,109.25,Net Banking,3.3,Active
+934,66,Female,Mumbai,55296,Electronics,21,237.76,Cash,1.3,Active
+935,19,Female,Bengaluru,22440,Home Decor,36,482.1,UPI,1.4,Inactive
+936,59,Male,Pune,94481,Books,29,51.12,UPI,3.0,Active
+937,68,Male,Chennai,90836,Groceries,51,130.13,Cash,4.8,Active
+938,53,Female,Ahmedabad,20131,Sports,54,314.16,UPI,4.9,Active
+939,48,Female,Surat,52884,Books,23,422.79,Debit Card,3.3,Active
+940,50,Female,Ahmedabad,41157,Clothing,20,53.96,UPI,1.5,Active
+941,53,Female,Hyderabad,47636,Beauty,57,344.23,Online Wallet,3.5,Active
+942,66,Female,Pune,52234,Beauty,22,113.21,Net Banking,2.3,Active
+943,62,Male,Ahmedabad,99794,Sports,1,451.71,UPI,1.7,Inactive
+944,62,Female,Hyderabad,90533,Clothing,51,439.59,UPI,1.3,Active
+945,19,Female,Mumbai,66267,Books,53,304.64,Cash,1.7,Active
+946,67,Male,Mumbai,80646,Beauty,60,104.57,Credit Card,1.9,Active
+947,19,Female,Chennai,45101,Clothing,53,310.59,Online Wallet,4.2,Active
+948,32,Male,Kolkata,67579,Electronics,18,251.49,UPI,3.8,Active
+949,31,Male,Bengaluru,103681,Books,8,436.26,Net Banking,3.0,Active
+950,30,Male,Mumbai,97091,Groceries,48,41.87,Online Wallet,4.7,Active
+951,32,Female,Bengaluru,108864,Electronics,45,342.09,Net Banking,2.0,Active
+952,53,Female,Ahmedabad,75982,Electronics,55,469.99,Cash,4.4,Active
+953,44,Female,Mumbai,109151,Sports,32,187.12,Credit Card,4.5,Active
+954,32,Male,Pune,75058,Sports,21,12.53,Debit Card,2.3,Active
+955,54,Male,Bengaluru,110380,Books,5,459.33,Debit Card,1.7,Active
+956,58,Male,Ahmedabad,82910,Books,52,21.77,UPI,4.7,Active
+957,34,Male,Mumbai,82072,Footwear,22,417.93,Online Wallet,3.1,Active
+958,33,Male,Surat,101207,Sports,49,56.88,Cash,3.3,Active
+959,23,Male,Ahmedabad,69465,Beauty,57,425.37,Credit Card,4.1,Active
+960,21,Female,Ahmedabad,59514,Books,5,59.9,Credit Card,3.2,Active
+961,42,Female,Mumbai,100911,Books,15,433.65,UPI,3.5,Active
+962,47,Female,Kolkata,76112,Clothing,22,328.95,UPI,4.1,Active
+963,47,Female,Surat,45228,Clothing,7,16.02,UPI,1.3,Inactive
+964,30,Male,Jaipur,53591,Beauty,27,245.89,Net Banking,2.8,Active
+965,33,Male,Ahmedabad,27928,Groceries,20,296.42,Net Banking,4.8,Inactive
+966,37,Male,Delhi,81541,Home Decor,39,178.02,Online Wallet,4.9,Active
+967,51,Male,Ahmedabad,51114,Electronics,28,178.47,Debit Card,3.6,Active
+968,30,Male,Chennai,44819,Sports,45,349.0,Cash,3.4,Active
+969,55,Female,Surat,59273,Books,22,89.52,Cash,4.5,Active
+970,20,Female,Bengaluru,20484,Footwear,45,122.83,Net Banking,1.9,Active
+971,67,Female,Hyderabad,46911,Books,12,414.78,Credit Card,2.5,Active
+972,22,Female,Ahmedabad,92704,Clothing,10,152.38,Debit Card,3.5,Inactive
+973,41,Male,Ahmedabad,46099,Footwear,19,95.33,Online Wallet,3.9,Active
+974,39,Male,Delhi,45688,Electronics,12,423.01,Credit Card,1.1,Active
+975,61,Male,Hyderabad,105835,Clothing,22,468.7,Online Wallet,2.8,Active
+976,41,Female,Delhi,89065,Books,57,358.36,Credit Card,1.6,Active
+977,26,Male,Bengaluru,89803,Books,45,193.39,Net Banking,2.7,Active
+978,58,Male,Ahmedabad,100744,Footwear,55,272.38,Debit Card,2.3,Active
+979,21,Female,Delhi,86619,Sports,14,366.38,Cash,4.2,Active
+980,57,Male,Delhi,86665,Books,49,442.39,Net Banking,2.5,Active
+981,51,Female,Delhi,62182,Beauty,34,350.31,UPI,4.8,Active
+982,48,Female,Surat,72552,Electronics,14,117.57,Debit Card,2.8,Active
+983,33,Female,Bengaluru,60107,Books,57,194.77,Debit Card,4.7,Active
+984,41,Female,Jaipur,31109,Groceries,49,51.17,Cash,3.1,Active
+985,20,Female,Jaipur,101412,Beauty,28,231.06,Cash,2.6,Active
+986,69,Female,Chennai,55785,Books,2,97.99,Debit Card,2.1,Active
+987,23,Female,Jaipur,87212,Clothing,51,145.45,Debit Card,1.4,Active
+988,22,Female,Ahmedabad,91568,Footwear,22,106.36,Online Wallet,2.0,Active
+989,65,Female,Bengaluru,112489,Groceries,55,378.67,UPI,3.2,Active
+990,34,Male,Pune,56942,Beauty,51,498.45,Cash,4.3,Active
+991,66,Male,Kolkata,105733,Groceries,56,204.78,Debit Card,3.9,Active
+992,31,Female,Bengaluru,87610,Sports,47,409.05,Online Wallet,4.2,Active
+993,38,Male,Hyderabad,111480,Books,14,224.95,Net Banking,1.1,Active
+994,26,Male,Pune,116705,Electronics,32,407.1,Online Wallet,2.4,Active
+995,44,Female,Hyderabad,119987,Home Decor,21,297.61,Net Banking,4.1,Active
+996,26,Male,Chennai,94473,Books,25,110.06,Cash,1.3,Active
+997,42,Male,Kolkata,34239,Beauty,37,481.35,UPI,4.6,Active
+998,24,Male,Ahmedabad,110311,Sports,2,101.48,Credit Card,4.6,Active
+999,31,Male,Pune,106451,Clothing,30,38.15,Net Banking,1.0,Active
+1000,38,Female,Hyderabad,40582,Clothing,9,272.86,Cash,4.0,Active
+1001,31,Male,Bengaluru,60600,Books,53,357.74,Cash,1.6,Active
+1002,54,Female,Surat,46604,Sports,18,108.83,Debit Card,2.8,Active
+1003,70,Female,Surat,52353,Beauty,59,288.92,Cash,2.8,Active
+1004,54,Male,Mumbai,57737,Sports,23,353.16,UPI,4.2,Active
+1005,43,Male,Hyderabad,52654,Groceries,58,312.69,Cash,2.8,Active
+1006,60,Male,Surat,32521,Books,45,473.39,Debit Card,4.5,Active
+1007,58,Female,Mumbai,111494,Footwear,59,251.81,Net Banking,1.5,Active
+1008,41,Male,Mumbai,86112,Beauty,27,230.96,Online Wallet,1.8,Active
+1009,20,Female,Ahmedabad,29593,Sports,25,178.39,Cash,4.4,Active
+1010,18,Female,Mumbai,112943,Groceries,21,338.44,Cash,2.9,Active
+1011,22,Male,Jaipur,106117,Footwear,46,475.51,Debit Card,2.9,Active
+1012,35,Male,Delhi,22367,Clothing,12,154.13,Net Banking,4.0,Active
+1013,60,Male,Pune,40119,Sports,23,97.19,UPI,1.1,Inactive
+1014,31,Female,Ahmedabad,103203,Clothing,25,348.27,Cash,1.2,Active
+1015,18,Male,Hyderabad,46442,Footwear,24,455.29,Debit Card,1.4,Active
+1016,44,Male,Ahmedabad,64186,Footwear,44,337.79,Debit Card,4.8,Active
+1017,24,Male,Delhi,25768,Books,33,62.77,Online Wallet,2.3,Inactive
+1018,57,Male,Jaipur,71781,Books,8,123.88,Credit Card,2.4,Active
+1019,43,Female,Ahmedabad,71011,Footwear,30,117.85,UPI,4.3,Active
+1020,59,Female,Ahmedabad,28825,Footwear,27,157.75,Net Banking,3.0,Inactive
+1021,63,Male,Pune,32418,Beauty,41,351.19,UPI,4.7,Inactive
+1022,26,Female,Delhi,103277,Beauty,55,336.52,Credit Card,2.3,Active
+1023,56,Female,Hyderabad,86981,Footwear,33,297.86,Credit Card,1.9,Active
+1024,57,Male,Pune,50984,Books,49,129.34,Credit Card,1.2,Active
+1025,41,Female,Pune,46478,Groceries,25,110.15,Credit Card,2.0,Active
+1026,64,Female,Chennai,37598,Home Decor,21,325.37,Credit Card,3.1,Inactive
+1027,59,Female,Ahmedabad,50016,Beauty,22,128.7,Net Banking,1.2,Active
+1028,60,Male,Bengaluru,99700,Books,34,167.6,Cash,3.5,Active
+1029,22,Female,Mumbai,45226,Electronics,41,496.09,Debit Card,1.5,Active
+1030,29,Male,Bengaluru,86509,Clothing,28,365.24,Online Wallet,1.7,Active
+1031,30,Male,Hyderabad,43125,Footwear,20,149.82,Cash,4.9,Active
+1032,68,Female,Mumbai,67131,Books,25,92.21,Cash,2.7,Active
+1033,57,Female,Delhi,83176,Electronics,49,196.9,Credit Card,4.0,Active
+1034,37,Male,Jaipur,115243,Groceries,17,196.42,Online Wallet,2.8,Active
+1035,42,Female,Mumbai,63677,Groceries,46,239.94,Debit Card,4.7,Active
+1036,18,Male,Jaipur,115730,Beauty,32,208.23,Cash,4.8,Active
+1037,65,Female,Hyderabad,84166,Home Decor,42,493.89,Credit Card,2.6,Active
+1038,20,Male,Hyderabad,94135,Groceries,13,383.85,Online Wallet,4.1,Active
+1039,66,Female,Jaipur,112946,Sports,41,347.36,UPI,1.2,Active
+1040,42,Female,Bengaluru,51765,Sports,3,461.52,Online Wallet,3.5,Inactive
+1041,62,Male,Pune,99355,Sports,44,82.21,Debit Card,3.4,Active
+1042,60,Male,Ahmedabad,35300,Clothing,42,358.69,Cash,2.6,Inactive
+1043,23,Male,Hyderabad,41734,Books,17,349.0,Net Banking,4.9,Inactive
+1044,42,Female,Hyderabad,118626,Clothing,7,321.73,Online Wallet,4.3,Active
+1045,31,Female,Pune,20841,Groceries,53,250.94,Credit Card,1.3,Inactive
+1046,51,Female,Pune,116081,Books,11,96.44,Debit Card,3.8,Active
+1047,30,Female,Delhi,85878,Clothing,29,287.88,Debit Card,1.7,Active
+1048,21,Male,Bengaluru,53993,Books,29,317.15,Net Banking,1.4,Active
+1049,58,Male,Mumbai,58420,Clothing,25,71.09,Credit Card,2.4,Active
+1050,55,Male,Kolkata,83595,Clothing,1,39.92,Credit Card,3.7,Inactive
+1051,20,Male,Bengaluru,88463,Electronics,25,305.46,Online Wallet,4.7,Active
+1052,48,Female,Surat,76289,Beauty,24,344.11,Online Wallet,5.0,Active
+1053,70,Male,Chennai,107173,Books,25,309.3,Online Wallet,4.5,Active
+1054,69,Male,Ahmedabad,79889,Books,47,419.36,Debit Card,1.1,Active
+1055,25,Female,Bengaluru,68290,Sports,40,346.23,Cash,3.1,Active
+1056,60,Male,Ahmedabad,103633,Beauty,2,320.55,Credit Card,4.9,Inactive
+1057,61,Female,Bengaluru,99529,Sports,26,372.21,Credit Card,2.4,Active
+1058,48,Male,Hyderabad,58517,Footwear,46,80.15,Net Banking,4.5,Active
+1059,68,Male,Delhi,85264,Clothing,20,417.85,Net Banking,4.9,Active
+1060,47,Male,Kolkata,35162,Sports,43,274.93,Debit Card,1.8,Inactive
+1061,60,Male,Mumbai,77002,Electronics,11,465.21,Online Wallet,4.6,Active
+1062,67,Female,Bengaluru,114263,Home Decor,43,243.39,UPI,1.5,Active
+1063,26,Female,Mumbai,110673,Beauty,56,119.67,Net Banking,4.1,Active
+1064,56,Male,Chennai,69415,Books,42,324.63,Net Banking,4.9,Active
+1065,45,Male,Bengaluru,53959,Clothing,19,52.96,Credit Card,2.4,Active
+1066,55,Male,Mumbai,95083,Beauty,9,428.13,Cash,3.3,Active
+1067,21,Male,Hyderabad,75535,Beauty,50,188.86,UPI,4.7,Active
+1068,26,Male,Mumbai,71814,Electronics,35,427.66,Online Wallet,1.6,Active
+1069,36,Male,Kolkata,109126,Sports,10,304.72,Debit Card,4.0,Inactive
+1070,70,Male,Surat,61961,Home Decor,33,495.26,Credit Card,2.1,Active
+1071,63,Female,Bengaluru,84883,Home Decor,46,483.58,Credit Card,4.9,Active
+1072,39,Male,Bengaluru,116030,Footwear,45,370.51,Debit Card,4.4,Active
+1073,64,Female,Pune,106409,Groceries,2,278.49,Online Wallet,2.7,Active
+1074,40,Female,Hyderabad,29414,Home Decor,19,351.22,Debit Card,3.8,Inactive
+1075,24,Male,Chennai,118601,Electronics,55,467.94,Online Wallet,2.8,Active
+1076,28,Male,Kolkata,111220,Sports,19,449.64,Debit Card,1.9,Active
+1077,65,Male,Ahmedabad,67477,Clothing,44,394.89,Debit Card,2.5,Active
+1078,45,Male,Ahmedabad,32589,Beauty,31,98.02,Credit Card,1.5,Inactive
+1079,39,Female,Delhi,102178,Books,16,26.66,Debit Card,2.6,Active
+1080,37,Male,Hyderabad,110674,Clothing,50,237.2,UPI,2.5,Active
+1081,58,Female,Chennai,21520,Clothing,8,50.49,Cash,3.6,Inactive
+1082,32,Male,Surat,95101,Sports,18,349.93,Credit Card,4.2,Active
+1083,29,Female,Kolkata,104488,Books,20,290.0,Credit Card,2.3,Active
+1084,63,Male,Hyderabad,111847,Electronics,26,282.47,Net Banking,4.1,Active
+1085,51,Female,Mumbai,88013,Clothing,49,378.96,UPI,4.6,Active
+1086,29,Male,Ahmedabad,92708,Sports,52,164.01,Credit Card,1.5,Active
+1087,31,Male,Mumbai,93727,Home Decor,55,379.0,Credit Card,4.9,Active
+1088,50,Female,Chennai,91359,Groceries,28,488.78,UPI,1.0,Active
+1089,37,Male,Jaipur,58456,Sports,9,292.77,UPI,2.3,Inactive
+1090,40,Male,Mumbai,106850,Electronics,16,28.0,Debit Card,2.2,Active
+1091,31,Male,Surat,92361,Footwear,38,185.94,Debit Card,3.9,Active
+1092,45,Male,Jaipur,53419,Home Decor,25,328.39,Debit Card,2.6,Active
+1093,23,Female,Hyderabad,111031,Groceries,35,109.84,UPI,3.9,Active
+1094,58,Male,Chennai,93877,Groceries,27,412.57,Online Wallet,5.0,Active
+1095,45,Female,Ahmedabad,99116,Footwear,5,142.36,Net Banking,1.4,Inactive
+1096,22,Female,Mumbai,67555,Beauty,50,143.89,Debit Card,2.1,Active
+1097,24,Female,Bengaluru,69628,Clothing,51,463.56,Debit Card,3.1,Active
+1098,37,Female,Mumbai,89331,Beauty,45,290.36,Online Wallet,3.2,Active
+1099,56,Male,Ahmedabad,42380,Beauty,49,200.89,Online Wallet,4.2,Inactive
+1100,68,Female,Kolkata,97635,Groceries,17,14.65,Net Banking,3.9,Active
+1101,60,Male,Delhi,69650,Home Decor,4,460.04,UPI,4.9,Inactive
+1102,33,Female,Kolkata,43999,Sports,23,401.25,Net Banking,2.1,Inactive
+1103,51,Male,Pune,103313,Clothing,20,209.19,Online Wallet,4.4,Active
+1104,58,Male,Mumbai,115676,Footwear,6,90.91,Credit Card,1.3,Active
+1105,49,Male,Hyderabad,108740,Groceries,31,253.92,UPI,5.0,Active
+1106,52,Male,Hyderabad,21821,Footwear,59,417.38,Credit Card,3.9,Inactive
+1107,65,Female,Bengaluru,116859,Electronics,39,229.84,Debit Card,3.7,Active
+1108,66,Male,Delhi,29846,Beauty,54,75.33,Online Wallet,4.8,Active
+1109,42,Male,Chennai,34841,Beauty,59,342.74,Net Banking,4.4,Inactive
+1110,36,Female,Kolkata,58475,Home Decor,14,11.09,UPI,3.3,Active
+1111,31,Female,Jaipur,24643,Sports,58,312.7,Cash,1.2,Active
+1112,47,Female,Pune,66385,Clothing,1,181.36,UPI,1.7,Active
+1113,24,Female,Kolkata,45892,Clothing,34,262.02,Debit Card,2.6,Active
+1114,49,Male,Delhi,106066,Home Decor,15,240.64,Online Wallet,2.2,Active
+1115,45,Male,Jaipur,55321,Clothing,29,331.58,Cash,1.6,Active
+1116,40,Female,Ahmedabad,67085,Footwear,8,102.89,Credit Card,1.5,Active
+1117,39,Male,Delhi,107320,Footwear,31,480.25,Online Wallet,1.5,Active
+1118,49,Female,Delhi,62583,Books,33,365.74,UPI,4.4,Active
+1119,42,Male,Mumbai,34139,Electronics,9,86.22,Net Banking,1.1,Inactive
+1120,21,Female,Hyderabad,98261,Electronics,28,245.29,Online Wallet,2.9,Active
+1121,66,Female,Bengaluru,100951,Groceries,47,260.51,Debit Card,2.1,Active
+1122,25,Female,Bengaluru,107337,Books,13,242.21,Credit Card,3.8,Active
+1123,50,Male,Bengaluru,97489,Groceries,15,69.03,Cash,1.2,Active
+1124,30,Male,Hyderabad,22314,Footwear,6,433.53,Cash,2.6,Active
+1125,58,Male,Bengaluru,64063,Books,31,40.06,Cash,3.6,Active
+1126,37,Male,Pune,67654,Home Decor,23,358.68,Debit Card,2.3,Active
+1127,21,Male,Ahmedabad,20070,Electronics,43,374.93,Debit Card,2.1,Active
+1128,56,Male,Hyderabad,44227,Home Decor,32,188.15,Online Wallet,1.4,Inactive
+1129,61,Male,Chennai,67260,Beauty,48,391.62,Net Banking,3.4,Active
+1130,33,Female,Bengaluru,96588,Books,6,444.72,Debit Card,3.5,Inactive
+1131,20,Male,Bengaluru,112361,Sports,60,58.33,Net Banking,3.5,Active
+1132,37,Female,Bengaluru,89934,Groceries,3,72.64,Cash,3.2,Active
+1133,66,Female,Chennai,78783,Clothing,59,223.7,Cash,2.7,Active
+1134,50,Male,Delhi,98532,Home Decor,45,484.07,Online Wallet,1.2,Active
+1135,54,Male,Bengaluru,117087,Books,32,345.5,Net Banking,4.9,Active
+1136,28,Female,Jaipur,70351,Books,26,307.54,Debit Card,1.7,Active
+1137,28,Male,Surat,111320,Electronics,57,465.03,Net Banking,2.8,Active
+1138,63,Female,Pune,48879,Home Decor,46,141.57,Credit Card,1.7,Active
+1139,20,Male,Pune,25123,Groceries,57,146.1,Debit Card,2.1,Inactive
+1140,59,Male,Bengaluru,90070,Clothing,1,327.84,UPI,3.4,Active
+1141,23,Female,Delhi,73522,Home Decor,21,492.78,UPI,4.3,Active
+1142,70,Female,Bengaluru,115745,Home Decor,12,135.43,Credit Card,3.1,Active
+1143,67,Male,Hyderabad,105698,Home Decor,56,316.85,Net Banking,3.2,Active
+1144,70,Female,Bengaluru,62501,Home Decor,14,295.02,Cash,1.6,Active
+1145,32,Female,Chennai,39442,Sports,6,253.02,Cash,1.7,Inactive
+1146,30,Female,Delhi,104877,Home Decor,2,161.98,Debit Card,4.3,Inactive
+1147,30,Male,Delhi,29443,Books,16,232.96,UPI,4.9,Active
+1148,51,Male,Ahmedabad,99074,Clothing,25,198.16,Credit Card,4.3,Active
+1149,66,Male,Delhi,52550,Clothing,18,79.89,UPI,3.4,Active
+1150,68,Male,Mumbai,91089,Beauty,55,356.65,Debit Card,1.6,Active
+1151,66,Female,Delhi,60289,Beauty,31,85.71,Credit Card,3.2,Active
+1152,35,Male,Ahmedabad,25836,Clothing,35,155.4,Net Banking,4.5,Active
+1153,18,Male,Ahmedabad,49710,Books,25,82.21,UPI,2.1,Active
+1154,61,Female,Mumbai,84463,Groceries,8,120.02,Online Wallet,2.4,Inactive
+1155,25,Female,Mumbai,25681,Groceries,12,220.03,Online Wallet,3.4,Inactive
+1156,27,Female,Surat,57618,Beauty,57,60.92,Cash,3.6,Active
+1157,34,Male,Ahmedabad,39482,Groceries,21,82.41,Cash,3.9,Inactive
+1158,48,Male,Mumbai,95739,Books,47,146.45,Credit Card,2.3,Active
+1159,26,Male,Hyderabad,66217,Beauty,32,217.68,UPI,4.9,Active
+1160,56,Female,Delhi,105715,Footwear,25,215.14,Cash,3.2,Active
+1161,49,Male,Hyderabad,30959,Books,34,293.16,UPI,4.2,Active
+1162,23,Male,Chennai,20375,Footwear,55,18.41,Net Banking,2.9,Active
+1163,25,Male,Chennai,67298,Groceries,19,235.59,Net Banking,4.9,Active
+1164,44,Male,Bengaluru,49437,Electronics,48,77.52,UPI,3.8,Active
+1165,42,Male,Hyderabad,68717,Electronics,45,61.94,Net Banking,1.3,Active
+1166,56,Male,Ahmedabad,39252,Beauty,10,48.71,Credit Card,1.0,Inactive
+1167,44,Male,Delhi,81573,Groceries,48,268.45,Online Wallet,2.9,Active
+1168,64,Female,Kolkata,104521,Electronics,19,64.52,Credit Card,4.5,Active
+1169,20,Male,Jaipur,41017,Electronics,26,418.01,UPI,4.8,Active
+1170,63,Female,Surat,85781,Home Decor,46,121.38,Debit Card,2.1,Active
+1171,23,Female,Delhi,117404,Footwear,26,313.33,Debit Card,2.6,Active
+1172,70,Male,Kolkata,82575,Beauty,42,324.53,Cash,1.7,Active
+1173,69,Female,Hyderabad,45523,Home Decor,7,61.16,Online Wallet,3.4,Inactive
+1174,19,Male,Pune,41333,Clothing,5,113.84,Credit Card,4.0,Active
+1175,53,Male,Ahmedabad,51501,Home Decor,6,488.56,Net Banking,1.2,Inactive
+1176,48,Male,Ahmedabad,61232,Clothing,20,14.15,Online Wallet,4.0,Active
+1177,43,Male,Chennai,118545,Books,47,184.36,Debit Card,3.8,Active
+1178,24,Female,Hyderabad,117183,Clothing,33,405.67,Debit Card,1.1,Active
+1179,68,Female,Kolkata,96855,Electronics,19,89.0,UPI,2.9,Active
+1180,58,Male,Bengaluru,48265,Groceries,50,362.09,Net Banking,3.1,Active
+1181,64,Female,Kolkata,37196,Beauty,19,186.56,Cash,1.2,Inactive
+1182,61,Female,Bengaluru,47370,Clothing,10,287.78,Cash,1.4,Active
+1183,67,Female,Jaipur,31425,Sports,7,232.86,Debit Card,4.7,Active
+1184,35,Female,Chennai,31695,Clothing,12,358.22,Cash,2.0,Active
+1185,34,Female,Delhi,36248,Sports,3,188.1,Online Wallet,2.6,Inactive
+1186,61,Male,Kolkata,68068,Beauty,24,50.91,Cash,3.0,Active
+1187,34,Male,Surat,104392,Electronics,48,397.39,UPI,4.3,Active
+1188,18,Male,Mumbai,58097,Books,11,289.37,Credit Card,1.9,Active
+1189,47,Male,Chennai,81063,Sports,42,272.21,Cash,1.4,Active
+1190,29,Male,Hyderabad,76769,Footwear,26,171.07,Online Wallet,2.4,Active
+1191,56,Female,Bengaluru,112050,Sports,8,146.4,Credit Card,3.2,Inactive
+1192,27,Male,Chennai,94475,Electronics,39,389.36,Credit Card,4.7,Active
+1193,41,Female,Kolkata,47973,Electronics,14,435.33,UPI,2.7,Active
+1194,34,Male,Mumbai,38577,Clothing,18,208.48,Online Wallet,4.5,Active
+1195,44,Male,Pune,44127,Electronics,6,448.53,Cash,2.4,Inactive
+1196,28,Male,Chennai,74932,Sports,31,272.4,Debit Card,4.9,Active
+1197,45,Female,Surat,71005,Electronics,36,393.71,Net Banking,1.8,Active
+1198,64,Male,Chennai,107040,Beauty,1,83.75,Cash,4.7,Active
+1199,38,Male,Hyderabad,54446,Electronics,29,472.23,Debit Card,3.5,Active
+1200,58,Male,Ahmedabad,48655,Footwear,27,351.26,Debit Card,3.4,Active
+1201,31,Female,Bengaluru,45055,Electronics,24,408.75,Credit Card,2.2,Active
+1202,37,Male,Kolkata,105054,Sports,27,211.09,Online Wallet,4.3,Active
+1203,45,Female,Mumbai,43044,Sports,28,192.83,Net Banking,3.4,Inactive
+1204,42,Female,Hyderabad,103113,Home Decor,45,313.98,Credit Card,5.0,Active
+1205,69,Male,Mumbai,105147,Electronics,40,466.92,Credit Card,3.0,Active
+1206,66,Male,Kolkata,85976,Electronics,43,152.05,Cash,1.8,Active
+1207,67,Female,Jaipur,69948,Clothing,13,429.61,Credit Card,2.4,Active
+1208,68,Female,Hyderabad,104523,Books,1,470.41,Debit Card,3.0,Active
+1209,60,Female,Pune,74357,Footwear,1,451.09,Cash,1.1,Active
+1210,68,Female,Jaipur,117156,Beauty,22,93.5,Net Banking,5.0,Active
+1211,33,Female,Bengaluru,100775,Books,54,35.27,Net Banking,2.7,Active
+1212,58,Female,Delhi,72837,Beauty,34,87.64,Debit Card,1.4,Active
+1213,69,Male,Jaipur,35515,Books,54,383.46,Online Wallet,4.3,Active
+1214,38,Male,Mumbai,32224,Electronics,28,15.65,Net Banking,1.6,Inactive
+1215,52,Male,Surat,70122,Electronics,48,369.74,Cash,3.5,Active
+1216,67,Female,Delhi,51420,Footwear,20,104.98,Debit Card,3.9,Active
+1217,69,Female,Pune,106410,Electronics,18,50.65,Debit Card,3.5,Active
+1218,58,Male,Mumbai,80178,Clothing,7,79.5,Online Wallet,4.6,Active
+1219,49,Female,Bengaluru,71222,Clothing,32,399.77,Cash,1.3,Active
+1220,58,Male,Bengaluru,110090,Books,25,445.96,UPI,4.6,Active
+1221,69,Male,Delhi,59158,Electronics,58,97.55,Net Banking,3.5,Active
+1222,20,Male,Chennai,65453,Sports,40,304.0,Credit Card,1.6,Active
+1223,65,Female,Mumbai,45276,Electronics,35,21.29,Net Banking,4.0,Active
+1224,31,Female,Mumbai,48437,Electronics,21,77.9,Credit Card,3.9,Active
+1225,26,Female,Pune,83120,Footwear,6,180.79,Net Banking,3.6,Active
+1226,69,Female,Hyderabad,87194,Books,60,104.6,Debit Card,1.8,Active
+1227,63,Female,Hyderabad,33486,Home Decor,11,399.11,UPI,3.0,Inactive
+1228,45,Female,Chennai,101646,Clothing,39,197.69,Debit Card,3.3,Active
+1229,41,Male,Kolkata,41921,Electronics,33,134.0,Cash,2.2,Inactive
+1230,59,Female,Hyderabad,23924,Clothing,12,406.43,Cash,4.2,Active
+1231,22,Male,Chennai,68754,Groceries,50,164.08,Credit Card,2.3,Active
+1232,18,Female,Bengaluru,80997,Beauty,58,124.0,Credit Card,2.5,Active
+1233,56,Male,Jaipur,48503,Clothing,36,146.24,Net Banking,4.8,Active
+1234,69,Male,Surat,104707,Books,44,380.54,Online Wallet,4.3,Active
+1235,30,Male,Ahmedabad,84740,Sports,3,495.23,Cash,1.5,Active
+1236,56,Female,Surat,70181,Footwear,37,20.42,Credit Card,3.6,Active
+1237,54,Male,Kolkata,57272,Groceries,54,483.76,Credit Card,4.6,Active
+1238,51,Male,Chennai,104512,Electronics,5,240.25,Cash,3.9,Active
+1239,66,Female,Hyderabad,30455,Beauty,32,310.04,Cash,2.2,Inactive
+1240,49,Male,Chennai,100999,Clothing,2,119.77,Credit Card,1.6,Inactive
+1241,62,Female,Bengaluru,42307,Clothing,13,364.81,Online Wallet,4.3,Inactive
+1242,18,Male,Pune,25646,Clothing,4,474.1,Credit Card,2.1,Inactive
+1243,68,Female,Pune,111575,Groceries,60,77.5,Cash,1.5,Active
+1244,38,Male,Surat,74171,Sports,43,69.96,Net Banking,2.0,Active
+1245,48,Female,Pune,62193,Sports,15,54.98,Online Wallet,3.8,Active
+1246,40,Male,Bengaluru,111090,Clothing,5,486.16,Credit Card,1.8,Inactive
+1247,47,Female,Bengaluru,83916,Clothing,22,112.24,Net Banking,4.0,Active
+1248,50,Female,Pune,112866,Sports,42,85.46,Net Banking,1.4,Active
+1249,26,Male,Chennai,70538,Sports,56,314.03,Debit Card,4.1,Active
+1250,30,Male,Pune,75455,Groceries,44,160.5,Net Banking,3.6,Active
+1251,27,Female,Mumbai,117652,Clothing,16,18.13,Cash,1.7,Active
+1252,19,Female,Jaipur,79328,Beauty,17,67.98,Net Banking,1.3,Active
+1253,45,Male,Delhi,72026,Books,33,173.53,Cash,2.1,Active
+1254,24,Male,Hyderabad,115944,Books,13,154.06,Cash,1.7,Active
+1255,35,Female,Jaipur,76828,Clothing,44,34.44,Debit Card,4.8,Active
+1256,32,Male,Ahmedabad,24677,Home Decor,16,42.27,Credit Card,2.1,Inactive
+1257,62,Female,Hyderabad,71496,Clothing,15,369.62,UPI,2.1,Active
+1258,31,Male,Bengaluru,65564,Home Decor,46,302.19,UPI,1.0,Active
+1259,29,Female,Pune,110169,Footwear,11,164.41,Credit Card,1.7,Active
+1260,39,Female,Delhi,21669,Sports,28,173.69,Debit Card,4.9,Inactive
+1261,28,Male,Surat,66156,Sports,38,10.49,Debit Card,2.9,Active
+1262,20,Male,Surat,109135,Home Decor,54,121.86,Net Banking,1.7,Active
+1263,27,Male,Mumbai,59924,Beauty,29,250.42,Online Wallet,5.0,Active
+1264,34,Female,Pune,67748,Sports,1,415.6,Online Wallet,3.8,Inactive
+1265,67,Female,Mumbai,55381,Electronics,10,489.53,Debit Card,3.6,Active
+1266,49,Male,Bengaluru,95705,Books,24,111.09,Credit Card,1.8,Active
+1267,42,Male,Pune,102167,Sports,57,268.18,Online Wallet,4.6,Active
+1268,40,Female,Hyderabad,97220,Books,18,161.57,Credit Card,3.3,Active
+1269,62,Female,Surat,36116,Books,51,232.96,Online Wallet,2.2,Inactive
+1270,49,Male,Kolkata,109249,Groceries,34,483.67,Net Banking,3.2,Active
+1271,28,Female,Kolkata,57782,Clothing,52,154.42,Cash,1.2,Active
+1272,36,Male,Ahmedabad,84011,Home Decor,1,220.86,UPI,4.3,Active
+1273,26,Female,Pune,85797,Groceries,6,359.47,Debit Card,5.0,Active
+1274,55,Male,Pune,48686,Electronics,31,467.14,Debit Card,4.2,Active
+1275,58,Female,Hyderabad,72312,Clothing,58,138.02,Online Wallet,3.4,Active
+1276,29,Female,Chennai,95781,Groceries,44,386.15,Online Wallet,1.5,Active
+1277,53,Male,Pune,59976,Clothing,20,287.67,UPI,2.8,Active
+1278,29,Female,Hyderabad,32588,Groceries,34,226.53,Online Wallet,3.0,Inactive
+1279,40,Female,Chennai,76055,Sports,27,481.11,Cash,1.1,Active
+1280,53,Male,Hyderabad,31590,Groceries,40,454.36,Debit Card,3.3,Active
+1281,57,Female,Ahmedabad,119003,Books,9,207.44,Credit Card,2.9,Inactive
+1282,51,Female,Ahmedabad,31096,Electronics,18,416.65,UPI,1.4,Inactive
+1283,70,Female,Surat,83106,Beauty,56,39.82,UPI,3.3,Active
+1284,50,Male,Bengaluru,87667,Groceries,36,372.81,Cash,1.5,Active
+1285,61,Male,Pune,102344,Home Decor,47,494.69,Credit Card,4.2,Active
+1286,57,Male,Mumbai,28800,Electronics,10,305.86,Credit Card,3.1,Active
+1287,24,Female,Ahmedabad,86296,Sports,26,37.27,Credit Card,2.2,Active
+1288,48,Male,Bengaluru,91659,Home Decor,53,310.25,Cash,4.4,Active
+1289,57,Male,Hyderabad,39168,Electronics,12,79.43,UPI,3.6,Active
+1290,65,Male,Kolkata,82975,Home Decor,19,337.09,Net Banking,3.0,Active
+1291,60,Female,Hyderabad,70570,Clothing,30,214.28,Cash,1.6,Active
+1292,36,Female,Mumbai,93952,Books,1,294.46,Credit Card,3.6,Inactive
+1293,57,Female,Ahmedabad,66494,Groceries,30,442.39,Cash,2.1,Active
+1294,28,Female,Jaipur,85956,Footwear,23,452.25,Net Banking,2.6,Active
+1295,22,Male,Delhi,66119,Beauty,30,360.44,Debit Card,2.1,Active
+1296,66,Female,Hyderabad,28940,Sports,25,481.65,Net Banking,3.6,Inactive
+1297,50,Female,Delhi,111457,Beauty,38,478.05,Online Wallet,3.3,Active
+1298,43,Male,Ahmedabad,23869,Groceries,15,57.3,Credit Card,3.0,Inactive
+1299,38,Male,Bengaluru,33819,Groceries,47,447.31,Cash,4.7,Active
+1300,34,Male,Ahmedabad,118295,Clothing,29,384.04,Net Banking,3.5,Active
+1301,19,Male,Chennai,34111,Sports,25,75.28,UPI,3.3,Active
+1302,34,Female,Kolkata,108978,Home Decor,15,108.58,Debit Card,2.7,Active
+1303,51,Male,Mumbai,96298,Electronics,41,480.32,Credit Card,1.8,Active
+1304,69,Male,Ahmedabad,67128,Books,37,277.82,Credit Card,2.4,Active
+1305,61,Female,Bengaluru,47194,Sports,33,182.53,Net Banking,4.6,Active
+1306,26,Male,Kolkata,76034,Books,56,44.73,Credit Card,1.5,Active
+1307,51,Female,Mumbai,35456,Sports,15,35.22,Net Banking,2.3,Active
+1308,36,Female,Hyderabad,112179,Beauty,5,437.5,Debit Card,4.9,Active
+1309,54,Male,Jaipur,100117,Home Decor,26,313.14,Net Banking,3.8,Active
+1310,25,Female,Pune,105620,Electronics,3,175.64,Online Wallet,1.8,Inactive
+1311,21,Male,Bengaluru,91707,Beauty,60,381.1,Credit Card,1.9,Active
+1312,22,Male,Chennai,29275,Books,39,372.25,Credit Card,4.6,Active
+1313,26,Female,Ahmedabad,33639,Electronics,32,258.73,UPI,2.4,Active
+1314,68,Male,Ahmedabad,27255,Electronics,50,393.09,Debit Card,3.1,Inactive
+1315,61,Male,Jaipur,83199,Electronics,25,385.18,UPI,1.5,Active
+1316,62,Female,Jaipur,38057,Clothing,29,67.82,Net Banking,4.9,Active
+1317,30,Female,Hyderabad,27592,Footwear,15,55.08,Credit Card,1.9,Inactive
+1318,69,Male,Ahmedabad,114349,Footwear,53,37.87,Credit Card,1.5,Active
+1319,29,Female,Ahmedabad,61173,Beauty,39,331.05,Debit Card,5.0,Active
+1320,26,Female,Kolkata,106190,Clothing,43,47.63,Online Wallet,4.8,Active
+1321,31,Female,Chennai,48873,Sports,46,158.33,Online Wallet,4.1,Active
+1322,36,Male,Jaipur,55066,Beauty,45,275.3,Credit Card,1.2,Active
+1323,44,Female,Pune,30282,Footwear,59,77.19,Net Banking,1.9,Inactive
+1324,31,Male,Chennai,115015,Groceries,3,489.18,UPI,2.8,Inactive
+1325,25,Male,Kolkata,24424,Home Decor,18,298.24,Online Wallet,4.3,Active
+1326,35,Female,Kolkata,22470,Books,25,227.57,Debit Card,1.8,Active
+1327,45,Male,Pune,24103,Beauty,60,22.74,Net Banking,4.0,Active
+1328,34,Male,Ahmedabad,64688,Books,56,219.5,UPI,4.7,Active
+1329,66,Male,Mumbai,92521,Books,47,466.91,Online Wallet,4.4,Active
+1330,52,Female,Hyderabad,95052,Home Decor,11,480.55,Cash,4.0,Active
+1331,33,Male,Ahmedabad,56791,Home Decor,6,499.41,Net Banking,2.2,Inactive
+1332,20,Female,Chennai,55225,Home Decor,51,329.99,Net Banking,1.0,Active
+1333,37,Female,Pune,43433,Sports,30,18.46,Credit Card,2.9,Inactive
+1334,48,Male,Hyderabad,27678,Clothing,18,449.55,Net Banking,2.3,Active
+1335,29,Female,Pune,54018,Sports,9,121.44,Debit Card,1.6,Inactive
+1336,21,Male,Mumbai,105799,Electronics,12,345.38,Cash,3.3,Active
+1337,20,Male,Ahmedabad,113657,Home Decor,17,17.9,Online Wallet,3.2,Active
+1338,20,Male,Chennai,34308,Clothing,33,227.47,Net Banking,1.3,Active
+1339,54,Female,Hyderabad,29357,Books,57,148.71,Credit Card,2.3,Inactive
+1340,39,Female,Chennai,81693,Home Decor,40,25.27,Online Wallet,1.2,Active
+1341,27,Male,Mumbai,99827,Footwear,52,163.42,UPI,4.1,Active
+1342,50,Female,Bengaluru,69655,Electronics,43,365.87,Cash,4.1,Active
+1343,59,Male,Mumbai,49436,Books,35,369.19,Net Banking,4.2,Active
+1344,56,Female,Jaipur,88201,Sports,21,141.9,Net Banking,2.2,Active
+1345,33,Female,Bengaluru,67443,Footwear,30,164.26,Credit Card,3.8,Active
+1346,46,Female,Chennai,30445,Beauty,36,257.77,Online Wallet,3.6,Inactive
+1347,46,Female,Bengaluru,94624,Groceries,60,273.43,Cash,3.7,Active
+1348,60,Male,Surat,54115,Home Decor,22,163.78,Credit Card,2.6,Active
+1349,50,Male,Surat,84775,Footwear,58,98.16,Cash,1.1,Active
+1350,25,Female,Pune,92689,Sports,48,59.49,Credit Card,4.3,Active
+1351,19,Male,Mumbai,37351,Books,58,216.96,Debit Card,2.6,Inactive
+1352,63,Female,Mumbai,64146,Beauty,38,308.29,Credit Card,5.0,Active
+1353,20,Male,Chennai,78837,Books,41,230.38,Cash,2.2,Active
+1354,48,Male,Delhi,114857,Clothing,10,448.84,Net Banking,3.4,Inactive
+1355,47,Female,Chennai,77486,Groceries,33,364.04,Online Wallet,4.8,Active
+1356,24,Male,Pune,84656,Beauty,4,286.42,Net Banking,3.3,Inactive
+1357,45,Female,Chennai,70340,Beauty,49,97.42,Debit Card,1.2,Active
+1358,65,Male,Hyderabad,88044,Home Decor,37,441.0,Online Wallet,1.4,Active
+1359,36,Male,Mumbai,57728,Home Decor,32,225.07,Debit Card,2.2,Active
+1360,34,Male,Bengaluru,107350,Home Decor,10,57.03,Net Banking,4.4,Inactive
+1361,19,Male,Jaipur,90505,Footwear,1,249.3,Credit Card,2.5,Active
+1362,54,Female,Kolkata,88274,Groceries,54,232.39,Credit Card,3.9,Active
+1363,25,Female,Hyderabad,84651,Home Decor,6,433.61,Online Wallet,3.9,Active
+1364,40,Male,Bengaluru,115336,Clothing,21,86.8,Online Wallet,2.1,Active
+1365,58,Male,Chennai,25027,Books,7,466.86,Net Banking,2.3,Inactive
+1366,60,Male,Ahmedabad,52232,Groceries,38,194.34,Debit Card,3.7,Active
+1367,34,Female,Delhi,83505,Groceries,47,253.4,Debit Card,1.8,Active
+1368,23,Male,Ahmedabad,76927,Clothing,32,283.29,Debit Card,3.8,Active
+1369,20,Female,Pune,100396,Books,41,296.11,UPI,2.4,Active
+1370,51,Male,Pune,50394,Home Decor,43,247.68,UPI,2.6,Active
+1371,40,Female,Pune,32652,Footwear,8,481.83,Online Wallet,2.7,Active
+1372,33,Female,Mumbai,43094,Sports,21,333.7,Online Wallet,3.8,Inactive
+1373,67,Female,Kolkata,98781,Books,44,125.08,Online Wallet,2.1,Active
+1374,31,Female,Ahmedabad,93696,Beauty,17,340.74,Cash,2.6,Active
+1375,46,Female,Hyderabad,54170,Electronics,18,247.9,Debit Card,2.4,Active
+1376,70,Male,Pune,78672,Books,15,290.53,Debit Card,3.1,Active
+1377,67,Male,Surat,100052,Beauty,9,306.43,Credit Card,4.8,Active
+1378,42,Male,Chennai,66229,Clothing,42,34.12,Debit Card,2.4,Active
+1379,30,Male,Jaipur,71842,Footwear,19,402.63,Online Wallet,2.3,Active
+1380,31,Male,Ahmedabad,24728,Electronics,49,470.77,Credit Card,3.0,Inactive
+1381,20,Male,Pune,59513,Electronics,15,319.46,UPI,2.0,Active
+1382,35,Male,Hyderabad,105888,Books,9,410.96,Online Wallet,4.4,Active
+1383,50,Female,Ahmedabad,21932,Groceries,7,370.58,Cash,1.8,Inactive
+1384,37,Female,Hyderabad,87155,Electronics,20,144.28,Debit Card,1.4,Active
+1385,59,Female,Hyderabad,58173,Books,6,118.9,Cash,3.2,Active
+1386,62,Male,Hyderabad,22256,Sports,47,202.89,Online Wallet,4.1,Inactive
+1387,46,Male,Surat,23262,Books,50,123.74,Online Wallet,2.9,Active
+1388,37,Female,Delhi,102564,Clothing,7,284.83,Debit Card,4.5,Active
+1389,33,Male,Delhi,72847,Sports,34,364.29,Net Banking,4.0,Active
+1390,21,Female,Pune,73983,Home Decor,48,175.56,Debit Card,1.1,Active
+1391,62,Female,Ahmedabad,55146,Footwear,49,285.58,Cash,3.2,Active
+1392,38,Male,Chennai,80472,Sports,33,281.86,UPI,5.0,Active
+1393,23,Male,Hyderabad,111652,Clothing,25,72.37,Credit Card,1.6,Active
+1394,65,Male,Delhi,45869,Sports,56,486.24,Credit Card,4.5,Active
+1395,49,Male,Jaipur,83857,Groceries,48,438.37,Cash,2.6,Active
+1396,36,Male,Hyderabad,58564,Home Decor,34,167.97,Online Wallet,3.3,Active
+1397,28,Male,Pune,88583,Footwear,52,310.86,UPI,2.5,Active
+1398,56,Female,Kolkata,80670,Footwear,60,171.79,UPI,3.9,Active
+1399,26,Male,Jaipur,113727,Sports,1,165.67,Debit Card,1.6,Active
+1400,18,Female,Bengaluru,46118,Clothing,35,234.71,Credit Card,1.2,Active
+1401,47,Male,Mumbai,65934,Footwear,23,318.12,Debit Card,2.1,Active
+1402,70,Female,Surat,115593,Home Decor,24,316.01,Cash,4.7,Active
+1403,53,Male,Mumbai,97678,Groceries,7,368.02,Online Wallet,1.7,Inactive
+1404,26,Female,Chennai,95452,Home Decor,52,371.26,Net Banking,3.7,Active
+1405,48,Male,Delhi,20350,Footwear,14,54.76,Net Banking,1.6,Active
+1406,18,Female,Mumbai,26840,Groceries,33,405.54,Cash,3.7,Active
+1407,50,Male,Bengaluru,93419,Books,25,389.22,UPI,2.9,Active
+1408,37,Female,Jaipur,30249,Footwear,11,473.29,Online Wallet,3.8,Inactive
+1409,53,Female,Kolkata,111108,Home Decor,44,68.92,Cash,3.6,Active
+1410,29,Male,Chennai,81089,Beauty,47,217.8,Net Banking,3.2,Active
+1411,30,Female,Chennai,43462,Electronics,13,226.62,Net Banking,1.8,Inactive
+1412,39,Male,Chennai,53260,Electronics,39,143.78,UPI,2.1,Active
+1413,48,Female,Ahmedabad,111160,Home Decor,18,316.38,Net Banking,4.3,Active
+1414,63,Female,Surat,102868,Sports,32,95.15,UPI,4.5,Active
+1415,66,Male,Ahmedabad,68435,Electronics,40,448.19,Debit Card,3.8,Active
+1416,29,Male,Mumbai,74994,Clothing,4,227.26,UPI,1.2,Active
+1417,52,Female,Bengaluru,105865,Electronics,22,420.26,Online Wallet,4.6,Active
+1418,28,Female,Jaipur,21857,Books,27,420.48,UPI,1.2,Active
+1419,66,Male,Pune,31005,Groceries,29,31.81,Net Banking,1.8,Inactive
+1420,29,Male,Pune,55882,Beauty,8,177.31,Net Banking,4.3,Active
+1421,47,Male,Mumbai,31870,Groceries,47,52.34,Online Wallet,3.4,Inactive
+1422,67,Male,Ahmedabad,48511,Beauty,30,49.82,UPI,4.8,Active
+1423,37,Male,Delhi,60696,Electronics,25,355.9,Debit Card,2.1,Active
+1424,54,Female,Hyderabad,49617,Footwear,18,442.95,Debit Card,4.9,Active
+1425,34,Female,Pune,32112,Sports,23,293.56,Online Wallet,4.1,Inactive
+1426,58,Male,Ahmedabad,96706,Books,10,273.59,Debit Card,5.0,Active
+1427,59,Female,Bengaluru,64850,Home Decor,6,261.5,Debit Card,2.0,Active
+1428,20,Male,Jaipur,106288,Groceries,31,78.51,Net Banking,2.3,Active
+1429,54,Female,Surat,24436,Beauty,45,61.26,Online Wallet,4.5,Active
+1430,44,Female,Chennai,64128,Clothing,12,457.44,Online Wallet,1.7,Active
+1431,52,Male,Ahmedabad,77541,Sports,38,292.22,Cash,3.9,Active
+1432,48,Male,Pune,114813,Beauty,39,175.56,UPI,2.6,Active
+1433,20,Male,Jaipur,34136,Books,28,389.3,Net Banking,2.6,Active
+1434,50,Male,Pune,98230,Footwear,37,378.41,Debit Card,3.7,Active
+1435,68,Male,Mumbai,60537,Groceries,52,179.59,Cash,1.7,Active
+1436,18,Male,Bengaluru,42553,Home Decor,20,49.38,Debit Card,4.4,Active
+1437,64,Male,Delhi,109746,Beauty,1,243.9,Online Wallet,1.4,Inactive
+1438,43,Male,Kolkata,107613,Books,54,237.11,Debit Card,4.1,Active
+1439,24,Female,Delhi,61727,Groceries,26,388.9,Online Wallet,4.3,Active
+1440,64,Female,Surat,71622,Clothing,23,249.27,UPI,4.9,Active
+1441,19,Male,Surat,43351,Footwear,24,187.52,Net Banking,4.3,Inactive
+1442,66,Female,Mumbai,104617,Footwear,9,254.98,Credit Card,1.8,Active
+1443,39,Female,Delhi,75798,Groceries,19,162.44,UPI,4.3,Active
+1444,20,Female,Hyderabad,43529,Groceries,26,344.35,Credit Card,2.9,Active
+1445,61,Male,Hyderabad,21602,Groceries,21,73.08,Net Banking,2.5,Active
+1446,49,Female,Hyderabad,27144,Home Decor,28,136.74,UPI,1.5,Inactive
+1447,46,Female,Kolkata,113326,Beauty,55,272.16,Online Wallet,1.4,Active
+1448,29,Female,Jaipur,119563,Books,56,340.61,Debit Card,1.0,Active
+1449,63,Female,Bengaluru,87488,Sports,28,33.79,Online Wallet,1.2,Active
+1450,49,Female,Chennai,26563,Beauty,17,218.59,UPI,2.2,Inactive
+1451,52,Female,Delhi,58435,Beauty,27,18.58,Online Wallet,2.2,Active
+1452,20,Male,Chennai,115932,Electronics,35,371.95,Debit Card,1.7,Active
+1453,52,Male,Delhi,115261,Groceries,41,251.79,Online Wallet,2.4,Active
+1454,47,Male,Jaipur,94588,Sports,3,47.5,Online Wallet,1.2,Inactive
+1455,64,Male,Hyderabad,87191,Clothing,22,464.45,UPI,2.2,Active
+1456,43,Male,Delhi,117880,Home Decor,47,329.92,Credit Card,4.3,Active
+1457,45,Male,Bengaluru,94828,Home Decor,20,311.63,Net Banking,4.4,Active
+1458,33,Male,Chennai,95148,Sports,14,382.75,Cash,2.1,Active
+1459,62,Male,Pune,85740,Electronics,39,205.35,Debit Card,3.7,Active
+1460,35,Male,Hyderabad,47149,Electronics,51,213.02,Debit Card,2.1,Active
+1461,47,Female,Mumbai,49009,Footwear,2,357.41,Debit Card,1.3,Active
+1462,63,Female,Surat,75150,Beauty,35,200.63,Net Banking,1.1,Active
+1463,39,Female,Chennai,78246,Groceries,30,428.63,Cash,1.8,Active
+1464,62,Male,Hyderabad,53514,Books,3,333.74,Net Banking,4.9,Inactive
+1465,53,Female,Mumbai,47204,Beauty,20,152.99,Online Wallet,2.8,Active
+1466,47,Male,Delhi,101902,Groceries,40,182.3,Cash,2.7,Active
+1467,66,Male,Pune,92933,Sports,16,193.89,Net Banking,1.5,Active
+1468,56,Male,Mumbai,71871,Footwear,14,496.14,Net Banking,2.2,Active
+1469,28,Female,Jaipur,73545,Beauty,49,116.7,Net Banking,2.1,Active
+1470,67,Female,Mumbai,107062,Beauty,33,272.46,Cash,1.9,Active
+1471,43,Female,Kolkata,57523,Sports,11,462.72,Debit Card,2.6,Active
+1472,18,Female,Kolkata,106008,Groceries,44,454.57,Cash,3.3,Active
+1473,44,Female,Hyderabad,44756,Electronics,40,119.85,Net Banking,3.5,Inactive
+1474,56,Female,Ahmedabad,62601,Footwear,11,288.96,Cash,3.7,Active
+1475,41,Male,Surat,105736,Books,36,260.55,Debit Card,4.4,Active
+1476,28,Female,Chennai,114772,Footwear,12,241.36,UPI,4.7,Active
+1477,38,Male,Pune,28495,Electronics,14,293.03,Cash,2.0,Inactive
+1478,33,Male,Kolkata,85564,Clothing,52,305.96,Online Wallet,4.5,Active
+1479,28,Male,Kolkata,114640,Clothing,1,376.82,UPI,3.7,Inactive
+1480,48,Female,Mumbai,74668,Home Decor,57,360.83,Credit Card,3.9,Active
+1481,56,Male,Kolkata,83020,Electronics,19,407.71,UPI,4.1,Active
+1482,41,Female,Jaipur,102479,Sports,28,395.84,Credit Card,1.6,Active
+1483,34,Male,Delhi,68033,Books,43,176.52,Debit Card,4.2,Active
+1484,31,Female,Mumbai,63257,Clothing,30,450.61,Cash,4.0,Active
+1485,66,Female,Chennai,58704,Sports,22,395.81,UPI,2.0,Active
+1486,35,Male,Delhi,39401,Home Decor,2,118.3,Online Wallet,3.3,Inactive
+1487,37,Male,Surat,103085,Home Decor,31,359.41,UPI,2.2,Active
+1488,65,Male,Delhi,99619,Home Decor,55,198.27,UPI,1.9,Active
+1489,31,Female,Delhi,96576,Electronics,17,188.44,Net Banking,4.0,Active
+1490,51,Female,Kolkata,101062,Groceries,23,325.49,Net Banking,4.4,Active
+1491,38,Female,Hyderabad,83602,Groceries,56,267.37,Debit Card,2.9,Active
+1492,42,Male,Mumbai,64874,Footwear,20,111.15,Debit Card,2.1,Active
+1493,67,Male,Bengaluru,66727,Sports,30,289.01,UPI,4.6,Active
+1494,65,Male,Bengaluru,67652,Electronics,26,316.94,Online Wallet,3.0,Active
+1495,35,Male,Ahmedabad,78541,Footwear,16,135.48,UPI,1.7,Active
+1496,59,Male,Bengaluru,110392,Sports,12,29.71,Net Banking,2.1,Active
+1497,35,Male,Bengaluru,116119,Clothing,58,452.54,Net Banking,2.2,Active
+1498,31,Male,Bengaluru,96765,Sports,30,58.15,Credit Card,2.3,Active
+1499,58,Male,Bengaluru,82691,Clothing,29,50.86,Debit Card,1.4,Active
+1500,55,Male,Surat,83862,Home Decor,37,14.71,Cash,4.4,Active

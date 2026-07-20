@@ -1,0 +1,302 @@
+[
+    {
+        "Customer_ID": 1,
+        "Full_Name": "Customer_001",
+        "Age": 25,
+        "Gender": "Female",
+        "Annual_Income": 104230,
+        "Total_Purchases": 13,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 2,
+        "Full_Name": "Customer_002",
+        "Age": 18,
+        "Gender": "Female",
+        "Annual_Income": 118901,
+        "Total_Purchases": 27,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 3,
+        "Full_Name": "Customer_003",
+        "Age": 49,
+        "Gender": "Male",
+        "Annual_Income": 63075,
+        "Total_Purchases": 33,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 4,
+        "Full_Name": "Customer_004",
+        "Age": 59,
+        "Gender": "Female",
+        "Annual_Income": 54629,
+        "Total_Purchases": 56,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 5,
+        "Full_Name": "Customer_005",
+        "Age": 39,
+        "Gender": "Female",
+        "Annual_Income": 108846,
+        "Total_Purchases": 36,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 6,
+        "Full_Name": "Customer_006",
+        "Age": 58,
+        "Gender": "Female",
+        "Annual_Income": 34610,
+        "Total_Purchases": 49,
+        "Payment_Type": "Debit Card",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 7,
+        "Full_Name": "Customer_007",
+        "Age": 18,
+        "Gender": "Female",
+        "Annual_Income": 86787,
+        "Total_Purchases": 31,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 8,
+        "Full_Name": "Customer_008",
+        "Age": 29,
+        "Gender": "Male",
+        "Annual_Income": 119672,
+        "Total_Purchases": 28,
+        "Payment_Type": "UPI",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 9,
+        "Full_Name": "Customer_009",
+        "Age": 24,
+        "Gender": "Female",
+        "Annual_Income": 64883,
+        "Total_Purchases": 41,
+        "Payment_Type": "UPI",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 10,
+        "Full_Name": "Customer_010",
+        "Age": 30,
+        "Gender": "Male",
+        "Annual_Income": 119988,
+        "Total_Purchases": 15,
+        "Payment_Type": "Debit Card",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 11,
+        "Full_Name": "Customer_011",
+        "Age": 50,
+        "Gender": "Female",
+        "Annual_Income": 61945,
+        "Total_Purchases": 50,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 12,
+        "Full_Name": "Customer_012",
+        "Age": 24,
+        "Gender": "Female",
+        "Annual_Income": 99891,
+        "Total_Purchases": 14,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 13,
+        "Full_Name": "Customer_013",
+        "Age": 38,
+        "Gender": "Male",
+        "Annual_Income": 45153,
+        "Total_Purchases": 50,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 14,
+        "Full_Name": "Customer_014",
+        "Age": 28,
+        "Gender": "Male",
+        "Annual_Income": 62687,
+        "Total_Purchases": 34,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 15,
+        "Full_Name": "Customer_015",
+        "Age": 67,
+        "Gender": "Female",
+        "Annual_Income": 49979,
+        "Total_Purchases": 60,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 16,
+        "Full_Name": "Customer_016",
+        "Age": 37,
+        "Gender": "Female",
+        "Annual_Income": 39003,
+        "Total_Purchases": 20,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 17,
+        "Full_Name": "Customer_017",
+        "Age": 65,
+        "Gender": "Female",
+        "Annual_Income": 78944,
+        "Total_Purchases": 20,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 18,
+        "Full_Name": "Customer_018",
+        "Age": 66,
+        "Gender": "Female",
+        "Annual_Income": 20743,
+        "Total_Purchases": 49,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 19,
+        "Full_Name": "Customer_019",
+        "Age": 44,
+        "Gender": "Female",
+        "Annual_Income": 104645,
+        "Total_Purchases": 52,
+        "Payment_Type": "Debit Card",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 20,
+        "Full_Name": "Customer_020",
+        "Age": 67,
+        "Gender": "Female",
+        "Annual_Income": 22553,
+        "Total_Purchases": 53,
+        "Payment_Type": "UPI",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 21,
+        "Full_Name": "Customer_021",
+        "Age": 31,
+        "Gender": "Female",
+        "Annual_Income": 58639,
+        "Total_Purchases": 54,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 22,
+        "Full_Name": "Customer_022",
+        "Age": 38,
+        "Gender": "Female",
+        "Annual_Income": 70122,
+        "Total_Purchases": 21,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 23,
+        "Full_Name": "Customer_023",
+        "Age": 69,
+        "Gender": "Male",
+        "Annual_Income": 100944,
+        "Total_Purchases": 33,
+        "Payment_Type": "Cash",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 24,
+        "Full_Name": "Customer_024",
+        "Age": 24,
+        "Gender": "Male",
+        "Annual_Income": 51868,
+        "Total_Purchases": 11,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 25,
+        "Full_Name": "Customer_025",
+        "Age": 64,
+        "Gender": "Female",
+        "Annual_Income": 26029,
+        "Total_Purchases": 50,
+        "Payment_Type": "UPI",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 26,
+        "Full_Name": "Customer_026",
+        "Age": 62,
+        "Gender": "Female",
+        "Annual_Income": 52747,
+        "Total_Purchases": 18,
+        "Payment_Type": "Net Banking",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 27,
+        "Full_Name": "Customer_027",
+        "Age": 21,
+        "Gender": "Male",
+        "Annual_Income": 27355,
+        "Total_Purchases": 41,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 28,
+        "Full_Name": "Customer_028",
+        "Age": 52,
+        "Gender": "Female",
+        "Annual_Income": 77425,
+        "Total_Purchases": 60,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Active"
+    },
+    {
+        "Customer_ID": 29,
+        "Full_Name": "Customer_029",
+        "Age": 48,
+        "Gender": "Male",
+        "Annual_Income": 118281,
+        "Total_Purchases": 5,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Inactive"
+    },
+    {
+        "Customer_ID": 30,
+        "Full_Name": "Customer_030",
+        "Age": 70,
+        "Gender": "Male",
+        "Annual_Income": 39715,
+        "Total_Purchases": 38,
+        "Payment_Type": "Online Wallet",
+        "Subscription_Status": "Active"
+    }
+]
