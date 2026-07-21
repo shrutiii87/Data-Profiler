@@ -19,66 +19,17 @@ applied concepts of **data analysis, tensors, data cleaning, and exploratory dat
 
 ---
 
-<table width="100%" cellspacing="0" cellpadding="20">
-<tr>
+# 📂 Project Files
 
-<td width="35%" valign="top" align="center">
-
-<img src="lanyard.svg" width="320">
-
-</td>
-
-<td width="65%" valign="top">
-
-<h1>📂 Project Files</h1>
-
-<table width="100%">
-<tr>
-<th align="left">📄 File</th>
-<th align="left">📌 Description</th>
-</tr>
-
-<tr>
-<td>📓 <b>data_profiler.ipynb</b></td>
-<td>Main Jupyter Notebook</td>
-</tr>
-
-<tr>
-<td>📊 <b>retail_customer_transactions.csv</b></td>
-<td>Customer Dataset</td>
-</tr>
-
-<tr>
-<td>📄 <b>customer_profiles.json</b></td>
-<td>JSON Records</td>
-</tr>
-
-<tr>
-<td>🗄️ <b>retail_customers.db</b></td>
-<td>SQLite3 Database</td>
-</tr>
-
-<tr>
-<td>🌐 <b>retail_profiling_report.html</b></td>
-<td>Profiling Report</td>
-</tr>
-
-<tr>
-<td>📘 <b>Part_A_Fundamentals.pdf</b></td>
-<td>Theory Notes</td>
-</tr>
-
-<tr>
-<td>📑 <b>README.md</b></td>
-<td>Project Documentation</td>
-</tr>
-
-</table>
-
-</td>
-
-</tr>
-</table>
+| 📄 File | 📌 Description |
+|---------|----------------|
+| 📓 **data_profiler.ipynb** | Main Jupyter Notebook |
+| 📊 **retail_customer_transactions.csv** | Customer Dataset |
+| 📄 **customer_profiles.json** | JSON Records |
+| 🗄️ **retail_customers.db** | SQLite3 Database |
+| 🌐 **retail_profiling_report.html** | Profiling Report |
+| 📘 **Part_A_Fundamentals.pdf** | Theory Notes |
+| 📑 **README.md** | Project Documentation |
 
 ---
 
