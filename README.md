@@ -1,4 +1,5 @@
-<img width="1400" height="420" alt="banner" src="https://github.com/user-attachments/assets/8ae1b87b-10ed-4591-8825-ca4f62bf5632" />
+
+<img width="1600" height="450" alt="s" src="https://github.com/user-attachments/assets/abf051b3-bd91-434f-96b6-97a25fa64590" />
 
 ## 🎯 Objective 
 Conduct **Data Preprocessing and Feature Engineering** on a real-world dataset.  
